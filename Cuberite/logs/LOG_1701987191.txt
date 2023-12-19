@@ -1,0 +1,113 @@
+     [22:13:11] --- Started Log ---
+     [22:13:11] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [22:13:11] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [22:13:11] Creating new server instance...
+     [22:13:11] Reading server config...
+     [22:13:11] Starting server...
+Info [22:13:11] Compatible clients: 1.8.x-1.14.4
+Warn [22:13:11] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [22:13:11] Loaded 789 crafting recipes
+     [22:13:11] Loaded 1.12.2 380 recipe book
+Warn [22:13:11] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [22:13:11] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [22:13:11] Loaded 67 furnace recipes and 66 fuels
+     [22:13:11] Loaded 49 brewing recipes
+Warn [22:13:11] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [22:13:11] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [22:13:11] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [22:13:11] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [22:13:11] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [22:13:11] -- Loading Plugins --
+     [22:13:11] [Core] Initialised!
+     [22:13:11] [ChatLog] Initialized ChatLog v.3
+     [22:13:11] -- Loaded 2 Plugins --
+     [22:13:12] Preparing spawn (world): 43.00% (172/400; 171.49 chunks / sec)
+Warn [22:13:13] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [22:13:14] Preparing spawn (world_nether): 28.50% (114/400; 113.55 chunks / sec)
+     [22:13:15] Preparing spawn (world_nether): 62.50% (250/400; 128.67 chunks / sec)
+Warn [22:13:17] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [22:13:17] Startup complete, took 5829ms!
+     [22:13:27] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:13:27] Player daniel has joined the game
+Warn [22:13:28] AddEntity: Entity at 0x7f17dc018da0 (cPlayer, ID 227) spawning in a non-existent chunk.
+     [22:14:11] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:14:11] Player Im_kinda_trash has joined the game
+Warn [22:14:11] AddEntity: Entity at 0x7f17dc02ec80 (cPlayer, ID 328) spawning in a non-existent chunk.
+     [22:14:18] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:14:18] Player jayce has joined the game
+Info [22:14:36] Player jayce has left the game
+Info [22:14:56] [ChatLog] [Im_kinda_trash]: 5
+Info [22:15:00] [ChatLog] [daniel]: t
+     [22:15:03] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:15:03] Player jayce has joined the game
+Info [22:16:10] Player Im_kinda_trash has left the game
+Warn [22:23:29] MoveEntityToNewChunk: Entity at 0x7f1808898ba0 (cPig, ID 552) moving to a non-existent chunk.
+Info [22:28:13] [ChatLog] [daniel]: jaycce come
+Info [22:28:15] [ChatLog] [daniel]: here
+Info [22:28:20] [ChatLog] [daniel]: look
+Info [22:28:21] [ChatLog] [jayce]: why
+Info [22:28:34] [ChatLog] [daniel]: dia
+Info [22:35:26] [ChatLog] [daniel]: JAY WYA
+Info [22:35:32] [ChatLog] [daniel]: wya
+Info [22:35:33] [ChatLog] [jayce]: at our base
+Info [22:35:39] [ChatLog] [daniel]: ok good bboy
+Info [22:36:31] [ChatLog] [daniel]: t
+Info [22:39:07] [ChatLog] [jayce]: what did you want me to see
+Info [22:39:49] [ChatLog] [jayce]: are yo uxray
+Info [22:39:57] [ChatLog] [daniel]: no
+Info [22:40:18] [ChatLog] [jayce]: your x ray
+Info [22:40:27] [ChatLog] [jayce]: gimme your old armor
+Info [22:41:28] [ChatLog] [daniel]: we need coal
+Info [22:42:11] [ChatLog] [daniel]: drop my wood
+Info [22:44:04] [ChatLog] [daniel]: we need an enchanting table
+Info [22:44:14] [ChatLog] [jayce]: go get oone idiot
+Info [22:44:24] [ChatLog] [daniel]: go to sleep
+Info [22:44:28] [ChatLog] [daniel]: rq
+Info [22:44:32] [ChatLog] [daniel]: now
+Info [22:44:44] [ChatLog] [daniel]: hurry
+Info [22:45:04] Player daniel has left the game
+     [22:45:06] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:45:06] Player daniel has joined the game
+Info [22:45:18] [ChatLog] [daniel]: alr cool
+Info [22:45:36] [ChatLog] [daniel]: what versoin is this
+Info [22:45:49] [ChatLog] [jayce]: 1.8
+     [22:49:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:49:25] Player gavino has joined the game
+Warn [22:49:25] AddEntity: Entity at 0x7f17dc0740f0 (cPlayer, ID 1892) spawning in a non-existent chunk.
+Info [22:50:20] [ChatLog] [gavino]: daniel i needdiamonds
+Info [22:50:48] Player gavino has left the game
+     [22:50:54] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:50:54] Player gavino has joined the game
+Info [22:54:06] [ChatLog] [daniel]: t
+Info [22:56:04] [ChatLog] [daniel]: flint and steel?
+Info [22:57:35] [ChatLog] [jayce]: gimmine food
+Info [22:58:33] [ChatLog] [jayce]: more food
+Info [22:58:48] Player daniel has left the game
+Info [22:59:12] Player jayce has left the game
+     [22:59:17] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:59:17] Player daniel has joined the game
+     [22:59:53] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:59:53] Player jayce has joined the game
+Info [23:01:32] Player gavino has left the game
+Info [23:01:38] Player jayce has left the game
+Info [23:23:32] [ChatLog] [daniel]: e
+Info [23:50:05] Player daniel has left the game
+     [23:50:07] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [23:50:07] Player daniel has joined the game
+Info [23:50:12] Player daniel has left the game
+     [00:07:42] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [00:07:42] Player jayce has joined the game
+Warn [00:07:42] AddEntity: Entity at 0x7f17dc0981d0 (cPlayer, ID 4864) spawning in a non-existent chunk.
+Info [00:19:44] Player jayce has left the game
+     [01:40:46] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:40:46] Player jayce has joined the game
+Warn [01:40:46] AddEntity: Entity at 0x7f17dc087670 (cPlayer, ID 5672) spawning in a non-existent chunk.
+Warn [03:32:22] MoveEntityToNewChunk: Entity at 0x7f1810cf98e0 (cChicken, ID 6047) moving to a non-existent chunk.
+     [03:48:40] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:48:40] Player daniel has joined the game
+Info [03:48:53] [ChatLog] [daniel]: u stink
+Info [03:56:19] Player jayce has left the game
+Info [04:12:40] Player daniel has left the game
+     [04:12:45] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [04:12:45] Player daniel has joined the game
+Warn [04:12:45] AddEntity: Entity at 0x7f17dc043160 (cPlayer, ID 7996) spawning in a non-existent chunk.

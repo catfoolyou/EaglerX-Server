@@ -1,0 +1,49 @@
+     [12:49:16] --- Started Log ---
+     [12:49:16] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [12:49:16] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [12:49:16] Creating new server instance...
+     [12:49:16] Reading server config...
+     [12:49:16] Starting server...
+Info [12:49:16] Compatible clients: 1.8.x-1.14.4
+Warn [12:49:16] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [12:49:16] Loaded 789 crafting recipes
+     [12:49:16] Loaded 1.12.2 380 recipe book
+Warn [12:49:16] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [12:49:16] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [12:49:16] Loaded 67 furnace recipes and 66 fuels
+     [12:49:16] Loaded 49 brewing recipes
+Warn [12:49:16] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [12:49:17] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [12:49:17] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [12:49:17] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [12:49:17] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [12:49:17] -- Loading Plugins --
+     [12:49:17] [Core] Initialised!
+     [12:49:17] [ChatLog] Initialized ChatLog v.3
+     [12:49:17] -- Loaded 2 Plugins --
+     [12:49:18] Preparing spawn (world): 2.25% (9/400; 8.96 chunks / sec)
+     [12:49:19] Preparing spawn (world): 6.75% (27/400; 17.53 chunks / sec)
+     [12:49:20] Preparing spawn (world): 16.75% (67/400; 40.00 chunks / sec)
+     [12:49:21] Preparing spawn (world): 29.75% (119/400; 48.06 chunks / sec)
+     [12:49:23] Preparing spawn (world): 37.25% (149/400; 15.92 chunks / sec)
+     [12:49:24] Preparing spawn (world): 83.50% (334/400; 182.45 chunks / sec)
+Warn [12:49:24] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [12:49:25] Preparing spawn (world_nether): 4.50% (18/400; 17.87 chunks / sec)
+     [12:49:27] Preparing spawn (world_nether): 16.75% (67/400; 32.93 chunks / sec)
+     [12:49:28] Preparing spawn (world_nether): 45.25% (181/400; 112.76 chunks / sec)
+     [12:49:29] Preparing spawn (world_nether): 77.25% (309/400; 128.00 chunks / sec)
+     [12:49:31] Preparing spawn (world_the_end): 79.50% (318/400; 315.79 chunks / sec)
+Warn [12:49:31] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [12:49:31] Startup complete, took 14658ms!
+     [12:50:07] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [12:50:07] Player Gustavo_Fring696 has joined the game
+Warn [12:50:07] AddEntity: Entity at 0x7fe8b001d3c0 (cPlayer, ID 210) spawning in a non-existent chunk.
+Info [12:50:20] Player Gustavo_Fring696 has left the game
+     [13:47:29] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [13:47:29] Player josh2009 has joined the game
+Warn [13:47:29] AddEntity: Entity at 0x7fe8b0140910 (cPlayer, ID 249) spawning in a non-existent chunk.
+Warn [13:51:30] MoveEntityToNewChunk: Entity at 0x7fe8e04d9620 (cSpider, ID 464) moving to a non-existent chunk.
+Info [13:53:34] Player josh2009 has left the game
+     [13:55:27] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [13:55:27] Player josh2009 has joined the game
+Warn [13:55:27] AddEntity: Entity at 0x7fe8b00401f0 (cPlayer, ID 576) spawning in a non-existent chunk.

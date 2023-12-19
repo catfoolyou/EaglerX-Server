@@ -1,0 +1,92 @@
+     [16:44:09] --- Started Log ---
+     [16:44:09] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [16:44:09] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [16:44:09] Creating new server instance...
+     [16:44:09] Reading server config...
+     [16:44:09] Starting server...
+Info [16:44:09] Compatible clients: 1.8.x-1.14.4
+Warn [16:44:09] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [16:44:09] Loaded 789 crafting recipes
+     [16:44:09] Loaded 1.12.2 380 recipe book
+Warn [16:44:09] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [16:44:09] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [16:44:09] Loaded 67 furnace recipes and 66 fuels
+     [16:44:09] Loaded 49 brewing recipes
+Warn [16:44:09] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [16:44:09] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [16:44:09] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [16:44:09] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [16:44:09] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [16:44:09] -- Loading Plugins --
+     [16:44:10] [Core] Initialised!
+     [16:44:10] [ChatLog] Initialized ChatLog v.3
+     [16:44:10] -- Loaded 2 Plugins --
+     [16:44:12] Preparing spawn (world): 0.25% (1/400; 0.71 chunks / sec)
+     [16:44:13] Preparing spawn (world): 20.50% (82/400; 81.00 chunks / sec)
+     [16:44:14] Preparing spawn (world): 65.75% (263/400; 173.04 chunks / sec)
+     [16:44:15] Preparing spawn (world): 91.00% (364/400; 100.00 chunks / sec)
+Warn [16:44:15] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [16:44:16] Preparing spawn (world_nether): 15.25% (61/400; 60.76 chunks / sec)
+     [16:44:17] Preparing spawn (world_nether): 39.25% (157/400; 95.43 chunks / sec)
+     [16:44:18] Preparing spawn (world_nether): 79.00% (316/400; 157.43 chunks / sec)
+Warn [16:44:19] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [16:44:19] Startup complete, took 10712ms!
+     [16:54:23] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [16:54:23] Player "colerorel" (b2f233c1d3233cacb34ab9c58b7b6068) save or statistics file not found, resetting to defaults
+Info [16:54:23] Player colerorel has joined the game
+Warn [16:54:23] AddEntity: Entity at 0x7fb16406eab0 (cPlayer, ID 238) spawning in a non-existent chunk.
+Info [16:54:35] Player colerorel has left the game
+     [17:17:42] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [17:17:42] Player "YeeishYeeish293" (15da25d3d7553bbcbda28b5e3f7b4979) save or statistics file not found, resetting to defaults
+Info [17:17:42] Player YeeishYeeish293 has joined the game
+Warn [17:17:42] AddEntity: Entity at 0x7fb164084140 (cPlayer, ID 290) spawning in a non-existent chunk.
+Info [17:17:56] Player YeeishYeeish293 has left the game
+     [17:18:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:18:04] Player YeeishYeeish293 has joined the game
+Warn [17:18:04] AddEntity: Entity at 0x7fb164084140 (cPlayer, ID 337) spawning in a non-existent chunk.
+Info [17:18:19] Player YeeishYeeish293 has left the game
+     [17:18:29] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:18:29] Player YeeishYeeish293 has joined the game
+Warn [17:18:29] AddEntity: Entity at 0x7fb164084140 (cPlayer, ID 388) spawning in a non-existent chunk.
+Info [17:18:43] Player YeeishYeeish293 has left the game
+     [17:19:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:19:04] Player YeeishYeeish293 has joined the game
+     [17:19:09] Player YeeishYeeish293 is executing command "/gm 1" in world "world" at world age 41718.
+Info [17:19:09] Player YeeishYeeish293 tried to execute forbidden command: "/gm"
+Info [17:19:19] Player YeeishYeeish293 has left the game
+     [17:19:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:19:25] Player YeeishYeeish293 has joined the game
+     [17:19:31] Player YeeishYeeish293 is executing command "/gamemode 1" in world "world" at world age 42170.
+Info [17:19:31] Player YeeishYeeish293 tried to execute forbidden command: "/gamemode"
+Info [17:19:39] Player YeeishYeeish293 has left the game
+     [18:00:46] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:00:46] Player Maxitus has joined the game
+Warn [18:00:46] AddEntity: Entity at 0x7fb16414e5c0 (cPlayer, ID 519) spawning in a non-existent chunk.
+Info [18:00:58] Player Maxitus has left the game
+     [18:41:22] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:41:22] Player Maxitus has joined the game
+Warn [18:41:22] AddEntity: Entity at 0x7fb16408b790 (cPlayer, ID 589) spawning in a non-existent chunk.
+Info [18:41:36] Player Maxitus has left the game
+     [18:42:52] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [18:42:52] Player "wss___fd748e56_1" (c73a4ca7d95133a393d3e354182ac82c) save or statistics file not found, resetting to defaults
+Info [18:42:52] Player wss___fd748e56_1 has joined the game
+Info [18:45:54] Player wss___fd748e56_1 has left the game
+     [18:46:34] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:46:34] Player wss___fd748e56_1 has joined the game
+Info [18:47:30] Player wss___fd748e56_1 has left the game
+     [19:38:51] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:38:51] Player wss___fd748e56_1 has joined the game
+Warn [19:38:51] AddEntity: Entity at 0x7fb16409d490 (cPlayer, ID 786) spawning in a non-existent chunk.
+Info [19:38:51] Player wss___fd748e56_1 has left the game
+     [21:00:38] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:00:38] Player "ggigo_spy" (dda9b8fd4c9538e5aa1dcd5fdc4e694b) save or statistics file not found, resetting to defaults
+Info [21:00:38] Player ggigo_spy has joined the game
+Warn [21:00:38] AddEntity: Entity at 0x7fb164157280 (cPlayer, ID 838) spawning in a non-existent chunk.
+Info [21:00:57] Player ggigo_spy has left the game
+     [21:01:36] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:01:36] Player ggigo_spy has joined the game
+Warn [21:01:36] AddEntity: Entity at 0x7fb164157280 (cPlayer, ID 928) spawning in a non-existent chunk.
+Info [21:01:50] Player ggigo_spy has left the game
+     [21:02:26] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:02:26] Player ggigo_spy has joined the game
+Warn [21:02:26] AddEntity: Entity at 0x7fb164157540 (cPlayer, ID 1022) spawning in a non-existent chunk.

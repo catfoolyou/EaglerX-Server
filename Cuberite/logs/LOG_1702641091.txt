@@ -1,0 +1,56 @@
+     [11:51:31] --- Started Log ---
+     [11:51:31] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [11:51:31] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [11:51:31] Creating new server instance...
+     [11:51:31] Reading server config...
+     [11:51:31] Starting server...
+Info [11:51:31] Compatible clients: 1.8.x-1.14.4
+Warn [11:51:31] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [11:51:31] Loaded 789 crafting recipes
+     [11:51:31] Loaded 1.12.2 380 recipe book
+Warn [11:51:31] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [11:51:31] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [11:51:31] Loaded 67 furnace recipes and 66 fuels
+     [11:51:31] Loaded 49 brewing recipes
+Warn [11:51:31] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [11:51:32] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [11:51:32] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [11:51:32] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [11:51:32] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [11:51:32] -- Loading Plugins --
+     [11:51:32] [Core] Initialised!
+     [11:51:32] [ChatLog] Initialized ChatLog v.3
+     [11:51:32] -- Loaded 2 Plugins --
+     [11:51:33] Preparing spawn (world): 2.50% (10/400; 8.61 chunks / sec)
+     [11:51:35] Preparing spawn (world): 16.50% (66/400; 45.71 chunks / sec)
+     [11:51:36] Preparing spawn (world): 47.75% (191/400; 91.44 chunks / sec)
+Warn [11:51:37] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [11:51:38] Preparing spawn (world_nether): 11.25% (45/400; 44.16 chunks / sec)
+     [11:51:39] Preparing spawn (world_nether): 25.25% (101/400; 45.49 chunks / sec)
+     [11:51:40] Preparing spawn (world_nether): 60.25% (241/400; 110.67 chunks / sec)
+     [11:51:42] Preparing spawn (world_nether): 73.25% (293/400; 48.06 chunks / sec)
+     [11:51:43] Preparing spawn (world_nether): 86.00% (344/400; 49.09 chunks / sec)
+     [11:51:44] Preparing spawn (world_nether): 88.25% (353/400; 8.62 chunks / sec)
+     [11:51:45] Preparing spawn (world_nether): 95.00% (380/400; 23.85 chunks / sec)
+     [11:51:46] Preparing spawn (world_the_end): 51.25% (205/400; 200.00 chunks / sec)
+Warn [11:51:47] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [11:51:47] Startup complete, took 15577ms!
+     [13:20:20] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [13:20:20] Player hokuu has joined the game
+Warn [13:20:20] AddEntity: Entity at 0x7fa5fc0946c0 (cPlayer, ID 236) spawning in a non-existent chunk.
+Info [13:20:26] Player hokuu has left the game
+     [15:03:43] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [15:03:43] Player "Jackie" (41b99716cd8c373cacf1c01590409308) save or statistics file not found, resetting to defaults
+Info [15:03:43] Player Jackie has joined the game
+Warn [15:03:43] AddEntity: Entity at 0x7fa5fc08edf0 (cPlayer, ID 282) spawning in a non-existent chunk.
+Info [15:05:53] Player Jackie has left the game
+     [15:06:07] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [15:06:07] Player Jackie has joined the game
+Info [15:06:22] Player Jackie has left the game
+     [19:19:51] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:19:51] Player hokuu has joined the game
+Warn [19:19:51] AddEntity: Entity at 0x7fa5fc15e450 (cPlayer, ID 370) spawning in a non-existent chunk.
+Info [19:20:06] Player hokuu has left the game
+     [19:43:19] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:43:19] Player Flare has joined the game
+Warn [19:43:19] AddEntity: Entity at 0x7fa5fc15e860 (cPlayer, ID 417) spawning in a non-existent chunk.

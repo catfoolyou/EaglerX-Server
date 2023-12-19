@@ -1,0 +1,53 @@
+     [21:33:33] --- Started Log ---
+     [21:33:33] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [21:33:33] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [21:33:33] Creating new server instance...
+     [21:33:33] Reading server config...
+     [21:33:33] Starting server...
+Info [21:33:33] Compatible clients: 1.8.x-1.14.4
+Warn [21:33:33] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [21:33:33] Loaded 789 crafting recipes
+     [21:33:33] Loaded 1.12.2 380 recipe book
+Warn [21:33:33] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [21:33:33] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [21:33:33] Loaded 67 furnace recipes and 66 fuels
+     [21:33:33] Loaded 49 brewing recipes
+Warn [21:33:33] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:33:33] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:33:33] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:33:33] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:33:33] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [21:33:33] -- Loading Plugins --
+     [21:33:34] [Core] Initialised!
+     [21:33:34] [ChatLog] Initialized ChatLog v.3
+     [21:33:34] -- Loaded 2 Plugins --
+     [21:33:35] Preparing spawn (world): 4.75% (19/400; 18.70 chunks / sec)
+     [21:33:36] Preparing spawn (world): 25.25% (101/400; 78.54 chunks / sec)
+     [21:33:37] Preparing spawn (world): 45.50% (182/400; 80.20 chunks / sec)
+     [21:33:38] Preparing spawn (world): 57.75% (231/400; 40.83 chunks / sec)
+     [21:33:39] Preparing spawn (world): 93.25% (373/400; 141.58 chunks / sec)
+Warn [21:33:39] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [21:33:40] Preparing spawn (world_nether): 4.75% (19/400; 19.00 chunks / sec)
+     [21:33:41] Preparing spawn (world_nether): 25.25% (101/400; 81.27 chunks / sec)
+     [21:33:42] Preparing spawn (world_nether): 37.75% (151/400; 46.38 chunks / sec)
+     [21:33:43] Preparing spawn (world_nether): 49.00% (196/400; 44.07 chunks / sec)
+     [21:33:44] Preparing spawn (world_nether): 79.25% (317/400; 112.35 chunks / sec)
+Warn [21:33:46] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [21:33:46] Startup complete, took 13167ms!
+     [21:42:01] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:42:01] Player Josh2009 has joined the game
+Warn [21:42:01] AddEntity: Entity at 0x7f998c0560d0 (cPlayer, ID 215) spawning in a non-existent chunk.
+Info [21:42:30] Player Josh2009 has left the game
+     [21:43:38] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:43:38] Player "U53r_3pwrl3taop_" (03c8ea7e0b3237528de3880089dcdaa6) save or statistics file not found, resetting to defaults
+Info [21:43:38] Player U53r_3pwrl3taop_ has joined the game
+Warn [21:43:38] AddEntity: Entity at 0x7f998c054410 (cPlayer, ID 339) spawning in a non-existent chunk.
+Info [21:43:42] Player U53r_3pwrl3taop_ has left the game
+     [21:43:50] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:43:50] Player "U53r_3pwrl3taop" (8fb8b6cdc89b3d778d5eeed5ae851626) save or statistics file not found, resetting to defaults
+Info [21:43:50] Player U53r_3pwrl3taop has joined the game
+Warn [21:43:50] AddEntity: Entity at 0x7f998c0535b0 (cPlayer, ID 358) spawning in a non-existent chunk.
+Info [21:43:54] Player U53r_3pwrl3taop has left the game
+     [21:44:28] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:44:28] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [21:44:28] AddEntity: Entity at 0x7f998c07abd0 (cPlayer, ID 377) spawning in a non-existent chunk.

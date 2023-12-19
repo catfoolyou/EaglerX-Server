@@ -1,0 +1,82 @@
+     [01:10:37] --- Started Log ---
+     [01:10:37] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [01:10:37] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [01:10:37] Creating new server instance...
+     [01:10:37] Reading server config...
+     [01:10:37] Starting server...
+Info [01:10:37] Compatible clients: 1.8.x-1.14.4
+Warn [01:10:37] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [01:10:37] Loaded 789 crafting recipes
+     [01:10:37] Loaded 1.12.2 380 recipe book
+Warn [01:10:37] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [01:10:37] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [01:10:37] Loaded 67 furnace recipes and 66 fuels
+     [01:10:37] Loaded 49 brewing recipes
+Warn [01:10:37] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [01:10:37] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:10:37] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:10:37] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [01:10:37] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [01:10:37] -- Loading Plugins --
+     [01:10:37] [Core] Initialised!
+     [01:10:37] [ChatLog] Initialized ChatLog v.3
+     [01:10:37] -- Loaded 2 Plugins --
+     [01:10:39] Preparing spawn (world): 0.25% (1/400; 0.67 chunks / sec)
+     [01:10:40] Preparing spawn (world): 26.25% (105/400; 99.81 chunks / sec)
+     [01:10:41] Preparing spawn (world): 39.25% (157/400; 51.38 chunks / sec)
+     [01:10:42] Preparing spawn (world): 42.25% (169/400; 11.57 chunks / sec)
+     [01:10:43] Preparing spawn (world): 62.50% (250/400; 74.38 chunks / sec)
+     [01:10:44] Preparing spawn (world): 81.25% (325/400; 66.67 chunks / sec)
+Warn [01:10:44] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [01:10:45] Preparing spawn (world_nether): 7.25% (29/400; 28.66 chunks / sec)
+     [01:10:46] Preparing spawn (world_nether): 29.75% (119/400; 89.91 chunks / sec)
+     [01:10:47] Preparing spawn (world_nether): 42.50% (170/400; 50.50 chunks / sec)
+     [01:10:48] Preparing spawn (world_nether): 77.50% (310/400; 112.81 chunks / sec)
+Warn [01:10:50] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [01:10:50] Startup complete, took 13050ms!
+     [01:48:33] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [01:48:34] Player "VoolYeeish987_" (891cd723cc993bd1ab5dfeb96287384c) save or statistics file not found, resetting to defaults
+Info [01:48:34] Player VoolYeeish987_ has joined the game
+Warn [01:48:34] AddEntity: Entity at 0x7f996005dd70 (cPlayer, ID 222) spawning in a non-existent chunk.
+     [01:50:28] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [01:50:28] Player "p1tis0" (e5671dde208f32a3bce3a70cf6ab3f50) save or statistics file not found, resetting to defaults
+Info [01:50:28] Player p1tis0 has joined the game
+Warn [01:50:28] AddEntity: Entity at 0x7f9960044b10 (cPlayer, ID 356) spawning in a non-existent chunk.
+Info [01:50:48] [ChatLog] [p1tis0]: hello
+Info [01:50:55] [ChatLog] [p1tis0]: anyone there
+Info [01:52:04] [ChatLog] [VoolYeeish987_]: yes
+Info [01:52:10] [ChatLog] [p1tis0]: alright
+Info [01:52:14] [ChatLog] [p1tis0]: where
+Warn [01:52:28] MoveEntityToNewChunk: Entity at 0x7f9988232d60 (cChicken, ID 282) moving to a non-existent chunk.
+Info [01:52:29] [ChatLog] [VoolYeeish987_]: -148 63 164
+Info [01:52:35] [ChatLog] [p1tis0]: alr coming
+Info [01:52:40] [ChatLog] [VoolYeeish987_]: bet
+Info [01:53:08] [ChatLog] [p1tis0]: on my way now
+Info [01:53:27] [ChatLog] [p1tis0]: fount you
+Info [01:53:30] [ChatLog] [VoolYeeish987_]: yep
+Info [01:53:58] [ChatLog] [p1tis0]: i had to manually type in the server address
+Info [01:54:06] [ChatLog] [VoolYeeish987_]: same couldnt paste lol
+Info [01:54:11] [ChatLog] [p1tis0]: lol
+Info [01:54:19] [ChatLog] [p1tis0]: help
+Info [01:54:32] [ChatLog] [p1tis0]: thanks
+Info [01:54:38] [ChatLog] [VoolYeeish987_]: to wood =(
+     [01:54:40] Player p1tis0 is executing command "/help" in world "world" at world age 52478.
+Info [01:54:41] [ChatLog] [VoolYeeish987_]: no
+Info [01:54:53] [ChatLog] [p1tis0]: no wood
+Info [01:55:07] [ChatLog] [p1tis0]: i got one wood
+Info [01:55:10] [ChatLog] [VoolYeeish987_]: yay
+Info [01:55:14] Player VoolYeeish987_ has left the game
+Info [01:59:03] Player p1tis0 has left the game
+     [01:59:15] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:59:15] Player p1tis0 has joined the game
+Info [02:04:13] Player p1tis0 has left the game
+     [02:05:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:05:00] Player p1tis0 has joined the game
+Info [02:12:53] Player p1tis0 has left the game
+     [02:12:55] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:12:55] Player p1tis0 has joined the game
+Info [02:15:12] Player p1tis0 has left the game
+     [03:24:24] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [03:24:24] Player "inmate_150" (45bca7b51e4a31faa11ff16f63443b95) save or statistics file not found, resetting to defaults
+Info [03:24:24] Player inmate_150 has joined the game
+Warn [03:24:24] AddEntity: Entity at 0x7f99600999e0 (cPlayer, ID 1081) spawning in a non-existent chunk.

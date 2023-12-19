@@ -1,0 +1,133 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007fd2dda6df4e, pid=58, tid=0x00007fd2bb010640
+#
+# JRE version: OpenJDK Runtime Environment (8.0_322) (build 1.8.0_322-ga)
+# Java VM: OpenJDK 64-Bit Server VM (25.322-bga mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# V  [libjvm.so+0x987f4e]  PerfLongVariant::sample()+0x1e
+#
+# Core dump written. Default location: /home/runner/eaglercraft-server/Bungee/core or core.58
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fd2d816d000):  WatcherThread [stack: 0x00007fd2baf11000,0x00007fd2bb011000] [id=80]
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007fd2dcd60420
+
+Registers:
+RAX=0x0000000000298010, RBX=0x00007fd2dcd60420, RCX=0x0000000000000002, RDX=0x00007fd2dd3a5d20
+RSP=0x00007fd2bb00f800, RBP=0x00007fd2bb00f810, RSI=0x0000000000000032, RDI=0x00007fd2d801a9b0
+R8 =0x00007fd2d80189a0, R9 =0x0000000000000000, R10=0x0000000000000000, R11=0x0000000000000000
+R12=0x00007fd2d816cc30, R13=0x0000000000000001, R14=0x0000000000000002, R15=0x00007fd2dde7fd80
+RIP=0x00007fd2dda6df4e, EFLAGS=0x0000000000010212, CSGSFS=0x002b000000000033, ERR=0x0000000000000007
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007fd2bb00f800)
+0x00007fd2bb00f800:   00007fd2baf11000 0000000000000001
+0x00007fd2bb00f810:   00007fd2bb00f830 00007fd2ddb00d54
+0x00007fd2bb00f820:   0000000000000033 0000000000000033
+0x00007fd2bb00f830:   00007fd2bb00f880 00007fd2ddb5137c
+0x00007fd2bb00f840:   00000002bb00f860 00007fd2d8009810
+0x00007fd2bb00f850:   0000000000000000 00007fd2d816d000
+0x00007fd2bb00f860:   0000000000000033 00007fd2baf11000
+0x00007fd2bb00f870:   0000000000000000 0000000000100000
+0x00007fd2bb00f880:   00007fd2bb00f910 00007fd2ddb76478
+0x00007fd2bb00f890:   0000000000000000 00007fd2d816e350
+0x00007fd2bb00f8a0:   0000000000000000 0000000000000000
+0x00007fd2bb00f8b0:   0000000000000001 00007fd2d816d000
+0x00007fd2bb00f8c0:   00007fd2bb00f910 00007fd2dd9e0a8a
+0x00007fd2bb00f8d0:   00007fd2d816e350 00007fd2d816e350
+0x00007fd2bb00f8e0:   00007fd2d816e350 00007fd2d816e260
+0x00007fd2bb00f8f0:   00007fd2d816e350 00007fd2d816d000
+0x00007fd2bb00f900:   0000000000000000 ffffffffffffffc0
+0x00007fd2bb00f910:   00007fd2bb00f950 00007fd2dda253c0
+0x00007fd2bb00f920:   0000000000000000 00007fd2bb010640
+0x00007fd2bb00f930:   00007fd2e056eba0 00007fd2bb010640
+0x00007fd2bb00f940:   0000000000000000 ffffffffffffffc0
+0x00007fd2bb00f950:   0000000000000000 00007fd2e056ee86
+0x00007fd2bb00f960:   0000000000000000 00007fd2bb010640
+0x00007fd2bb00f970:   00007fd2dceb4450 e02ac423d2bfb144
+0x00007fd2bb00f980:   00007fd2e056eba0 00007fd2bb010640
+0x00007fd2bb00f990:   0000000000000000 ffffffffffffffc0
+0x00007fd2bb00f9a0:   1f8fb222207fb144 1f8f048e0ba9b144
+0x00007fd2bb00f9b0:   0000000000000000 0000000000000000
+0x00007fd2bb00f9c0:   0000000000000000 0000000000000000
+0x00007fd2bb00f9d0:   0000000000000000 450fc70abfc21500
+0x00007fd2bb00f9e0:   0000000000000000 00007fd2dceb4450
+0x00007fd2bb00f9f0:   0000000000000000 00007fd2e05f4e14 
+
+Instructions: (pc=0x00007fd2dda6df4e)
+0x00007fd2dda6df2e:   00 00 4c 8b 47 38 4d 85 c0 74 27 55 48 89 e5 53
+0x00007fd2dda6df3e:   48 83 ec 08 49 8b 00 48 8b 5f 28 4c 89 c7 ff 10
+0x00007fd2dda6df4e:   48 89 03 48 8b 5d f8 c9 c3 66 0f 1f 84 00 00 00
+0x00007fd2dda6df5e:   00 00 c3 90 66 66 2e 0f 1f 84 00 00 00 00 00 0f 
+
+Register to memory mapping:
+
+RAX=0x0000000000298010 is an unknown value
+RBX=0x00007fd2dcd60420 is an unknown value
+RCX=0x0000000000000002 is an unknown value
+RDX=0x00007fd2dd3a5d20: <offset 0x2bfd20> in /nix/store/arja5b2nhs4z9ajrcx4wiipjywcw1ip6-openjdk-8u322-ga-jre/lib/openjdk/jre/lib/amd64/server/libjvm.so at 0x00007fd2dd0e6000
+RSP=0x00007fd2bb00f800 is an unknown value
+RBP=0x00007fd2bb00f810 is an unknown value
+RSI=0x0000000000000032 is an unknown value
+RDI=0x00007fd2d801a9b0 is an unknown value
+R8 =0x00007fd2d80189a0 is an unknown value
+R9 =0x0000000000000000 is an unknown value
+R10=0x0000000000000000 is an unknown value
+R11=0x0000000000000000 is an unknown value
+R12=0x00007fd2d816cc30 is an unknown value
+R13=0x0000000000000001 is an unknown value
+R14=0x0000000000000002 is an unknown value
+R15=0x00007fd2dde7fd80: <offset 0xd99d80> in /nix/store/arja5b2nhs4z9ajrcx4wiipjywcw1ip6-openjdk-8u322-ga-jre/lib/openjdk/jre/lib/amd64/server/libjvm.so at 0x00007fd2dd0e6000
+
+
+Stack: [0x00007fd2baf11000,0x00007fd2bb011000],  sp=0x00007fd2bb00f800,  free space=1018k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x987f4e]  PerfLongVariant::sample()+0x1e
+V  [libjvm.so+0xa1ad54]  StatSamplerTask::task()+0x34
+V  [libjvm.so+0xa6b37c]  PeriodicTask::real_time_tick(int)+0x5c
+V  [libjvm.so+0xa90478]  WatcherThread::run()+0x1a8
+V  [libjvm.so+0x93f3c0]  java_start(Thread*)+0x150
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007fd27c012800 JavaThread "Netty Worker IO Thread #5" [_thread_in_native, id=111, stack(0x00007fd272afd000,0x00007fd272bfd000)]
+  0x00007fd27c010800 JavaThread "Netty Worker IO Thread #4" [_thread_in_native, id=110, stack(0x00007fd272bfd000,0x00007fd272cfd000)]
+  0x00007fd27c00f800 JavaThread "Netty Worker IO Thread #3" [_thread_in_native, id=109, stack(0x00007fd2730fe000,0x00007fd2731fe000)]
+  0x00007fd27c00e000 JavaThread "Netty Worker IO Thread #2" [_thread_in_native, id=108, stack(0x00007fd2737ff000,0x00007fd2738ff000)]
+  0x00007fd27c00c000 JavaThread "Netty Worker IO Thread #1" [_thread_in_native, id=107, stack(0x00007fd273d00000,0x00007fd273e00000)]
+  0x00007fd2d8987000 JavaThread "Netty Boss IO Thread #0" [_thread_in_native, id=105, stack(0x00007fd2b8000000,0x00007fd2b8100000)]
+  0x00007fd2d8984000 JavaThread "EaglerXBungee: Skin Service Tasks" [_thread_blocked, id=103, stack(0x00007fd2b8100000,0x00007fd2b8200000)]
+  0x00007fd288143000 JavaThread "Skin Download Thread #1" [_thread_in_native, id=102, stack(0x00007fd2b88ff000,0x00007fd2b89ff000)]
+  0x00007fd2d88ff000 JavaThread "mysql-cj-abandoned-connection-cleanup" daemon [_thread_blocked, id=101, stack(0x00007fd2b89ff000,0x00007fd2b8aff000)]
+  0x00007fd2d88d1800 JavaThread "Netty Worker IO Thread #0" [_thread_in_native, id=100, stack(0x00007fd2b8aff000,0x00007fd2b8bff000)]
+  0x00007fd2d88cc000 JavaThread "Skin Download Thread #0" [_thread_in_native, id=99, stack(0x00007fd2b9c1c000,0x00007fd2b9d1c000)]
+  0x00007fd2d8831000 JavaThread "EaglerXBungee: Close Inactive" [_thread_blocked, id=98, stack(0x00007fd2ba4b5000,0x00007fd2ba5b5000)]
+  0x00007fd2d817e000 JavaThread "Log4j2-TF-1-AsyncLogger[AsyncContext@70dea4e]-1" daemon [_thread_blocked, id=87, stack(0x00007fd2ba7b5000,0x00007fd2ba8b5000)]
+  0x00007fd2d8275000 JavaThread "Reconnect Saver" [_thread_blocked, id=81, stack(0x00007fd2bacb5000,0x00007fd2badb5000)]
+  0x00007fd2d816a800 JavaThread "Service Thread" daemon [_thread_blocked, id=79, stack(0x00007fd2bb011000,0x00007fd2bb111000)]
+  0x00007fd2d8165800 JavaThread "C1 CompilerThread1" daemon [_thread_blocked, id=78, stack(0x00007fd2bb112000,0x00007fd2bb212000)]
+  0x00007fd2d8162800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=77, stack(0x00007fd2bb213000,0x00007fd2bb313000)]
+  0x00007fd2d815d800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=76, stack(0x00007fd2bb313000,0x00007fd2bb413000)]
+  0x00007fd2d812d000 JavaThread "Finalizer" daemon [_thread_blocked, id=75, stack(0x00007fd2bb6f9000,0x00007fd2bb7f9000)]
+  0x00007fd2d8128800 JavaThread "Reference Handler" daemon [_thread_blocked, id=74, stack(0x00007fd2bb7f9000,0x00007fd2bb8f9000)]
+  0x00007fd2d800a000 JavaThread "main" [_thread_in_native, id=69, stack(0x00007fd2dcdb6000,0x00007fd2dceb6000)]
+
+Other Threads:
+  0x00007fd2d811e800 VMThread [stack: 0x00007fd2bb8fa000,0x00007fd2bb9fa000] [id=73]
+=>0x00007fd2d816d000 WatcherThread [stack: 0x00007fd2baf11000,0x00007fd2bb011000] [id=80]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007fd2d8009810] PeriodicTask_lock - owner thread: 0x00007fd2d816d000
+

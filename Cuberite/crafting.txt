@@ -1,0 +1,1005 @@
+# This file describes the crafting recipes that Cuberite knows.
+# The syntax is as follows:
+#   <Line> = <Recipe>#<Comment>
+#   <Recipe> = <Result> = <Ingredient1> | <Ingredient2> | ... | <IngredientN>
+#   <IngredientN> = <ItemID>, <X1> : <Y1>, <X2> : <Y2>, ..., <Xn> : <Yn>
+#   <ItemID> = <ItemType> [^<DamageValue>]
+#   <Xn>, <Yn> = "1" .. "3", or "*" for any value. "*:*" can be replaced by a single "*".
+#   <Result> = <ItemType> [^<DamageValue>] [, <Count>]
+#
+# The Xn, Yn coordinates are a reference to the crafting grid:
+#   1:1 | 2:1 | 3:1
+#   1:2 | 2:2 | 3:2
+#   1:3 | 2:3 | 3:3
+#
+# <ItemType> can be either a number, or an item name (checked against items.ini)
+#
+# ^<DamageValue> is optional, if not present, the default damage for the given item is used
+#
+# If the DamageValue in the ingredients list is set to -1, the ingredient matches the specified item with any DamageValue.
+# This is used e. g. for "any planks -> sticks", or beds using any color wool etc.
+#
+# Ingredients with an asterisk for a coord will not match already matched crafting grid items. This enables simplifying some of the recipes,
+# e. g. hoe: "Iron, 2:1, *:1"
+#   -- this means "one iron at 2:1, and another one at either 1:1 or 3:1"
+#
+# To require multiple items of the same type in a slot, specify the slot number several times:
+# "Iron, 1:1, 2:2, 2:2"
+#   -- this means "take one iron from slot 1:1 and two irons from slot 2:2"
+# Note that asterisked items cannot require multiple items in a single slot.
+#
+# Note that due to technical problems, it is NOT advised to use asterisked ingredients in crossing directions, such as "*:1, "2:*".
+# The parser may be unable to match such a recipe to the crafting grid!
+#
+# Whitespace is optional. Use it reasonably. Please do NOT use Tabs in the middle of lines!
+
+
+
+
+
+#******************************************************#
+# Basic Crafts
+#
+
+# Need to list each of the four log types, otherwise all logs would get converted into apple planks (^0)
+
+acacia_planks: AcaciaPlanks, 4  = AcaciaLog, *
+birch_planks: BirchPlanks, 4   = BirchLog, *
+chest: Chest            = Planks^-1, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3
+dark_oak_planks: DarkOakPlanks, 4 = DarkOakLog, *
+ender_chest: EnderChest       = EyeOfEnder,  2:2 | Obsidian, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3
+furnace: Furnace          = Cobblestone, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3
+jungle_planks: JunglePlanks, 4  = JungleLog, *
+oak_planks: OakPlanks, 4     = OakLog, *
+spruce_planks: SprucePlanks, 4  = SpruceLog, *
+stick: Stick, 4         = Planks^-1, 2:2, 2:3
+torch: Torch, 4         = Stick, 1:2 | Coal^-1, 1:1
+trapped_chest: TrappedChest     = TripWireHook, * | Chest, *
+crafting_table: Workbench        = Planks^-1, 1:1, 1:2, 2:1, 2:2
+
+
+
+
+
+#******************************************************#
+# Blocks
+#
+andesite: Andesite, 2             = Diorite, * | Cobblestone, *
+bone_block: BoneBlock               = BoneMeal, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+bookshelf: BookShelf               = Planks^-1, 1:1, 2:1, 3:1, 1:3, 2:3, 3:3 | Book, 1:2, 2:2, 3:2
+bricks: BrickBlock              = Brick,     1:1, 1:2, 2:1, 2:2
+chiseled_quartz_block: ChiseledQuartzBlock     = QuartzSlab, 1:1, 1:2
+chiseled_red_sandstone: ChiseledRedSandstone    = RedSandstoneSlab, 1:1, 1:2
+chiseled_stone_bricks: ChiseledStoneBrick      = StoneBrickSlab, 1:1, 1:2
+clay: ClayBlock               = Clay,      1:1, 1:2, 2:1, 2:2
+coal_block: CoalBlock               = Coal, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+coarse_dirt: CoarsedDirt, 4          = Dirt, 1:1, 2:2 | Gravel, 1:2, 2:1
+CoarsedDirt, 4          = Gravel, 1:1, 2:2 | Dirt, 1:2, 2:1
+dark_prismarine: DarkPrismarine          = PrismarineShard, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | Inksac, 2:2
+diamond_block: DiamondBlock            = Diamond,     1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+diorite: Diorite, 2              = Cobblestone, * | NetherQuartz, *
+emerald_block: EmeraldBlock            = Emerald,     1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+end_stone_bricks: EndstoneBrick, 4        = Endstone, 1:1, 1:2, 2:1, 2:2
+glowstone: Glowstone               = GlowstoneDust, 1:1, 1:2, 2:1, 2:2
+gold_block: GoldBlock               = GoldIngot,   1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+granite: Granite, 2              = Diorite, * | NetherQuartz, *
+hay_block: HayBale                 = Wheat, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+iron_block: IronBlock               = IronIngot,   1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+jack_o_lantern: JackOLantern            = Pumpkin, 1:1 | Torch, 1:2
+lapis_block: LapisBlock              = LapisLazuli, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+leather: Leather                 = RabbitHide, 1:1, 1:2, 2:1, 2:2
+mossy_cobblestone: MossyCobblestone        = Cobblestone, * | Vines, *
+mossy_stone_bricks: MossyStoneBrick         = Stonebrick, * | Vines, *
+nether_bricks: NetherBrickBlock        = NetherBrick, 1:1, 1:2, 2:1, 2:2
+nether_wart_block: NetherWartBlock         = NetherWart, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+chiseled_sandstone: OrnamentSandstone       = SandstoneSlab, 1:1, 1:2
+quartz_pillar: PillarQuartzBlock, 2    = QuartzBlock, 1:1, 1:2
+polished_andesite: PolishedAndesite, 4     = Andesite,  1:1, 1:2, 2:1, 2:2
+polished_diorite: PolishedDiorite, 4      = Diorite,   1:1, 1:2, 2:1, 2:2
+polished_granite: PolishedGranite, 4      = Granite,   1:1, 1:2, 2:1, 2:2
+prismarine: Prismarine              = PrismarineShard, 1:1, 1:2, 2:1, 2:2
+prismarine_bricks: PrismarineBricks        = PrismarineShard, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+purpur_block: PurpurBlock, 4          = PoppedChorusFruit, 1:1, 1:2, 2:1, 2:2
+purpur_pillar: PurpurPillar, 1         = PurpurSlab, 1:1, 1:2
+quartz_block: QuartzBlock             = NetherQuartz, 1:1, 1:2, 2:1, 2:2
+red_nether_bricks: RedNetherBrick          = NetherBrick, 1:1, 2:2 | NetherWart, 1:2, 2:1
+RedNetherBrick          = NetherWart, 1:1, 2:2 | NetherBrick, 1:2, 2:1
+red_sandstone: RedSandstone            = RedSand, 1:1, 1:2, 2:1, 2:2
+redstone_block: RedstoneBlock           = RedstoneDust,    1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+sandstone: Sandstone               = Sand,      1:1, 1:2, 2:1, 2:2
+sea_lantern: SeaLantern              = PrismarineShard, 1:1, 1:3, 3:1, 3:3 | PrismarineCrystals, 1:2, 2:1, 2:2, 2:3, 3:2
+slime_block: SlimeBlock              = Slimeball, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+smooth_red_sandstone: SmoothRedSandstone, 4   = RedSandstone, 1:1, 1:2, 2:1, 2:2
+smooth_sandstone: SmoothSandstone, 4      = Sandstone, 1:1, 1:2, 2:1, 2:2
+snow_block: SnowBlock               = SnowBall,  1:1, 1:2, 2:1, 2:2
+stone_bricks: StoneBrick, 4           = Stone,     1:1, 1:2, 2:1, 2:2
+tnt: TNT                     = Gunpowder, 1:1, 3:1, 2:2, 1:3, 3:3 | Sand, 2:1, 1:2, 3:2, 2:3
+Wool                    = String,    1:1, 1:2, 2:1, 2:2
+
+# Slabs:
+acacia_slab: AcaciaWoodSlab,   6 = AcaciaPlanks,      1:1, 2:1, 3:1
+birch_slab: BirchWoodSlab,    6 = BirchPlanks,       1:1, 2:1, 3:1
+brick_slab: BrickSlab,        6 = BrickBlock,        1:1, 2:1, 3:1
+cobblestone_slab: CobblestoneSlab,  6 = Cobblestone,       1:1, 2:1, 3:1
+dark_oak_slab: DarkOakWoodSlab,  6 = DarkOakPlanks,     1:1, 2:1, 3:1
+jungle_slab: JungleWoodSlab,   6 = JunglePlanks,      1:1, 2:1, 3:1
+nether_brick_slab: NetherBrickSlab,  6 = NetherBrickBlock,  1:1, 2:1, 3:1
+oak_slab: OakWoodSlab,      6 = OakPlanks,         1:1, 2:1, 3:1
+purpur_slab: PurpurSlab,       6 = PurpurBlock,       1:1, 2:1, 3:1
+quartz_slab: Quartzslab,       6 = QuartzBlock,       1:1, 2:1, 3:1
+red_sandstone_slab: RedSandstoneSlab, 6 = RedSandstone^-1,   1:1, 2:1, 3:1
+sandstone_slab: SandstoneSlab,    6 = OrnamentSandstone, 1:1, 2:1, 3:1
+SandstoneSlab,    6 = Sandstone,         1:1, 2:1, 3:1
+SandstoneSlab,    6 = SmoothSandstone,   1:1, 2:1, 3:1
+snow: SnowLayer,        6 = SnowBlock,         1:1, 2:1, 3:1
+spruce_slab: SpruceWoodSlab,   6 = SprucePlanks,      1:1, 2:1, 3:1
+stone_brick_slab: StonebrickSlab,   6 = StoneBrick,        1:1, 2:1, 3:1
+stone_slab: StoneSlab,        6 = Stone,             1:1, 2:1, 3:1
+
+# Stairs:
+acacia_stairs: AcaciaWoodStairs, 4   = AcaciaPlanks,      1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+AcaciaWoodStairs, 4   = AcaciaPlanks,      3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+birch_stairs: BirchWoodStairs, 4    = BirchPlanks,       1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+BirchWoodStairs, 4    = BirchPlanks,       3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+brick_stairs: BrickStairs, 4        = BrickBlock,        1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+BrickStairs, 4        = BrickBlock,        3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+stone_stairs: cobblestoneStairs, 4  = Cobblestone,       1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+cobblestoneStairs, 4  = Cobblestone,       3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+dark_oak_stairs: DarkOakWoodStairs, 4  = DarkOakPlanks,     1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+DarkOakWoodStairs, 4  = DarkOakPlanks,     3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+jungle_stairs: JungleWoodStairs, 4   = JunglePlanks,      1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+JungleWoodStairs, 4   = JunglePlanks,      3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+nether_brick_stairs: NetherBrickStairs, 4  = NetherBrickBlock,  1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+NetherBrickStairs, 4  = NetherBrickBlock,  3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+purpur_stairs: PurpurStairs, 4       = PurpurBlock,       1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+PurpurStairs, 4       = PurpurBlock,       3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+quartz_stairs: QuartzStairs, 4       = QuartzBlock,       1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+QuartzStairs, 4       = QuartzBlock,       3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+red_sandstone_stairs: RedSandstoneStairs, 4 = RedSandstone^-1,   1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+RedSandstoneStairs, 4 = RedSandstone^-1,   3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+sandstone_stairs: SandstoneStairs, 4    = OrnamentSandstone, 1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+SandstoneStairs, 4    = OrnamentSandstone, 3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+SandstoneStairs, 4    = Sandstone,         1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+SandstoneStairs, 4    = Sandstone,         3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+SandstoneStairs, 4    = SmoothSandstone,   1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+SandstoneStairs, 4    = SmoothSandstone,   3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+spruce_stairs: SpruceWoodStairs, 4   = SprucePlanks,      1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+SpruceWoodStairs, 4   = SprucePlanks,      3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+stone_brick_stairs: StoneBrickStairs, 4   = StoneBrick,        1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+StoneBrickStairs, 4   = StoneBrick,        3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+oak_stairs: WoodStairs, 4         = OakPlanks,         1:1, 1:2, 2:2, 1:3, 2:3, 3:3
+WoodStairs, 4         = OakPlanks,         3:1, 2:2, 3:2, 1:3, 2:3, 3:3
+
+
+
+#******************************************************#
+# Tools
+#
+
+# Axes:
+diamond_axe: DiamondAxe = Stick, 2:2, 2:3 | Diamond,     2:1, 1:1, 1:2
+DiamondAxe = Stick, 2:2, 2:3 | Diamond,     2:1, 3:1, 3:2
+golden_axe: GoldenAxe  = Stick, 2:2, 2:3 | GoldIngot,   2:1, 1:1, 1:2
+GoldenAxe  = Stick, 2:2, 2:3 | GoldIngot,   2:1, 3:1, 3:2
+iron_axe: IronAxe    = Stick, 2:2, 2:3 | IronIngot,   2:1, 1:1, 1:2
+IronAxe    = Stick, 2:2, 2:3 | IronIngot,   2:1, 3:1, 3:2
+stone_axe: StoneAxe   = Stick, 2:2, 2:3 | Cobblestone, 2:1, 1:1, 1:2
+StoneAxe   = Stick, 2:2, 2:3 | Cobblestone, 2:1, 3:1, 3:2
+wooden_axe: WoodenAxe  = Stick, 2:2, 2:3 | Planks^-1,   2:1, 1:1, 1:2
+WoodenAxe  = Stick, 2:2, 2:3 | Planks^-1,   2:1, 3:1, 3:2
+
+# Pickaxes:
+diamond_pickaxe: DiamondPickaxe = Stick, 2:2, 2:3 | Diamond,     1:1, 2:1, 3:1
+golden_pickaxe: GoldenPickaxe  = Stick, 2:2, 2:3 | GoldIngot,   1:1, 2:1, 3:1
+iron_pickaxe: IronPickaxe    = Stick, 2:2, 2:3 | IronIngot,   1:1, 2:1, 3:1
+stone_pickaxe: StonePickaxe   = Stick, 2:2, 2:3 | Cobblestone, 1:1, 2:1, 3:1
+wooden_pickaxe: WoodenPickaxe  = Stick, 2:2, 2:3 | Planks^-1,   1:1, 2:1, 3:1
+
+# Shovels:
+diamond_shovel: DiamondShovel = Stick, 2:2, 2:3 | Diamond,     2:1
+golden_shovel: GoldenShovel  = Stick, 2:2, 2:3 | GoldIngot,   2:1
+iron_shovel: IronShovel    = Stick, 2:2, 2:3 | IronIngot,   2:1
+stone_shovel: StoneShovel   = Stick, 2:2, 2:3 | Cobblestone, 2:1
+wooden_shovel: WoodenShovel  = Stick, 2:2, 2:3 | Planks^-1,   2:1
+
+# Hoes:
+diamond_hoe: DiamondHoe = Stick, 2:2, 2:3 | Diamond,     2:1, *:1
+golden_hoe: GoldenHoe  = Stick, 2:2, 2:3 | GoldIngot,   2:1, *:1
+iron_hoe: IronHoe    = Stick, 2:2, 2:3 | IronIngot,   2:1, *:1
+stone_hoe: StoneHoe   = Stick, 2:2, 2:3 | Cobblestone, 2:1, *:1
+wooden_hoe: WoodenHoe  = Stick, 2:2, 2:3 | Planks^-1,   2:1, *:1
+
+bucket: Bucket         = IronIngot, 1:1, 2:2, 3:1
+compass: Compass        = IronIngot, 2:1, 1:2, 3:2, 2:3 | RedstoneDust, 2:2
+map: EmptyMap       = Paper,     1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | Compass, 2:2
+fire_charge: FireCharge, 3  = BlazePowder, *   | Coal, *    | Gunpowder, *
+fishing_rod: FishingRod     = Stick, 1:3, 2:2, 3:1          | String, 3:2, 3:3
+FishingRod     = Stick, 3:3, 2:2, 1:1          | String, 1:2, 1:3
+lead: Lead, 2        = String, 1:1, 1:2, 2:1, 3:3    | Slimeball, 2:2
+flint_and_steel: Lighter        = IronIngot, *                  | Flint, *
+shears: Shears         = IronIngot, 1:1, 2:2
+Shears         = IronIngot, 2:1, 1:2
+clock: Watch          = GoldIngot, 2:1, 1:2, 3:2, 2:3 | RedstoneDust, 2:2
+
+
+
+
+
+#******************************************************#
+# Weapons
+#
+arrow: Arrow, 4         = Flint, 1:1             | Stick, 1:2       | Feather, 1:3
+bow: Bow              = Stick, 2:1, 1:2, 2:3   | String, 3:1, 3:2, 3:3
+Bow              = Stick, 2:1, 3:2, 2:3   | String, 1:1, 1:2, 1:3
+diamond_sword: DiamondSword     = Stick, 2:3 | Diamond,     2:1, 2:2
+golden_sword: GoldenSword      = Stick, 2:3 | GoldIngot,   2:1, 2:2
+iron_sword: IronSword        = Stick, 2:3 | IronIngot,   2:1, 2:2
+spectral_arrow: SpectralArrow, 2 = Arrow, 2:2 | GlowstoneDust, 1:2, 2:1, 2:3, 3:2
+stone_sword: StoneSword       = Stick, 2:3 | Cobblestone, 2:1, 2:2
+wooden_sword: WoodenSword      = Stick, 2:3 | Planks^-1,   2:1, 2:2
+
+
+
+
+
+
+#******************************************************#
+# Armor
+#
+
+# Helmets:
+diamond_helmet: DiamondHelmet    = Diamond,   1:1, 2:1, 3:1, 1:2, 3:2
+golden_helmet: GoldenHelmet     = GoldIngot, 1:1, 2:1, 3:1, 1:2, 3:2
+iron_helmet: IronHelmet       = IronIngot, 1:1, 2:1, 3:1, 1:2, 3:2
+leather_helmet: LeatherHelmet    = Leather,   1:1, 2:1, 3:1, 1:2, 3:2
+
+# Chestplates:
+diamond_chestplate: DiamondChestplate   = Diamond,   1:1, 3:1, 1:2, 2:2, 3:2, 1:3, 2:3, 3:3
+golden_chestplate: GoldenChestplate    = GoldIngot, 1:1, 3:1, 1:2, 2:2, 3:2, 1:3, 2:3, 3:3
+iron_chestplate: IronChestplate      = IronIngot, 1:1, 3:1, 1:2, 2:2, 3:2, 1:3, 2:3, 3:3
+leather_chestplate: LeatherChestplate   = Leather,   1:1, 3:1, 1:2, 2:2, 3:2, 1:3, 2:3, 3:3
+
+# Leggings:
+diamond_leggings: DiamondLeggings   = Diamond,   1:1, 2:1, 3:1, 1:2, 3:2, 1:3, 3:3
+golden_leggings: GoldenLeggings    = GoldIngot, 1:1, 2:1, 3:1, 1:2, 3:2, 1:3, 3:3
+iron_leggings: IronLeggings      = IronIngot, 1:1, 2:1, 3:1, 1:2, 3:2, 1:3, 3:3
+leather_leggings: LeatherPants      = Leather,   1:1, 2:1, 3:1, 1:2, 3:2, 1:3, 3:3
+
+# Boots:
+diamond_boots: DiamondBoots     = Diamond,   1:1, 3:1, 1:2, 3:2
+golden_boots: GoldenBoots      = GoldIngot, 1:1, 3:1, 1:2, 3:2
+iron_boots: IronBoots        = IronIngot, 1:1, 3:1, 1:2, 3:2
+leather_boots: LeatherBoots     = Leather,   1:1, 3:1, 1:2, 3:2
+
+# Shield:
+shield: Shield = IronIngot, 2:1 | Planks^-1, 1:1, 3:1, 1:2, 2:2, 3:2, 2:3
+
+
+
+
+#******************************************************#
+# Transportation
+#
+acacia_boat: AcaciaBoat       = AcaciaPlanks, 1:1, 3:1, 1:2, 2:2, 3:2
+activator_rail: ActivatorRail, 6 = IronIngot, 1:1, 1:2, 1:3, 3:1, 3:2, 3:3 | Stick, 2:1, 2:3 | RedstoneTorchon, 2:2
+birch_boat: BirchBoat        = BirchPlanks, 1:1, 3:1, 1:2, 2:2, 3:2
+carrot_on_a_stick: CarrotOnAStick   = FishingRod, 1:2 | Carrot, 2:3
+dark_oak_boat: DarkOakBoat      = DarkOakPlanks, 1:1, 3:1, 1:2, 2:2, 3:2
+detector_rail: DetectorRail, 6  = IronIngot, 1:1, 3:1, 1:2, 3:2, 1:3, 3:3 | StonePlate, 2:2 | RedstoneDust, 2:3
+hopper_minecart: hopperminecart   = Minecart, * | Hopper, *
+jungle_boat: JungleBoat       = JunglePlanks, 1:1, 3:1, 1:2, 2:2, 3:2
+minecart: Minecart         = IronIngot, 1:1, 3:1, 1:2, 2:2, 3:2
+oak_boat: OakBoat          = OakPlanks, 1:1, 3:1, 1:2, 2:2, 3:2
+furnace_minecart: PoweredMinecart  = Minecart, * | Furnace, *
+powered_rail: PoweredRail, 6   = GoldIngot, 1:1, 3:1, 1:2, 3:2, 1:3, 3:3 | Stick, 2:2      | RedstoneDust, 2:3
+rail: Rails, 16        = IronIngot, 1:1, 3:1, 1:2, 3:2, 1:3, 3:3 | Stick, 2:2
+spruce_boat: SpruceBoat       = SprucePlanks, 1:1, 3:1, 1:2, 2:2, 3:2
+chest_minecart: StorageMinecart  = Minecart, * | Chest, *
+tnt_minecart: TNTMinecart      = Minecart, * | TNT, *
+
+
+
+
+#******************************************************#
+# Mechanisms
+#
+acacia_door: AcaciaDoor, 3    = AcaciaPlanks,  1:1, 1:2, 1:3, 2:1, 2:2, 2:3
+birch_door: BirchDoor, 3     = BirchPlanks,   1:1, 1:2, 1:3, 2:1, 2:2, 2:3
+comparator: Comparator       = RedstoneTorchOn, 2:1, 1:2, 3:2   | NetherQuartz, 2:2 | Stone, 1:3, 2:3, 3:3
+dark_oak_door: DarkOakDoor, 3   = DarkOakPlanks, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3
+daylight_detector: DaylightSensor   = Glass, 1:1, 2:1, 3:1             | NetherQuartz, 1:2, 2:2, 3:2 | WoodenSlab^-1, 1:3, 2:3, 3:3
+dispenser: Dispenser        = Cobblestone, 1:1, 1:2, 1:3, 2:1, 3:1, 3:2, 3:3      | RedstoneDust, 2:3  | Bow, 2:2
+dropper: Dropper          = Cobblestone, 1:1, 2:1, 3:1, 1:2, 1:3, 3:2, 3:3 | RedstoneDust, 2:3
+heavy_weighted_pressure_plate: heavyweightedpressureplate = IronIngot, 1:1, 2:1
+hopper: Hopper           = IronIngot, 1:1, 3:1, 1:2, 3:2, 2:3 | Chest, 2:2
+iron_door: IronDoor, 3      = IronIngot, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3
+iron_trapdoor: IronTrapDoor     = IronIngot, 1:1, 1:2, 2:1, 2:2
+jukebox: Jukebox          = Planks^-1,   1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | Diamond,      2:2
+jungle_door: JungleDoor, 3    = JunglePlanks,  1:1, 1:2, 1:3, 2:1, 2:2, 2:3
+lever: Lever            = Cobblestone, 1:2  | Stick, 1:1
+light_weighted_pressure_plate: lightweightedpressureplate = GoldIngot, 1:1, 2:1
+note_block: NoteBlock        = Planks^-1,   1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | RedstoneDust, 2:2
+observer: Observer    = Cobblestone, 1:1, 2:1, 3:1, 1:3, 2:3, 3:3 | RedstoneDust, 1:2, 2:2 | NetherQuartz, 3:2
+Observer    = Cobblestone, 1:1, 2:1, 3:1, 1:3, 2:3, 3:3 | RedstoneDust, 3:2, 2:2 | NetherQuartz, 1:2
+piston: Piston           = Planks^-1, 1:1, 2:1, 3:1 | RedstoneDust, 2:3 | Cobblestone, 1:2, 3:2, 1:3, 3:3 | IronIngot, 2:2
+redstone_lamp: RedstoneLamp     = RedstoneDust, 2:1, 1:2, 3:2, 2:3 | Glowstone, 2:2
+redstone_torch: RedstoneTorchOn  = Stick, 1:2        | RedstoneDust, 1:1
+repeater: Repeater         = Stone,  1:2, 2:2, 3:2            | RedstoneTorchOn, 1:1, 3:1 | RedstoneDust, 2:1
+purpur_shulker_box: PurpleShulkerBox = ShulkerShell, 2:1, 2:3 | Chest, 2:2
+spruce_door: SpruceDoor, 3    = SprucePlanks,  1:1, 1:2, 1:3, 2:1, 2:2, 2:3
+sticky_piston: StickyPiston     = Piston, * | SlimeBall, *
+stone_button: StoneButton      = Stone,     1:1
+stone_pressure_plate: StonePlate       = Stone,     1:1, 2:1
+oak_trapdoor: TrapDoor, 2      = Planks^-1, 1:1, 2:1, 3:1, 1:2, 2:2, 3:2
+tripwire_hook: TripwireHook, 2  = Planks^-1, 2:3 | stick, 2:2 | IronIngot, 2:1
+WoodenButton     = Planks^-1, 1:1
+oak_button: WoodenDoor, 3    = OakPlanks,     1:1, 1:2, 1:3, 2:1, 2:2, 2:3
+WoodPlate        = Planks^-1, 1:1, 2:1
+
+
+
+
+
+#******************************************************#
+# Food
+#
+bowl: Bowl, 4              = Planks^-1, 1:1, 2:2, 3:1
+bread: Bread                = Wheat, 1:1, 2:1, 3:1
+cake: Cake                 = MilkBucket, 1:1, 2:1, 3:1 | Sugar, 1:2, 3:2 | Egg, 2:2 | Wheat, 1:3, 2:3, 3:3
+cookie: Cookie, 8            = Wheat, *, * | CocoaBeans, *
+golden_apple: GoldenApple          = RedApple, 2:2 | GoldIngot, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3
+melon: MelonBlock           = MelonSlice, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+melon_seeds: MelonSeeds           = MelonSlice, *
+mushroom_stew: MushroomStew         = Bowl, * | BrownMushroom, * | RedMushroom, *
+beetroot_soup: BeetrootSoup         = Bowl, 2:3  | Beetroot, 1:1, 1:2, 2:1, 2:2, 3:1, 3:2
+pumpkin_pie: PumpkinPie           = Pumpkin, * | Sugar, * | egg, *
+pumpkin_seeds: PumpkinSeeds, 4      = Pumpkin, *
+rabbit_stew_from_brown_mushroom: RabbitStew           = Cooked Rabbit, 2:1 | Carrot, 1:2 | BakedPotato, 2:2 | BrownMushroom, 3:2 | Bowl, 2:3
+rabbit_stew_from_red_mushroom: RabbitStew           = Cooked Rabbit, 2:1 | Carrot, 1:2 | BakedPotato, 2:2 | RedMushroom, 3:2 | Bowl, 2:3
+sugar: Sugar                = Sugarcane, *
+wheat: Wheat, 9             = Haybale, *
+
+
+
+
+
+#******************************************************#
+# Miscellaneous
+#
+
+# Minerals:
+terracotta: Clay, 4         = ClayBlock, *
+coal: Coal, 9         = CoalBlock, *
+diamond: Diamond, 9      = DiamondBlock, *
+emerald: Emerald, 9      = EmeraldBlock, *
+gold_ingot_from_gold_block: GoldIngot, 9    = GoldBlock, *
+iron_ingot_from_nuggets: IronIngot       = IronNugget, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+iron_ingot_from_iron_block: IronIngot, 9    = IronBlock, *
+lapis_lazuli: LapisLazuli, 9  = LapisBlock, *
+redstone: RedstoneDust, 9 = RedstoneBlock, *
+slime_ball: SlimeBall, 9    = SlimeBlock, *
+
+acacia_fence: AcaciaFence, 3           = AcaciaPlanks, 1:1, 1:2, 3:1, 3:2 | Stick, 2:1, 2:2
+acacia_fence_gate: AcaciaFenceGate          = Stick, 1:1, 1:2, 3:1, 3:2 | AcaciaPlanks, 2:1, 2:2
+anvil: Anvil                    = IronBlock, 1:1, 2:1, 3:1 | IronIngot, 2:2, 1:3, 2:3, 3:3
+armor_stand: ArmorStand               = Stick, 1:1, 1:3, 2:1, 2:2, 3:1, 3:3 | StoneSlab, 2:3
+beacon: Beacon                   = Glass, 1:1, 1:2, 2:1, 3:1, 3:2 | Obsidian, 1:3, 2:3, 3:3 | NetherStar, 2:2
+birch_fence: BirchFence, 3            = BirchPlanks, 1:1, 1:2, 3:1, 3:2 | Stick, 2:1, 2:2
+birch_fence_gate: BirchFenceGate           = Stick, 1:1, 1:2, 3:1, 3:2 | BirchPlanks, 2:1, 2:2
+writable_book: Bookandquill             = Book, * | feather, * | inksac, *
+book: Book                     = Paper, *, *, * | leather, *
+cobblestone_wall: Cobblestonewall, 6       = cobblestone, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+dark_oak_fence: DarkOakFence, 3          = DarkOakPlanks, 1:1, 1:2, 3:1, 3:2 | Stick, 2:1, 2:2
+dark_oak_fence_gate: DarkOakFenceGate         = Stick, 1:1, 1:2, 3:1, 3:2  | DarkOakPlanks, 2:1, 2:2
+end_crystal: EndCrystal               = Glass, 1:1, 1:2, 1:3, 2:1, 3:1, 3:2, 3:3 | EyeOfEnder, 2:2 | GhastTear, 2:3
+end_rod: EndRod, 4                = BlazeRod, 1:1 | PoppedChorusFruit, 1:2
+ender_eye: EyeOfEnder               = EnderPearl, * | BlazePowder, *
+oak_fence: Fence, 3                 = OakPlanks, 1:1, 1:2, 3:1, 3:2 | Stick, 2:1, 2:2
+oak_fence_gate: FenceGate                = Stick, 1:1, 1:2, 3:1, 3:2 | OakPlanks, 2:1, 2:2
+flower_pot: FlowerPot                = Brick, 1:2, 2:3, 3:2
+glass_pane: GlassPane, 16            = Glass, 1:1, 2:1, 3:1, 1:2, 2:2, 3:2
+gold_ingot: GoldIngot                = GoldNugget, 1:1, 1:2, 1:3, 2:1, 2:2, 2:3, 3:1, 3:2, 3:3
+iron_bars: IronBars, 16             = IronIngot, 1:1, 2:1, 3:1, 1:2, 2:2, 3:2
+iron_nugget: IronNugget, 9            = IronIngot, *
+item_frame: ItemFrame                = Stick, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | Leather, 2:2
+jungle_fence: JungleFence, 3           = JunglePlanks, 1:1, 1:2, 3:1, 3:2 | Stick, 2:1, 2:2
+jungle_fence_gate: JungleFenceGate          = Stick, 1:1, 1:2, 3:1, 3:2 | JunglePlanks, 2:1, 2:2
+ladder: Ladder, 3                = Stick, 1:1, 3:1, 1:2, 2:2, 3:2, 1:3, 3:3
+mossy_cobblestone_wall: mossycobblestonewall, 6  = mossycobblestone, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+nether_brick_fence: NetherBrickFence, 6      = NetherBrickBlock, 1:1, 2:1, 3:1, 1:2, 2:2, 3:2
+painting: Painting                 = Stick, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | Wool^-1, 2:2
+paper: Paper, 3                 = Sugarcane, 1:1, 2:1, 3:1
+oak_sign: Sign, 3                  = Planks^-1, 1:1, 2:1, 3:1, 1:2, 2:2, 3:2 | Stick, 2:3
+spruce_fence: SpruceFence, 3           = SprucePlanks, 1:1, 1:2, 3:1, 3:2 | Stick, 2:1, 2:2
+spruce_fence_gate: SpruceFenceGate          = Stick, 1:1, 1:2, 3:1, 3:2 | SprucePlanks, 2:1, 2:2
+
+# These are just the basic ones, you can add various shapes and stuff to each of them
+# ToDo: Add the various shapes (saved in NBT-Tags, not in meta)
+# Banners:
+
+black_banner: BlackBanner         = Stick, 2:3 | BlackWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+blue_banner: BlueBanner          = Stick, 2:3 | BlueWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+brown_banner: BrownBanner         = Stick, 2:3 | BrownWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+cyan_banner: CyanBanner          = Stick, 2:3 | CyanWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+gray_banner: GrayBanner          = Stick, 2:3 | GrayWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+green_banner: GreenBanner         = Stick, 2:3 | GreenWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+light_blue_banner: LightBlueBanner     = Stick, 2:3 | LightBlueWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+light_gray_banner: LightGrayBanner     = Stick, 2:3 | LightGrayWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+lime_banner: LimeBanner          = Stick, 2:3 | LimeWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+magenta_banner: MagentaBanner       = Stick, 2:3 | MagentaWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+orange_banner: OrangeBanner        = Stick, 2:3 | OrangeWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+pink_banner: PinkBanner          = Stick, 2:3 | PinkWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+purple_banner: PurpleBanner        = Stick, 2:3 | PurpleWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+red_banner: RedBanner           = Stick, 2:3 | RedWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+white_banner: WhiteBanner         = Stick, 2:3 | WhiteWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+yellow_banner: YellowBanner        = Stick, 2:3 | YellowWool, 1:1, 1:2, 2:1, 2:2, 2:1, 2:2
+
+
+
+
+
+#******************************************************#
+# Dyes
+#
+
+red_dye_from_beetroot: RedDye, 1     = Beetroot, *
+red_dye_from_rose_bush: RedDye, 2     = Rose, *
+WhiteDye, 3   = Bone, *
+yellow_dye_from_dandelion: YellowDye, 2  = Dandelion, *
+
+# Color mixing, duals:
+cyan_dye: CyanDye, 2    = GreenDye, *  | BlueDye, *
+gray_dye: GrayDye, 2    = BlackDye, *  | WhiteDye, *
+lime_dye: LimeDye, 2    = GreenDye, *  | WhiteDye, *
+light_blue_dye_from_blue_white_dye: LtBlueDye, 2  = BlueDye, *   | WhiteDye, *
+light_gray_dye_from_gray_white_dye: LtGrayDye, 2  = GrayDye, *   | WhiteDye, *
+magenta_dye_from_purple_and_pink: MagentaDye, 2 = PurpleDye, * | PinkDye, *
+orange_dye_from_red_yellow: OrangeDye, 2  = YellowDye, * | RedDye, *
+pink_dye_from_red_white_dye: PinkDye, 2    = RedDye, *    | WhiteDye, *
+purple_dye: PurpleDye, 2  = RedDye, *    | BlueDye, *
+
+# triplets:
+light_gray_dye_from_black_white_dye: LtGrayDye, 3  = BlackDye, *  | WhiteDye, *, *
+magenta_dye_from_blue_red_pink: MagentaDye, 3 = BlueDye, *   | PinkDye, *  | RedDye, *
+
+# quads:
+magenta_dye_from_blue_red_white_dye: MagentaDye, 4 = BlueDye, *   | WhiteDye, * | RedDye, *, *
+
+
+
+
+#******************************************************#
+# Concrete Powder:
+#
+white_concrete_powder: White_Concrete_Powder         = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | BoneMeal, 2:2
+orange_concrete_powder: Orange_Concrete_Powder        = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | OrangeDye, 2:2
+magenta_concrete_powder: Magenta_Concrete_Powder       = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | MagentaDye, 2:2
+light_blue_concrete_powder: Light_Blue_Concrete_Powder    = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | LightBlueDye, 2:2
+yellow_concrete_powder: Yellow_Concrete_Powder        = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | YellowDye, 2:2
+lime_concrete_powder: Lime_Concrete_Powder          = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | LimeDye, 2:2
+pink_concrete_powder: Pink_Concrete_Powder          = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | PinkDye, 2:2
+gray_concrete_powder: Gray_Concrete_Powder          = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | GrayDye, 2:2
+light_gray_concrete_powder: Light_Gray_Concrete_Powder    = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | LightGrayDye, 2:2
+cyan_concrete_powder: Cyan_Concrete_Powder          = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | CyanDye, 2:2
+blue_concrete_powder: Blue_Concrete_Powder          = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | BlueDye, 2:2
+brown_concrete_powder: Brown_Concrete_Powder         = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | BrownDye, 2:2
+green_concrete_powder: Green_Concrete_Powder         = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | GreenDye, 2:2
+red_concrete_powder: Red_Concrete_Powder           = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | RedDye, 2:2
+black_concrete_powder: Black_Concrete_Powder         = Sand, 1:1, 3:1, 1:3, 3:3 | Gravel, 2:1, 1:2, 3:2, 2:3 | BlackDye, 2:2
+
+#******************************************************#
+# Colored shulker boxes:
+#
+BlackShulkerBox     = BlackShulkerBox, * | BlackDye, *
+BlackShulkerBox     = BlueShulkerBox, * | BlackDye, *
+BlackShulkerBox     = BrownShulkerBox, * | BlackDye, *
+BlackShulkerBox     = CyanShulkerBox, * | BlackDye, *
+BlackShulkerBox     = GrayShulkerBox, * | BlackDye, *
+BlackShulkerBox     = GreenShulkerBox, * | BlackDye, *
+BlackShulkerBox     = LightBlueShulkerBox, * | BlackDye, *
+BlackShulkerBox     = LightGrayShulkerBox, * | BlackDye, *
+BlackShulkerBox     = LimeShulkerBox, * | BlackDye, *
+BlackShulkerBox     = MagentaShulkerBox, * | BlackDye, *
+BlackShulkerBox     = OrangeShulkerBox, * | BlackDye, *
+BlackShulkerBox     = PinkShulkerBox, * | BlackDye, *
+BlackShulkerBox     = PurpleShulkerBox, * | BlackDye, *
+BlackShulkerBox     = RedShulkerBox, * | BlackDye, *
+BlackShulkerBox     = WhiteShulkerBox, * | BlackDye, *
+BlackShulkerBox     = YellowShulkerBox, * | BlackDye, *
+BlueShulkerBox      = BlackShulkerBox, * | BlueDye, *
+BlueShulkerBox      = BlueShulkerBox, * | BlueDye, *
+BlueShulkerBox      = BrownShulkerBox, * | BlueDye, *
+BlueShulkerBox      = CyanShulkerBox, * | BlueDye, *
+BlueShulkerBox      = GrayShulkerBox, * | BlueDye, *
+BlueShulkerBox      = GreenShulkerBox, * | BlueDye, *
+BlueShulkerBox      = LightBlueShulkerBox, * | BlueDye, *
+BlueShulkerBox      = LightGrayShulkerBox, * | BlueDye, *
+BlueShulkerBox      = LimeShulkerBox, * | BlueDye, *
+BlueShulkerBox      = MagentaShulkerBox, * | BlueDye, *
+BlueShulkerBox      = OrangeShulkerBox, * | BlueDye, *
+BlueShulkerBox      = PinkShulkerBox, * | BlueDye, *
+BlueShulkerBox      = PurpleShulkerBox, * | BlueDye, *
+BlueShulkerBox      = RedShulkerBox, * | BlueDye, *
+BlueShulkerBox      = WhiteShulkerBox, * | BlueDye, *
+BlueShulkerBox      = YellowShulkerBox, * | BlueDye, *
+BrownShulkerBox     = BlackShulkerBox, * | BrownDye, *
+BrownShulkerBox     = BlueShulkerBox, * | BrownDye, *
+BrownShulkerBox     = BrownShulkerBox, * | BrownDye, *
+BrownShulkerBox     = CyanShulkerBox, * | BrownDye, *
+BrownShulkerBox     = GrayShulkerBox, * | BrownDye, *
+BrownShulkerBox     = GreenShulkerBox, * | BrownDye, *
+BrownShulkerBox     = LightBlueShulkerBox, * | BrownDye, *
+BrownShulkerBox     = LightGrayShulkerBox, * | BrownDye, *
+BrownShulkerBox     = LimeShulkerBox, * | BrownDye, *
+BrownShulkerBox     = MagentaShulkerBox, * | BrownDye, *
+BrownShulkerBox     = OrangeShulkerBox, * | BrownDye, *
+BrownShulkerBox     = PinkShulkerBox, * | BrownDye, *
+BrownShulkerBox     = PurpleShulkerBox, * | BrownDye, *
+BrownShulkerBox     = RedShulkerBox, * | BrownDye, *
+BrownShulkerBox     = WhiteShulkerBox, * | BrownDye, *
+BrownShulkerBox     = YellowShulkerBox, * | BrownDye, *
+CyanShulkerBox      = BlackShulkerBox, * | CyanDye, *
+CyanShulkerBox      = BlueShulkerBox, * | CyanDye, *
+CyanShulkerBox      = BrownShulkerBox, * | CyanDye, *
+CyanShulkerBox      = CyanShulkerBox, * | CyanDye, *
+CyanShulkerBox      = GrayShulkerBox, * | CyanDye, *
+CyanShulkerBox      = GreenShulkerBox, * | CyanDye, *
+CyanShulkerBox      = LightBlueShulkerBox, * | CyanDye, *
+CyanShulkerBox      = LightGrayShulkerBox, * | CyanDye, *
+CyanShulkerBox      = LimeShulkerBox, * | CyanDye, *
+CyanShulkerBox      = MagentaShulkerBox, * | CyanDye, *
+CyanShulkerBox      = OrangeShulkerBox, * | CyanDye, *
+CyanShulkerBox      = PinkShulkerBox, * | CyanDye, *
+CyanShulkerBox      = PurpleShulkerBox, * | CyanDye, *
+CyanShulkerBox      = RedShulkerBox, * | CyanDye, *
+CyanShulkerBox      = WhiteShulkerBox, * | CyanDye, *
+CyanShulkerBox      = YellowShulkerBox, * | CyanDye, *
+GrayShulkerBox      = BlackShulkerBox, * | GrayDye, *
+GrayShulkerBox      = BlueShulkerBox, * | GrayDye, *
+GrayShulkerBox      = BrownShulkerBox, * | GrayDye, *
+GrayShulkerBox      = CyanShulkerBox, * | GrayDye, *
+GrayShulkerBox      = GrayShulkerBox, * | GrayDye, *
+GrayShulkerBox      = GreenShulkerBox, * | GrayDye, *
+GrayShulkerBox      = LightBlueShulkerBox, * | GrayDye, *
+GrayShulkerBox      = LightGrayShulkerBox, * | GrayDye, *
+GrayShulkerBox      = LimeShulkerBox, * | GrayDye, *
+GrayShulkerBox      = MagentaShulkerBox, * | GrayDye, *
+GrayShulkerBox      = OrangeShulkerBox, * | GrayDye, *
+GrayShulkerBox      = PinkShulkerBox, * | GrayDye, *
+GrayShulkerBox      = PurpleShulkerBox, * | GrayDye, *
+GrayShulkerBox      = RedShulkerBox, * | GrayDye, *
+GrayShulkerBox      = WhiteShulkerBox, * | GrayDye, *
+GrayShulkerBox      = YellowShulkerBox, * | GrayDye, *
+GreenShulkerBox     = BlackShulkerBox, * | GreenDye, *
+GreenShulkerBox     = BlueShulkerBox, * | GreenDye, *
+GreenShulkerBox     = BrownShulkerBox, * | GreenDye, *
+GreenShulkerBox     = CyanShulkerBox, * | GreenDye, *
+GreenShulkerBox     = GrayShulkerBox, * | GreenDye, *
+GreenShulkerBox     = GreenShulkerBox, * | GreenDye, *
+GreenShulkerBox     = LightBlueShulkerBox, * | GreenDye, *
+GreenShulkerBox     = LightGrayShulkerBox, * | GreenDye, *
+GreenShulkerBox     = LimeShulkerBox, * | GreenDye, *
+GreenShulkerBox     = MagentaShulkerBox, * | GreenDye, *
+GreenShulkerBox     = OrangeShulkerBox, * | GreenDye, *
+GreenShulkerBox     = PinkShulkerBox, * | GreenDye, *
+GreenShulkerBox     = PurpleShulkerBox, * | GreenDye, *
+GreenShulkerBox     = RedShulkerBox, * | GreenDye, *
+GreenShulkerBox     = WhiteShulkerBox, * | GreenDye, *
+GreenShulkerBox     = YellowShulkerBox, * | GreenDye, *
+LightBlueShulkerBox = BlackShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = BlueShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = BrownShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = CyanShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = GrayShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = GreenShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = LightBlueShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = LightGrayShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = LimeShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = MagentaShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = OrangeShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = PinkShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = PurpleShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = RedShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = WhiteShulkerBox, * | LightBlueDye, *
+LightBlueShulkerBox = YellowShulkerBox, * | LightBlueDye, *
+LightGrayShulkerBox = BlackShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = BlueShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = BrownShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = CyanShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = GrayShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = GreenShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = LightBlueShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = LightGrayShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = LimeShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = MagentaShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = OrangeShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = PinkShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = PurpleShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = RedShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = WhiteShulkerBox, * | LightGrayDye, *
+LightGrayShulkerBox = YellowShulkerBox, * | LightGrayDye, *
+LimeShulkerBox      = BlackShulkerBox, * | LimeDye, *
+LimeShulkerBox      = BlueShulkerBox, * | LimeDye, *
+LimeShulkerBox      = BrownShulkerBox, * | LimeDye, *
+LimeShulkerBox      = CyanShulkerBox, * | LimeDye, *
+LimeShulkerBox      = GrayShulkerBox, * | LimeDye, *
+LimeShulkerBox      = GreenShulkerBox, * | LimeDye, *
+LimeShulkerBox      = LightBlueShulkerBox, * | LimeDye, *
+LimeShulkerBox      = LightGrayShulkerBox, * | LimeDye, *
+LimeShulkerBox      = LimeShulkerBox, * | LimeDye, *
+LimeShulkerBox      = MagentaShulkerBox, * | LimeDye, *
+LimeShulkerBox      = OrangeShulkerBox, * | LimeDye, *
+LimeShulkerBox      = PinkShulkerBox, * | LimeDye, *
+LimeShulkerBox      = PurpleShulkerBox, * | LimeDye, *
+LimeShulkerBox      = RedShulkerBox, * | LimeDye, *
+LimeShulkerBox      = WhiteShulkerBox, * | LimeDye, *
+LimeShulkerBox      = YellowShulkerBox, * | LimeDye, *
+MagentaShulkerBox    = BlackShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = BlueShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = BrownShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = CyanShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = GrayShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = GreenShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = LightBlueShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = LightGrayShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = LimeShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = MagentaShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = OrangeShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = PinkShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = PurpleShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = RedShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = WhiteShulkerBox, * | MagentaDye, *
+MagentaShulkerBox    = YellowShulkerBox, * | MagentaDye, *
+OrangeShulkerBox     = BlackShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = BlueShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = BrownShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = CyanShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = GrayShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = GreenShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = LightBlueShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = LightGrayShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = LimeShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = MagentaShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = OrangeShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = PinkShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = PurpleShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = RedShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = WhiteShulkerBox, * | OrangeDye, *
+OrangeShulkerBox     = YellowShulkerBox, * | OrangeDye, *
+PinkShulkerBox       = BlackShulkerBox, * | PinkDye, *
+PinkShulkerBox       = BlueShulkerBox, * | PinkDye, *
+PinkShulkerBox       = BrownShulkerBox, * | PinkDye, *
+PinkShulkerBox       = CyanShulkerBox, * | PinkDye, *
+PinkShulkerBox       = GrayShulkerBox, * | PinkDye, *
+PinkShulkerBox       = GreenShulkerBox, * | PinkDye, *
+PinkShulkerBox       = LightBlueShulkerBox, * | PinkDye, *
+PinkShulkerBox       = LightGrayShulkerBox, * | PinkDye, *
+PinkShulkerBox       = LimeShulkerBox, * | PinkDye, *
+PinkShulkerBox       = MagentaShulkerBox, * | PinkDye, *
+PinkShulkerBox       = OrangeShulkerBox, * | PinkDye, *
+PinkShulkerBox       = PinkShulkerBox, * | PinkDye, *
+PinkShulkerBox       = PurpleShulkerBox, * | PinkDye, *
+PinkShulkerBox       = RedShulkerBox, * | PinkDye, *
+PinkShulkerBox       = WhiteShulkerBox, * | PinkDye, *
+PinkShulkerBox       = YellowShulkerBox, * | PinkDye, *
+PurpleShulkerBox     = BlackShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = BlueShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = BrownShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = CyanShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = GrayShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = GreenShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = LightBlueShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = LightGrayShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = LimeShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = MagentaShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = OrangeShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = PinkShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = PurpleShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = RedShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = WhiteShulkerBox, * | PurpleDye, *
+PurpleShulkerBox     = YellowShulkerBox, * | PurpleDye, *
+RedShulkerBox        = BlackShulkerBox, * | RedDye, *
+RedShulkerBox        = BlueShulkerBox, * | RedDye, *
+RedShulkerBox        = BrownShulkerBox, * | RedDye, *
+RedShulkerBox        = CyanShulkerBox, * | RedDye, *
+RedShulkerBox        = GrayShulkerBox, * | RedDye, *
+RedShulkerBox        = GreenShulkerBox, * | RedDye, *
+RedShulkerBox        = LightBlueShulkerBox, * | RedDye, *
+RedShulkerBox        = LightGrayShulkerBox, * | RedDye, *
+RedShulkerBox        = LimeShulkerBox, * | RedDye, *
+RedShulkerBox        = MagentaShulkerBox, * | RedDye, *
+RedShulkerBox        = OrangeShulkerBox, * | RedDye, *
+RedShulkerBox        = PinkShulkerBox, * | RedDye, *
+RedShulkerBox        = PurpleShulkerBox, * | RedDye, *
+RedShulkerBox        = RedShulkerBox, * | RedDye, *
+RedShulkerBox        = WhiteShulkerBox, * | RedDye, *
+RedShulkerBox        = YellowShulkerBox, * | RedDye, *
+WhiteShulkerBox      = BlackShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = BlueShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = BrownShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = CyanShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = GrayShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = GreenShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = LightBlueShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = LightGrayShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = LimeShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = MagentaShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = OrangeShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = PinkShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = PurpleShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = RedShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = WhiteShulkerBox, * | BoneMeal, *
+WhiteShulkerBox      = YellowShulkerBox, * | BoneMeal, *
+YellowShulkerBox     = BlackShulkerBox, * | YellowDye, *
+YellowShulkerBox     = BlueShulkerBox, * | YellowDye, *
+YellowShulkerBox     = BrownShulkerBox, * | YellowDye, *
+YellowShulkerBox     = CyanShulkerBox, * | YellowDye, *
+YellowShulkerBox     = GrayShulkerBox, * | YellowDye, *
+YellowShulkerBox     = GreenShulkerBox, * | YellowDye, *
+YellowShulkerBox     = LightBlueShulkerBox, * | YellowDye, *
+YellowShulkerBox     = LightGrayShulkerBox, * | YellowDye, *
+YellowShulkerBox     = LimeShulkerBox, * | YellowDye, *
+YellowShulkerBox     = MagentaShulkerBox, * | YellowDye, *
+YellowShulkerBox     = OrangeShulkerBox, * | YellowDye, *
+YellowShulkerBox     = PinkShulkerBox, * | YellowDye, *
+YellowShulkerBox     = PurpleShulkerBox, * | YellowDye, *
+YellowShulkerBox     = RedShulkerBox, * | YellowDye, *
+YellowShulkerBox     = WhiteShulkerBox, * | YellowDye, *
+YellowShulkerBox     = YellowShulkerBox, * | YellowDye, *
+
+#******************************************************#
+# Colored wool:
+#
+black_wool: BlackWool     = WhiteWool, * | BlackDye, *
+blue_wool: BlueWool      = WhiteWool, * | BlueDye, *
+brown_wool: BrownWool     = WhiteWool, * | BrownDye, *
+cyan_wool: CyanWool      = WhiteWool, * | CyanDye, *
+gray_wool: GrayWool      = WhiteWool, * | GrayDye, *
+green_wool: GreenWool     = WhiteWool, * | GreenDye, *
+light_blue_wool: LightBlueWool = WhiteWool, * | LightBlueDye, *
+light_gray_wool: LightGrayWool = WhiteWool, * | LightGrayDye, *
+lime_wool: LimeWool      = WhiteWool, * | LimeDye, *
+magenta_wool: MagentaWool   = WhiteWool, * | MagentaDye, *
+orange_wool: OrangeWool    = WhiteWool, * | OrangeDye, *
+pink_wool: PinkWool      = WhiteWool, * | PinkDye, *
+purple_wool: PurpleWool    = WhiteWool, * | PurpleDye, *
+red_wool: RedWool       = WhiteWool, * | RedDye, *
+WhiteWool     = Wool^-1, *   | BoneMeal, *
+yellow_wool: YellowWool    = WhiteWool, * | YellowDye, *
+
+black_carpet: BlackCarpet, 3     = BlackWool, 1:1, 2:1
+blue_carpet: BlueCarpet, 3      = BlueWool, 1:1, 2:1
+brown_carpet: BrownCarpet, 3     = BrownWool, 1:1, 2:1
+cyan_carpet: CyanCarpet, 3      = CyanWool, 1:1, 2:1
+gray_carpet: GrayCarpet, 3      = GrayWool, 1:1, 2:1
+green_carpet: GreenCarpet, 3     = GreenWool, 1:1, 2:1
+light_blue_carpet: LightBlueCarpet, 3 = LightBlueWool, 1:1, 2:1
+light_gray_carpet: LightGrayCarpet, 3 = LightGrayWool, 1:1, 2:1
+lime_carpet: LimeCarpet, 3      = LimeWool, 1:1, 2:1
+magenta_carpet: MagentaCarpet, 3   = MagentaWool, 1:1, 2:1
+orange_carpet: OrangeCarpet, 3    = OrangeWool, 1:1, 2:1
+pink_carpet: PinkCarpet, 3      = PinkWool, 1:1, 2:1
+purple_carpet: PurpleCarpet, 3    = PurpleWool, 1:1, 2:1
+red_carpet: RedCarpet, 3       = RedWool, 1:1, 2:1
+white_carpet: WhiteCarpet, 3     = WhiteWool, 1:1, 2:1
+yellow_carpet: YellowCarpet, 3    = YellowWool, 1:1, 2:1
+
+#******************************************************#
+# Stained Glass:
+#
+black_stained_glass: BlackStainedGlass, 8     = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BlackDye, 2:2
+blue_stained_glass: BlueStainedGlass, 8      = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BlueDye, 2:2
+brown_stained_glass: BrownStainedGlass, 8     = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BrownDye, 2:2
+cyan_stained_glass: CyanStainedGlass, 8      = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | CyanDye, 2:2
+gray_stained_glass: GrayStainedGlass, 8      = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | GrayDye, 2:2
+green_stained_glass: GreenStainedGlass, 8     = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | GreenDye, 2:2
+light_blue_stained_glass: LightBlueStainedGlass, 8 = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LightBlueDye, 2:2
+light_gray_stained_glass: LightGrayStainedGlass, 8 = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LightGrayDye, 2:2
+lime_stained_glass: LimeStainedGlass, 8      = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LimeDye, 2:2
+magenta_stained_glass: MagentaStainedGlass, 8   = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | MagentaDye, 2:2
+orange_stained_glass: OrangeStainedGlass, 8    = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | OrangeDye, 2:2
+pink_stained_glass: PinkStainedGlass, 8      = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | PinkDye, 2:2
+red_stained_glass: RedStainedGlass, 8       = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | RedDye, 2:2
+purple_stained_glass: VioletStainedGlass, 8    = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | VioletDye, 2:2
+white_stained_glass: WhiteStainedGlass, 8     = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BoneMeal, 2:2
+yellow_stained_glass: YellowStainedGlass, 8    = Glass, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | YellowDye, 2:2
+
+#******************************************************#
+# Stained Glass Pane:
+#
+black_stained_glass_pane: BlackStainedGlassPane , 16    = BlackStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+blue_stained_glass_pane: BlueStainedGlassPane, 16      = BlueStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+brown_stained_glass_pane: BrownStainedGlassPane, 16     = BrownStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+cyan_stained_glass_pane: CyanStainedGlassPane, 16      = CyanStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+gray_stained_glass_pane: GrayStainedGlassPane, 16      = GrayStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+green_stained_glass_pane: GreenStainedGlassPane, 16     = GreenStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+light_blue_stained_glass_pane: LightBlueStainedGlassPane, 16 = LightBlueStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+light_gray_stained_glass_pane: LightGrayStainedGlassPane, 16 = LightGrayStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+lime_stained_glass_pane: LimeStainedGlassPane, 16      = LimeStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+magenta_stained_glass_pane: MagentaStainedGlassPane, 16   = MagentaStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+orange_stained_glass_pane: OrangeStainedGlassPane, 16    = OrangeStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+pink_stained_glass_pane: PinkStainedGlassPane, 16      = PinkStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+red_stained_glass_pane: RedStainedGlassPane, 16       = RedStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+purple_stained_glass_pane: VioletStainedGlassPane, 16    = VioletStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+white_stained_glass_pane: WhiteStainedGlassPane, 16     = WhiteStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+yellow_stained_glass_pane: YellowStainedGlassPane, 16    = YellowStainedGlass, 1:2, 1:3, 2:2, 2:3, 3:2, 3:3
+
+black_stained_glass_pane: BlackStainedGlassPane , 8    = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BlackDye, 2:2
+blue_stained_glass_pane: BlueStainedGlassPane, 8      = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BlueDye, 2:2
+brown_stained_glass_pane: BrownStainedGlassPane, 8     = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BrownDye, 2:2
+cyan_stained_glass_pane: CyanStainedGlassPane, 8      = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | CyanDye, 2:2
+gray_stained_glass_pane: GrayStainedGlassPane, 8      = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | GrayDye, 2:2
+green_stained_glass_pane: GreenStainedGlassPane, 8     = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | GreenDye, 2:2
+light_blue_stained_glass_pane: LightBlueStainedGlassPane, 8 = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LightBlueDye, 2:2
+light_gray_stained_glass_pane: LightGrayStainedGlassPane, 8 = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LightGrayDye, 2:2
+lime_stained_glass_pane: LimeStainedGlassPane, 8      = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LimeDye, 2:2
+magenta_stained_glass_pane: MagentaStainedGlassPane, 8   = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | MagentaDye, 2:2
+orange_stained_glass_pane: OrangeStainedGlassPane, 8    = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | OrangeDye, 2:2
+pink_stained_glass_pane: PinkStainedGlassPane, 8      = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | PinkDye, 2:2
+red_stained_glass_pane: RedStainedGlassPane, 8       = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | RedDye, 2:2
+purple_stained_glass_pane: VioletStainedGlassPane, 8    = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | VioletDye, 2:2
+white_stained_glass_pane: WhiteStainedGlassPane, 8     = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BoneMeal, 2:2
+yellow_stained_glass_pane: YellowStainedGlassPane, 8    = GlassPane, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | YellowDye, 2:2
+
+#******************************************************#
+# Stained Clay:
+#
+black_terracotta: BlackStainedClay, 8     = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BlackDye, 2:2
+blue_terracotta: BlueStainedClay, 8      = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BlueDye, 2:2
+brown_terracotta: BrownStainedClay, 8     = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BrownDye, 2:2
+cyan_terracotta: CyanStainedClay, 8      = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | CyanDye, 2:2
+gray_terracotta: GrayStainedClay, 8      = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | GrayDye, 2:2
+green_terracotta: GreenStainedClay, 8     = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | GreenDye, 2:2
+light_blue_terracotta: LightBlueStainedClay, 8 = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LightBlueDye, 2:2
+light_gray_terracotta: LightGrayStainedClay, 8 = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LightGrayDye, 2:2
+lime_terracotta: LimeStainedClay, 8      = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | LimeDye, 2:2
+magenta_terracotta: MagentaStainedClay, 8   = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | MagentaDye, 2:2
+orange_terracotta: OrangeStainedClay, 8    = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | OrangeDye, 2:2
+pink_terracotta: PinkStainedClay, 8      = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | PinkDye, 2:2
+RedStainedClay, 8       = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | RedDye, 2:2
+purple_terracotta: VioletStainedClay, 8    = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | VioletDye, 2:2
+WhiteStainedClay, 8     = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | BoneMeal, 2:2
+yellow_terracotta: YellowStainedClay, 8    = HardenedClay, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3 | YellowDye, 2:2
+
+#******************************************************#
+# Enchantment & Brewing
+#
+blaze_powder: BlazePowder, 2     = BlazeRod, *
+brewing_stand: BrewingStand       = Cobblestone, 1:2, 2:2, 3:2 | BlazeRod, 2:1
+cauldron: Cauldron           = IronIngot, 1:1, 3:1, 1:2, 3:2, 1:3, 2:3, 3:3
+enchanting_table: EnchantmentTable   = Obsidian, 1:3, 2:3, 3:3, 2:2 | Diamond, 1:2, 3:2 | Book, 2:1
+fermented_spider_eye: FermentedSpiderEye = SpiderEye, * | Sugar, * | BrownMushroom, *
+glass_bottle: GlassBottle, 3     = Glass, 1:1, 2:2, 3:1
+glistering_melon_slice: GlisteringMelon    = MelonSlice, 2:2 | GoldNugget, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3
+golden_carrot: GoldenCarrot       = Carrot, 2:2 | GoldNugget, 1:1, 1:2, 1:3, 2:1, 2:3, 3:1, 3:2, 3:3
+gold_nugget: GoldNugget, 9      = GoldIngot, *
+magma_cream: MagmaCream         = SlimeBall, * | BlazePowder, *
+
+#******************************************************#
+# Dyed Armor
+# Do not modify
+leather_helmet: LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, *
+LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, * | Dye^-1, *
+LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherHelmet = LeatherHelmet^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+
+leather_chestplate: LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, *
+LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, * | Dye^-1, *
+LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherChestplate = LeatherChestplate^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+
+leather_leggings: LeatherPants = LeatherPants^-1, * | Dye^-1, *
+LeatherPants = LeatherPants^-1, * | Dye^-1, * | Dye^-1, *
+LeatherPants = LeatherPants^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherPants = LeatherPants^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherPants = LeatherPants^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherPants = LeatherPants^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherPants = LeatherPants^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherPants = LeatherPants^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+
+leather_boots: LeatherBoots = LeatherBoots^-1, * | Dye^-1, *
+LeatherBoots = LeatherBoots^-1, * | Dye^-1, * | Dye^-1, *
+LeatherBoots = LeatherBoots^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherBoots = LeatherBoots^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherBoots = LeatherBoots^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherBoots = LeatherBoots^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherBoots = LeatherBoots^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+LeatherBoots = LeatherBoots^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, * | Dye^-1, *
+
+#******************************************************#
+# Fireworks & Co.
+# (Best not to add non-vanilla items to this as it will cause internal firework data handling code to log warnings)
+
+# Ballistic firework rockets - plain and with firework star, all with 1 - 3 gunpowder
+FireworkRocket   = FireworkStar, * | Paper, * | Gunpowder, *
+FireworkRocket   = FireworkStar, * | Paper, * | Gunpowder, * | Gunpowder, *
+FireworkRocket   = FireworkStar, * | Paper, * | Gunpowder, * | Gunpowder, * | Gunpowder, *
+FireworkRocket   = Paper, * | Gunpowder, *
+FireworkRocket   = Paper, * | Gunpowder, * | Gunpowder, *
+FireworkRocket   = Paper, * | Gunpowder, * | Gunpowder, * | Gunpowder, *
+
+# Radioactive firework stars
+# Plain powder and dye
+FireworkStar     = Gunpowder, * | Dye ^-1, *
+
+# Powder and effect, with effect combining
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Glowdust, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Glowdust, * | Diamond, *
+
+# Powder and shape (no shape combining possible)
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Feather, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Firecharge, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Goldnugget, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | SkeletonHead ^-1, *
+
+# Power and shape (no shape combining possible), combined with effect
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Feather, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Feather, * | Glowdust, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Firecharge, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Firecharge, * | Glowdust, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Goldnugget, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Goldnugget, * | Glowdust, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | SkeletonHead ^-1, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | SkeletonHead ^-1, * | Glowdust, *
+
+# Power and shape (no shape combining possible), combined with effect (with effect combining)
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Feather, * | Glowdust, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Firecharge, * | Glowdust, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | Goldnugget, * | Glowdust, * | Diamond, *
+FireworkStar     = Gunpowder, * | Dye ^-1, * | SkeletonHead ^-1, * | Glowdust, * | Diamond, *
+
+# Star fade colour-change
+FireworkStar     = FireworkStar, * | Dye ^-1, *
+FireworkStar     = FireworkStar, * | Dye ^-1, * | Dye ^-1, *
+FireworkStar     = FireworkStar, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, *
+FireworkStar     = FireworkStar, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, *
+FireworkStar     = FireworkStar, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, *
+FireworkStar     = FireworkStar, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, *
+FireworkStar     = FireworkStar, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, *
+FireworkStar     = FireworkStar, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, * | Dye ^-1, *
+
+
+
+#******************************************************#
+# Bed different colors
+Bed^0                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^0, 1:1, 2:1, 3:1
+Bed^0                    = Bed^0, * | WhiteDye, *
+Bed^1                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^1, 1:1, 2:1, 3:1
+Bed^1                    = Bed^0, * | OrangeDye, *
+Bed^2                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^2, 1:1, 2:1, 3:1
+Bed^2                    = Bed^0, * | MagentaDye, *
+Bed^3                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^3, 1:1, 2:1, 3:1
+Bed^3                    = Bed^0, * | LightBlueDye, *
+Bed^4                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^4, 1:1, 2:1, 3:1
+Bed^4                    = Bed^0, * | YellowDye, *
+Bed^5                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^5, 1:1, 2:1, 3:1
+Bed^5                    = Bed^0, * | LimeDye, *
+Bed^6                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^6, 1:1, 2:1, 3:1
+Bed^6                    = Bed^0, * | PinkDye, *
+Bed^7                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^7, 1:1, 2:1, 3:1
+Bed^7                    = Bed^0, * | GrayDye, *
+Bed^8                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^8, 1:1, 2:1, 3:1
+Bed^8                    = Bed^0, * | LightGrayDye, *
+Bed^9                    = Planks^-1, 1:2, 2:2, 3:2 | Wool^9, 1:1, 2:1, 3:1
+Bed^9                    = Bed^0, * | CyanDye, *
+Bed^10                   = Planks^-1, 1:2, 2:2, 3:2 | Wool^10, 1:1, 2:1, 3:1
+Bed^10                   = Bed^0, * | PurpleDye, *
+Bed^11                   = Planks^-1, 1:2, 2:2, 3:2 | Wool^11, 1:1, 2:1, 3:1
+Bed^11                   = Bed^0, * | BlueDye, *
+Bed^12                   = Planks^-1, 1:2, 2:2, 3:2 | Wool^12, 1:1, 2:1, 3:1
+Bed^12                   = Bed^0, * | BrownDye, *
+Bed^13                   = Planks^-1, 1:2, 2:2, 3:2 | Wool^13, 1:1, 2:1, 3:1
+Bed^13                   = Bed^0, * | GreenDye, *
+Bed^14                   = Planks^-1, 1:2, 2:2, 3:2 | Wool^14, 1:1, 2:1, 3:1
+Bed^14                   = Bed^0, * | RedDye, *
+Bed^15                   = Planks^-1, 1:2, 2:2, 3:2 | Wool^15, 1:1, 2:1, 3:1
+Bed^15                   = Bed^0, * | BlackDye, *

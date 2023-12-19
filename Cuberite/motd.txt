@@ -1,0 +1,3 @@
+&6Welcome to the Cuberite test server!
+&6https://cuberite.org/
+&6Type /help for all commands

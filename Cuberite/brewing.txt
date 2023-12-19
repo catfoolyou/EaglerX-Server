@@ -1,0 +1,155 @@
+#*****************#
+# Brewing Recipes #
+#*****************#
+# The time for a brewing recipe is always 20 seconds (400 ticks).
+#
+# Minecraft-Wiki Brewing:
+# https://minecraft.gamepedia.com/Brewing
+#
+# A brewing recipe has this format:
+# Data Value + Ingredient = Potion
+
+
+### Primary ###
+# Akward Potion
+0 + netherwart = 8208
+
+# Mundane Potion
+0 + redstonedust = 8192
+0 + ghasttear = 8192
+0 + glisteringmelon = 8192
+0 + blazepowder = 8192
+0 + magmacream = 8192
+0 + sugar = 8192
+0 + spidereye = 8192
+0 + rabbitsfoot = 8192
+
+# Thick Potion
+0 + glowstonedust = 8224
+
+# Potion of Weakness
+0 + fermentedspidereye = 8200
+
+
+
+
+### Secondary ###
+
+## Positive ##
+
+# Potion of Healing
+8208 + glisteringmelon = 8197
+
+# Potion of Fire Resistance
+8208 + magmacream = 8195
+
+# Potion of Regeneration
+8208 + ghasttear = 8193
+
+# Potion of Strength
+8208 + blazepowder = 8201
+
+# Potion of Swiftness
+8208 + sugar = 8194
+
+# Potion of Night Vision
+8208 + goldencarrot = 8198
+
+# Potion of Water Breathing
+8208 + pufferfish = 8205
+
+# Potion of Leaping
+8208 + rabbitsfoot = 8203
+
+
+## Negative ##
+
+# Potion of Poison
+8208 + spidereye = 8196
+
+# Potion of Weakness (extended)
+8200 + redstonedust = 8264
+
+
+
+
+### Tertiary ###
+
+## Positive ##
+
+# Potion of Fire Resistance (extended)
+8195 + redstonedust = 8259
+
+# Potion of Healing II
+8197 + glowstonedust = 8229
+
+# Potion of Regeneration (extended)
+8193 + redstonedust = 8257
+
+# Potion of Regeneration II
+8193 + glowstonedust = 8225
+
+# Potion of Strength (extended)
+8201 + redstonedust = 8265
+
+# Potion of Strength II
+8201 + glowstonedust = 8233
+
+# Potion of Swiftness (extended)
+8194 + redstonedust = 8258
+
+# Potion of Swiftness II
+8194 + glowstonedust = 8226
+
+# Potion of Night Vision (extended)
+8198 + redstonedust = 8262
+
+# Potion of Invisibility
+8198 + fermentedspidereye = 8206
+
+# Potion of Invisibility (extended)
+8262 + fermentedspidereye = 8270
+
+# Potion of Invisibility (extended)
+8206 + redstonedust = 8270
+
+# Potion of Water Breathing (extended)
+8205 + redstonedust = 8269
+
+# Potion of Leaping II
+8203 + glowstonedust = 8235
+
+# Potion of Leaping (extended)
+8203 + redstonedust = 8267
+
+
+## Negative ##
+
+# Potion of Harming
+8196 + fermentedspidereye = 8204
+8197 + fermentedspidereye = 8204
+8260 + fermentedspidereye = 8204
+
+# Potion of Harming II
+8228 + fermentedspidereye = 8236
+8229 + fermentedspidereye = 8236
+
+# Potion of Harming II
+8204 + glowstonedust = 8236
+
+# Potion of Poison (extended)
+8196 + redstonedust = 8260
+
+# Potion of Poison II
+8196 + glowstonedust = 8228
+
+# Potion of Slowness
+8194 + fermentedspidereye = 8202
+8203 + fermentedspidereye = 8202
+
+# Potion of Slowness (extended)
+8202 + redstonedust = 8266
+
+# Potion of Slowness (extended)
+8258 + fermentedspidereye = 8266
+8267 + fermentedspidereye = 8266

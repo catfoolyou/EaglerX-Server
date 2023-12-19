@@ -1,0 +1,87 @@
+     [01:23:15] --- Started Log ---
+     [01:23:15] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [01:23:15] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [01:23:15] Creating new server instance...
+     [01:23:15] Reading server config...
+     [01:23:15] Starting server...
+Info [01:23:15] Compatible clients: 1.8.x-1.14.4
+Warn [01:23:15] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [01:23:15] Loaded 789 crafting recipes
+     [01:23:15] Loaded 1.12.2 380 recipe book
+Warn [01:23:15] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [01:23:15] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [01:23:15] Loaded 67 furnace recipes and 66 fuels
+     [01:23:15] Loaded 49 brewing recipes
+Warn [01:23:15] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [01:23:15] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:23:15] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:23:15] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [01:23:15] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [01:23:15] -- Loading Plugins --
+     [01:23:15] [Core] Initialised!
+     [01:23:15] [ChatLog] Initialized ChatLog v.3
+     [01:23:15] -- Loaded 2 Plugins --
+     [01:23:16] Preparing spawn (world): 8.25% (33/400; 33.00 chunks / sec)
+     [01:23:17] Preparing spawn (world): 60.50% (242/400; 208.58 chunks / sec)
+Warn [01:23:18] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [01:23:19] Preparing spawn (world_nether): 30.25% (121/400; 119.45 chunks / sec)
+     [01:23:20] Preparing spawn (world_nether): 66.75% (267/400; 145.42 chunks / sec)
+Warn [01:23:21] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [01:23:21] Startup complete, took 6191ms!
+     [01:31:15] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [01:31:15] Player "ol123wwwwwwwwwww" (11f09553760832058fd591328a1433af) save or statistics file not found, resetting to defaults
+Info [01:31:15] Player ol123wwwwwwwwwww has joined the game
+Warn [01:31:16] AddEntity: Entity at 0x7f041c050810 (cPlayer, ID 232) spawning in a non-existent chunk.
+Info [01:31:30] Player ol123wwwwwwwwwww has left the game
+     [01:31:34] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:31:34] Player ol123wwwwwwwwwww has joined the game
+Info [01:31:49] Player ol123wwwwwwwwwww has left the game
+     [01:31:59] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:31:59] Player ol123wwwwwwwwwww has joined the game
+Warn [01:31:59] AddEntity: Entity at 0x7f041c0fb5b0 (cPlayer, ID 490) spawning in a non-existent chunk.
+Info [01:32:13] Player ol123wwwwwwwwwww has left the game
+     [01:32:20] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:32:20] Player ol123wwwwwwwwwww has joined the game
+Info [01:32:35] Player ol123wwwwwwwwwww has left the game
+     [01:34:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:34:00] Player ol123wwwwwwwwwww has joined the game
+Warn [01:34:00] AddEntity: Entity at 0x7f041c04c470 (cPlayer, ID 783) spawning in a non-existent chunk.
+Info [01:34:15] Player ol123wwwwwwwwwww has left the game
+     [01:43:05] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:43:05] Player ol123wwwwwwwwwww has joined the game
+Warn [01:43:05] AddEntity: Entity at 0x7f041c0fdfe0 (cPlayer, ID 1001) spawning in a non-existent chunk.
+Info [01:43:20] Player ol123wwwwwwwwwww has left the game
+     [01:43:26] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:43:26] Player ol123wwwwwwwwwww has joined the game
+Info [01:43:32] Player ol123wwwwwwwwwww has left the game
+     [01:44:21] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:44:21] Player ol123wwwwwwwwwww has joined the game
+Warn [01:44:21] AddEntity: Entity at 0x7f041c0fdfe0 (cPlayer, ID 1368) spawning in a non-existent chunk.
+Info [01:44:36] Player ol123wwwwwwwwwww has left the game
+     [01:47:11] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:47:11] Player ol123wwwwwwwwwww has joined the game
+Info [01:47:26] Player ol123wwwwwwwwwww has left the game
+     [01:49:01] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:49:01] Player ol123wwwwwwwwwww has joined the game
+Warn [01:49:01] AddEntity: Entity at 0x7f041c066a50 (cPlayer, ID 1746) spawning in a non-existent chunk.
+Info [01:49:05] Player ol123wwwwwwwwwww has left the game
+     [02:02:39] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [02:02:39] Player "DeltaClips0" (bdc149746eaf3dc3bacedb26e8f3a19b) save or statistics file not found, resetting to defaults
+Info [02:02:39] Player DeltaClips0 has joined the game
+Warn [02:02:39] AddEntity: Entity at 0x7f041c05de20 (cPlayer, ID 1901) spawning in a non-existent chunk.
+Info [02:06:35] Player DeltaClips0 has left the game
+     [02:10:59] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:10:59] Player DeltaClips0 has joined the game
+Warn [02:10:59] AddEntity: Entity at 0x7f041c03adc0 (cPlayer, ID 1932) spawning in a non-existent chunk.
+Info [02:15:05] Player DeltaClips0 has left the game
+     [02:16:45] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:16:45] Player ol123wwwwwwwwwww has joined the game
+Warn [02:16:45] AddEntity: Entity at 0x7f041c004220 (cPlayer, ID 1955) spawning in a non-existent chunk.
+Info [02:16:59] Player ol123wwwwwwwwwww has left the game
+     [02:18:46] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:18:46] Player DeltaClips0 has joined the game
+Info [02:20:44] Player DeltaClips0 has left the game
+     [02:29:39] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [02:29:39] Player "733402" (226bc4a1e5e83cdeaf64cdcc2f41350c) save or statistics file not found, resetting to defaults
+Info [02:29:39] Player 733402 has joined the game
+Warn [02:29:39] AddEntity: Entity at 0x7f041c049780 (cPlayer, ID 2229) spawning in a non-existent chunk.

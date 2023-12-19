@@ -1,0 +1,55 @@
+     [21:57:19] --- Started Log ---
+     [21:57:19] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [21:57:19] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [21:57:19] Creating new server instance...
+     [21:57:19] Reading server config...
+     [21:57:19] Starting server...
+Info [21:57:19] Compatible clients: 1.8.x-1.14.4
+Warn [21:57:19] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [21:57:19] Loaded 789 crafting recipes
+     [21:57:19] Loaded 1.12.2 380 recipe book
+Warn [21:57:19] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [21:57:19] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [21:57:19] Loaded 67 furnace recipes and 66 fuels
+     [21:57:19] Loaded 49 brewing recipes
+Warn [21:57:19] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:57:19] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:57:19] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:57:19] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:57:19] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [21:57:19] -- Loading Plugins --
+     [21:57:20] [Core] Initialised!
+     [21:57:20] [ChatLog] Initialized ChatLog v.3
+     [21:57:20] -- Loaded 2 Plugins --
+     [21:57:21] Preparing spawn (world): 1.50% (6/400; 5.74 chunks / sec)
+     [21:57:22] Preparing spawn (world): 29.00% (116/400; 109.45 chunks / sec)
+     [21:57:23] Preparing spawn (world): 67.75% (271/400; 149.18 chunks / sec)
+Warn [21:57:23] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [21:57:24] Preparing spawn (world_nether): 18.25% (73/400; 72.93 chunks / sec)
+     [21:57:25] Preparing spawn (world_nether): 50.50% (202/400; 127.09 chunks / sec)
+     [21:57:26] Preparing spawn (world_nether): 89.50% (358/400; 154.76 chunks / sec)
+     [21:57:28] Preparing spawn (world_the_end): 68.50% (274/400; 272.64 chunks / sec)
+Warn [21:57:28] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [21:57:28] Startup complete, took 9108ms!
+     [21:57:46] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:57:46] Player gavino has joined the game
+Warn [21:57:46] AddEntity: Entity at 0x7fa44401af50 (cPlayer, ID 227) spawning in a non-existent chunk.
+     [21:57:48] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:57:48] Player lele has joined the game
+Warn [21:57:48] AddEntity: Entity at 0x7fa4440389a0 (cPlayer, ID 263) spawning in a non-existent chunk.
+     [21:58:09] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:58:09] Player jayce has joined the game
+     [21:58:41] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:58:41] Player Im_kinda_trash has joined the game
+Warn [21:58:41] AddEntity: Entity at 0x7fa444065630 (cPlayer, ID 356) spawning in a non-existent chunk.
+Info [21:59:19] [ChatLog] [Im_kinda_trash]: i was talking to the kid who said stu
+Info [21:59:27] [ChatLog] [Im_kinda_trash]: stfu*
+Info [21:59:39] [ChatLog] [jayce]: swooryy
+Info [22:01:27] [ChatLog] [Im_kinda_trash]: how are u guys dying
+     [22:01:37] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:01:37] Player daniel has joined the game
+Info [22:01:58] [ChatLog] [lele]: kinda,you meet this daniel?
+Info [22:02:08] [ChatLog] [daniel]: who lele
+Info [22:02:16] [ChatLog] [daniel]: t
+Info [22:02:40] [ChatLog] [gavino]: tw            /
+Warn [22:02:42] MoveEntityToNewChunk: Entity at 0x7fa474ba9a70 (cCow, ID 418) moving to a non-existent chunk.

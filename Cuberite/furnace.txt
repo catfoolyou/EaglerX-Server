@@ -1,0 +1,188 @@
+#*****************#
+# Furnace Recipes #
+#*****************#
+#
+#
+#******************************************************#
+#                Basic Notation Help
+#
+# **** Item Definition ****
+# An Item is defined by an Item Type, an amount (and damage)
+# The damage is optional, and if not specified it's assumed to be 0.
+# If a damage of -1 is specified, then the damage won't be checked when matching recipes.
+# Note that when specifying items using names from items.ini, those already contain the damage value in them,
+# so the damage value doesn't need to be specified here.
+#
+# Cactus Green example:
+#    351     :   2    ( ,   1    )
+#   ItemType : Damage ( , Amount )
+# or simple use the item name (marked in items.ini):
+#   CactusGreen ( , 1 )
+#
+#
+# **** Recipe and result ****
+#
+# Cobble @ 200 = Stone $ 15    -> Produces 1 smooth stone from 1 cobblestone in 200 ticks (10 seconds). Rewards 15 experience.
+#
+# Write in full:
+#    Cobble  :   0    ,   1    @  200  =    1     :   1    ,   1     $    10
+#   ItemType : Damage , Amount @ ticks = ItemType : Damage , Amount  $ Experience 
+#
+#   If the experience parameter isn't included, experience reward will default to zero.
+#
+# **** Fuel ****
+#
+# !17:1 = 300 -> 1 Wood burns for 300 ticks (15 s)
+#
+#  !     Wood   ,   1    =  300
+# Fuel ItemType , Amount = ticks
+#
+#******************************************************#
+
+
+
+
+
+#--------------------------
+# Smelting recipes
+
+Beef                   = Steak                              $ 0.35
+BlackTerracotta        = BlackGlazedTerracotta              $ 0.1
+BlueTerracotta         = BlueGlazedTerracotta               $ 0.1
+BrownTerracotta        = BrownGlazedTerracotta              $ 0.10
+Cactus                 = CactusGreen                        $ 0.2
+ChainmailBoots:-1      = IronNugget                         $ 0.1
+ChainmailChestplate:-1 = IronNugget                         $ 0.1
+ChainmailHelmet:-1     = IronNugget                         $ 0.1
+ChainmailLeggings:-1   = IronNugget                         $ 0.1
+Chicken                = CookedChicken                      $ 0.35
+ChorusFruit            = PoppedChorusFruit                  $ 0.1
+Clay                   = Brick                              $ 0.3
+ClayBlock              = HardenedClay                       $ 0.35
+CoalOre                = Coal                               $ 0.1
+Cobblestone            = Stone                              $ 0.1
+CyanTerracotta         = CyanGlazedTerracotta               $ 0.1
+DiamondOre             = Diamond                            $ 1.0
+EmeraldOre             = Emerald                            $ 1.0
+Fish                   = CookedFish                         $ 0.35
+GoldOre                = GoldIngot                          $ 1.0
+GoldAxe:-1             = GoldNugget                         $ 0.1
+GoldBoots:-1           = GoldNugget                         $ 0.1
+GoldChestplate:-1      = GoldNugget                         $ 0.1
+GoldHorseArmor:-1      = GoldNugget                         $ 0.1
+GoldHelmet:-1          = GoldNugget                         $ 0.1
+GoldHoe:-1             = GoldNugget                         $ 0.1
+GoldPants:-1           = GoldNugget                         $ 0.1
+GoldPickaxe:-1         = GoldNugget                         $ 0.1
+GoldShovel:-1          = GoldNugget                         $ 0.1
+GoldSword:-1           = GoldNugget                         $ 0.1
+GrayTerracotta         = GrayGlazedTerracotta               $ 0.1
+GreenTerracotta        = GreenGlazedTerracotta              $ 0.1
+IronOre                = IronIngot                          $ 0.7
+IronAxe:-1             = IronNugget                         $ 0.1
+IronBoots:-1           = IronNugget                         $ 0.1
+IronChestplate:-1      = IronNugget                         $ 0.1
+IronHorseArmor:-1      = IronNugget                         $ 0.1
+IronHelmet:-1          = IronNugget                         $ 0.1
+IronHoe:-1             = IronNugget                         $ 0.1
+IronLeggings:-1        = IronNugget                         $ 0.1
+IronPickaxe:-1         = IronNugget                         $ 0.1
+IronShovel:-1          = IronNugget                         $ 0.1
+IronSword:-1           = IronNugget                         $ 0.1
+LapisOre               = LapisLazuli                        $ 0.2
+LightBlueTerracotta    = LightBlueGlazedTerracotta          $ 0.1
+LightGrayTerracotta    = LightGrayGlazedTerracotta          $ 0.1
+LimeTerracotta         = LimeGlazedTerracotta               $ 0.1
+Log:-1                 = CharCoal                           $ 0.15
+Log2:-1                = CharCoal                           $ 0.15
+MagentaTerracotta      = MagentaGlazedTerracotta            $ 0.1
+Mutton                 = CookedMutton                       $ 0.35
+NetherQuartzOre        = NetherQuartz                       $ 0.2
+Netherrack             = NetherBrick                        $ 0.1
+OrangeTerracotta       = OrangeGlazedTerracotta             $ 0.1
+PinkTerracotta         = PinkGlazedTerracotta               $ 0.1
+Porkchop               = CookedPorkchop                     $ 0.35
+Potato                 = BakedPotato                        $ 0.35
+PurpleTerracotta       = PurpleGlazedTerracotta             $ 0.1
+Rabbit                 = CookedRabbit                       $ 0.35
+RedTerracotta          = RedGlazedTerracotta                $ 0.1
+RedstoneOre            = Redstone                           $ 0.7
+Salmon                 = CookedSalmon                       $ 0.35
+Sand                   = Glass                              $ 0.1
+StoneBrick             = CrackedStoneBricks                 $ 0.1
+WetSponge              = Sponge                             $ 0.15
+WhiteTerracotta        = WhiteGlazedTerracotta              $ 0.1
+YellowTerracotta       = YellowGlazedTerracotta             $ 0.1
+
+
+
+
+#--------------------------
+# Fuels
+
+! AcaciaBoat      = 400    # -> 20 sec
+! AcaciaDoor      = 200    # -> 10 sec
+! AcaciaFence     = 300    # -> 15 sec
+! AcaciaFenceGate = 300    # -> 15 sec
+! AcaciaStairs    = 300    # -> 15 sec
+! Banner          = 300    # -> 15 sec
+! BirchBoat       = 400    # -> 20 sec
+! BirchDoor       = 200    # -> 10 sec
+! BirchFence      = 300    # -> 15 sec
+! BirchFenceGate  = 300    # -> 15 sec
+! BirchStairs     = 300    # -> 15 sec
+! BlazeRod        = 2400   # -> 120 sec
+! Boat            = 400    # -> 20 sec
+! Bookshelf       = 300    # -> 15 sec
+! Bow             = 300    # -> 15 sec
+! Bowl            = 100    # -> 5 sec
+! BrownMushroomBlock = 300 # -> 15 sec
+! Carpet          = 67     # -> 3.35 sec
+! CharCoal        = 1600   # -> 80 sec
+! Chest           = 300    # -> 15 sec
+! Coal            = 1600   # -> 80 sec
+! CoalBlock       = 16000  # -> 800 sec
+! CraftingTable   = 300    # -> 15 sec
+! DarkOakBoat     = 400    # -> 20 sec
+! DarkOakDoor     = 200    # -> 10 sec
+! DarkOakFence    = 300    # -> 15 sec
+! DarkOakFenceGate = 300   # -> 15 sec
+! DarkOakStairs   = 300    # -> 15 sec
+! DaylightSensor  = 300    # -> 15 sec
+! Fence           = 300    # -> 15 sec
+! FenceGate       = 300    # -> 15 sec
+! FishingRod      = 300    # -> 15 sec
+! Jukebox         = 300    # -> 15 sec
+! JungleBoat      = 400    # -> 20 sec
+! JungleDoor      = 200    # -> 10 sec
+! JungleFence     = 300    # -> 15 sec
+! JungleFenceGate = 300    # -> 15 sec
+! JungleStairs    = 300    # -> 15 sec
+! Ladder          = 300    # -> 15 sec
+! Lavabucket      = 20000  # -> 1000 sec
+! Log             = 300    # -> 15 sec
+! Log2            = 300    # -> 15 sec
+! NoteBlock       = 300    # -> 15 sec
+! OakStairs       = 300    # -> 15 sec
+! Planks          = 300    # -> 15 sec
+! RedMushroomBlock = 300   # -> 15 sec
+! Sapling         = 100    # -> 5 sec
+! Sign            = 200    # -> 10 sec
+! SpruceBoat      = 400    # -> 20 sec
+! SpruceDoor      = 200    # -> 10 sec
+! SpruceFence     = 300    # -> 15 sec
+! SpruceFenceGate = 300    # -> 15 sec
+! SpruceStairs    = 300    # -> 15 sec
+! Stick           = 100    # -> 5 sec
+! Trapdoor        = 300    # -> 15 sec
+! TrappedChest    = 300    # -> 15 sec
+! WoodenAxe       = 200    # -> 10 sec
+! WoodenButton    = 100    # -> 5 sec
+! WoodenDoor      = 200    # -> 10 sec
+! WoodenHoe       = 200    # -> 10 sec
+! WoodenPressurePlate = 300 # -> 15 sec
+! WoodenPickaxe   = 200    # -> 10 sec
+! WoodenSlab      = 150    # -> 7.5 sec
+! WoodenShovel    = 200    # -> 10 sec
+! WoodenSword     = 200    # -> 10 sec
+! Wool            = 100    # -> 5 sec

@@ -1,0 +1,69 @@
+     [21:33:01] --- Started Log ---
+     [21:33:01] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [21:33:01] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [21:33:01] Creating new server instance...
+     [21:33:01] Reading server config...
+     [21:33:01] Starting server...
+Info [21:33:01] Compatible clients: 1.8.x-1.14.4
+Warn [21:33:01] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [21:33:02] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [21:33:02] WebServer: The server will run in unsecured HTTP mode.
+Info [21:33:02] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [21:33:02] Loaded 789 crafting recipes
+     [21:33:02] Loaded 1.12.2 380 recipe book
+Warn [21:33:02] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [21:33:02] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [21:33:02] Loaded 67 furnace recipes and 66 fuels
+     [21:33:02] Loaded 49 brewing recipes
+Warn [21:33:02] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:33:02] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:33:02] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:33:02] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:33:02] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [21:33:02] -- Loading Plugins --
+     [21:33:02] [Core] Initialised!
+     [21:33:02] [ChatLog] Initialized ChatLog v.3
+     [21:33:02] -- Loaded 2 Plugins --
+     [21:33:03] Preparing spawn (world): 24.00% (96/400; 95.05 chunks / sec)
+     [21:33:04] Preparing spawn (world): 51.00% (204/400; 107.89 chunks / sec)
+     [21:33:05] Preparing spawn (world): 70.25% (281/400; 72.71 chunks / sec)
+Warn [21:33:06] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [21:33:07] Preparing spawn (world_nether): 11.50% (46/400; 45.05 chunks / sec)
+     [21:33:08] Preparing spawn (world_nether): 40.00% (160/400; 101.97 chunks / sec)
+     [21:33:09] Preparing spawn (world_nether): 48.50% (194/400; 32.57 chunks / sec)
+Warn [21:33:11] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+Info [21:33:11] WebAdmin is running on port(s) 9098
+     [21:33:11] Startup complete, took 9549ms!
+     [21:34:42] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:34:42] Player Balls has joined the game
+Warn [21:34:42] AddEntity: Entity at 0x7facfc02a4a0 (cPlayer, ID 209) spawning in a non-existent chunk.
+Info [21:34:47] [ChatLog] [Balls]: yo
+Info [21:35:11] [ChatLog] [Balls]: what's yalls coords?
+Info [21:36:00] Player Balls has left the game
+     [21:38:41] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:38:41] Player josh2009 has joined the game
+Warn [21:38:41] AddEntity: Entity at 0x7facfc01d5c0 (cPlayer, ID 275) spawning in a non-existent chunk.
+Info [21:40:34] Player josh2009 has left the game
+     [21:40:51] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:40:51] Player yes has joined the game
+Warn [21:40:51] AddEntity: Entity at 0x7facfc03fda0 (cPlayer, ID 410) spawning in a non-existent chunk.
+     [21:41:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:41:00] Player imfriendliiy has joined the game
+Warn [21:41:00] AddEntity: Entity at 0x7facfc013ee0 (cPlayer, ID 449) spawning in a non-existent chunk.
+Info [21:49:47] Player imfriendliiy has left the game
+     [21:50:19] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:50:19] Player imfriendliiy has joined the game
+Info [21:50:23] Player yes has left the game
+Warn [21:50:29] Clicked: Wrong window ID (exp 20, got 18) received from "imfriendliiy"; ignoring click.
+Warn [21:50:31] Clicked: Wrong window ID (exp 20, got 19) received from "imfriendliiy"; ignoring click.
+Info [21:50:43] Player imfriendliiy has left the game
+     [21:51:16] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:51:16] Player imfriendliiy has joined the game
+Info [21:51:31] Player imfriendliiy has left the game
+     [21:51:34] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:51:35] Player imfriendliiy has joined the game
+Warn [21:51:39] Clicked: Wrong window ID (exp 29, got 28) received from "imfriendliiy"; ignoring click.
+Info [21:52:04] Player imfriendliiy has left the game
+     [21:55:11] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:55:11] Player imfriendliiy has joined the game
+Warn [21:55:11] AddEntity: Entity at 0x7facfc03e4e0 (cPlayer, ID 1291) spawning in a non-existent chunk.

@@ -1,0 +1,188 @@
+     [19:58:06] --- Started Log ---
+     [19:58:06] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [19:58:06] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [19:58:06] Creating new server instance...
+     [19:58:06] Reading server config...
+     [19:58:06] Starting server...
+Info [19:58:06] Compatible clients: 1.8.x-1.14.4
+Warn [19:58:06] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [19:58:06] Loaded 789 crafting recipes
+     [19:58:06] Loaded 1.12.2 380 recipe book
+Warn [19:58:06] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [19:58:06] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [19:58:06] Loaded 67 furnace recipes and 66 fuels
+     [19:58:06] Loaded 49 brewing recipes
+Warn [19:58:06] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [19:58:06] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [19:58:06] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [19:58:07] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [19:58:07] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [19:58:07] -- Loading Plugins --
+     [19:58:07] [Core] Initialised!
+     [19:58:07] [ChatLog] Initialized ChatLog v.3
+     [19:58:07] -- Loaded 2 Plugins --
+     [19:58:08] Preparing spawn (world): 30.00% (120/400; 119.40 chunks / sec)
+     [19:58:09] Preparing spawn (world): 45.50% (182/400; 57.51 chunks / sec)
+     [19:58:10] Preparing spawn (world): 60.75% (243/400; 60.58 chunks / sec)
+     [19:58:11] Preparing spawn (world): 96.75% (387/400; 140.62 chunks / sec)
+Warn [19:58:11] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [19:58:12] Preparing spawn (world_nether): 19.50% (78/400; 76.47 chunks / sec)
+     [19:58:13] Preparing spawn (world_nether): 47.75% (191/400; 87.94 chunks / sec)
+Warn [19:58:15] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [19:58:15] Startup complete, took 8736ms!
+     [19:58:28] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:58:28] Player Gustavo_Fring696 has joined the game
+Warn [19:58:28] AddEntity: Entity at 0x7f851c019080 (cPlayer, ID 207) spawning in a non-existent chunk.
+     [19:59:07] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:59:07] Player Goatguy467 has joined the game
+     [20:01:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:01:25] Player GalaxyLuck20 has joined the game
+Warn [20:01:25] AddEntity: Entity at 0x7f851c075460 (cPlayer, ID 475) spawning in a non-existent chunk.
+Info [20:01:32] [ChatLog] [GalaxyLuck20]: I'm back
+Info [20:01:36] [ChatLog] [Gustavo_Fring696]: w
+Info [20:01:43] [ChatLog] [Gustavo_Fring696]: what score did u get on iready
+Info [20:01:55] [ChatLog] [GalaxyLuck20]: the exact same score from the first
+Info [20:02:01] [ChatLog] [GalaxyLuck20]: 527
+Info [20:02:06] [ChatLog] [Gustavo_Fring696]: w
+Info [20:04:15] [ChatLog] [Gustavo_Fring696]: so how u doin luck
+Info [20:04:19] [ChatLog] [GalaxyLuck20]: great
+Info [20:04:32] [ChatLog] [GalaxyLuck20]: still working on my snchant setup
+Info [20:04:48] [ChatLog] [Gustavo_Fring696]: w
+Info [20:05:02] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:03] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:05] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:06] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:06] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:07] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:08] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:08] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:09] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:10] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:11] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:12] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:12] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:13] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:13] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:14] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:15] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:15] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:16] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:16] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:17] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:17] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:18] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:19] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:19] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:20] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:21] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:21] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:22] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:22] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:22] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:23] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:23] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:24] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:24] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:24] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:25] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:25] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:25] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:25] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:26] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:26] [ChatLog] [Gustavo_Fring696]: 210 allen ct maryville tennessee 37804
+Info [20:05:26] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:27] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:27] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:28] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:28] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:29] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:29] [ChatLog] [GalaxyLuck20]: whos address is that?
+Info [20:05:34] [ChatLog] [Gustavo_Fring696]: stevens
+Info [20:05:37] [ChatLog] [GalaxyLuck20]: W
+Info [20:05:39] [ChatLog] [Goatguy467]: stevens
+Info [20:05:53] [ChatLog] [Gustavo_Fring696]: stevens
+Info [20:06:26] [ChatLog] [GalaxyLuck20]: dude I need enough for one book and I have my 5th Bshelf
+Info [20:06:30] [ChatLog] [Gustavo_Fring696]: w
+Warn [20:08:54] MoveEntityToNewChunk: Entity at 0x7f854c22bea0 (cChicken, ID 917) moving to a non-existent chunk.
+Warn [20:12:57] MoveEntityToNewChunk: Entity at 0x7f8546efd380 (cCreeper, ID 976) moving to a non-existent chunk.
+Info [20:17:12] Player Gustavo_Fring696 has left the game
+     [20:17:30] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:17:30] Player Gustavo_Fring696 has joined the game
+Info [20:17:42] Player GalaxyLuck20 has left the game
+Info [20:17:59] Player Gustavo_Fring696 has left the game
+Info [20:19:01] Player Goatguy467 has left the game
+     [21:11:26] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:11:26] Player Im_kinda_trash has joined the game
+Warn [21:11:26] AddEntity: Entity at 0x7f851c202960 (cPlayer, ID 1332) spawning in a non-existent chunk.
+Info [21:12:58] Player Im_kinda_trash has left the game
+     [21:13:18] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:13:18] Player Galaxyluck20 has joined the game
+Info [21:13:22] Player Galaxyluck20 has left the game
+     [21:13:30] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:13:30] Player GalaxyLuck20 has joined the game
+Warn [21:13:30] AddEntity: Entity at 0x7f851c14a420 (cPlayer, ID 1416) spawning in a non-existent chunk.
+Info [21:13:42] Player GalaxyLuck20 has left the game
+     [21:13:46] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:13:46] Player GalaxyLuck20 has joined the game
+Warn [21:13:46] AddEntity: Entity at 0x7f851c0a1780 (cPlayer, ID 1432) spawning in a non-existent chunk.
+Info [21:14:19] Player GalaxyLuck20 has left the game
+     [21:14:49] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:14:49] Player Gustavo_Fring696 has joined the game
+Warn [21:14:49] AddEntity: Entity at 0x7f851c05d560 (cPlayer, ID 1446) spawning in a non-existent chunk.
+Info [21:15:11] Player Gustavo_Fring696 has left the game
+     [21:20:59] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:20:59] Player "Goatguy479" (aa2b28b749ab331889f8831de657ad13) save or statistics file not found, resetting to defaults
+Info [21:20:59] Player Goatguy479 has joined the game
+Warn [21:20:59] AddEntity: Entity at 0x7f851c05d560 (cPlayer, ID 1461) spawning in a non-existent chunk.
+Info [21:21:01] Player Goatguy479 has left the game
+     [21:21:11] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:21:11] Player "Goatguy419" (48822340b59c36388bf9f6b481627110) save or statistics file not found, resetting to defaults
+Info [21:21:11] Player Goatguy419 has joined the game
+Warn [21:21:11] AddEntity: Entity at 0x7f851c05d560 (cPlayer, ID 1476) spawning in a non-existent chunk.
+Info [21:21:13] Player Goatguy419 has left the game
+     [21:21:21] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:21:21] Player "Goatguy417" (fdbc9b9cc9643c818ffcaeefdf7dacef) save or statistics file not found, resetting to defaults
+Info [21:21:21] Player Goatguy417 has joined the game
+Warn [21:21:21] AddEntity: Entity at 0x7f851c05d560 (cPlayer, ID 1491) spawning in a non-existent chunk.
+Info [21:21:23] Player Goatguy417 has left the game
+     [21:21:50] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:21:50] Player "codemittens" (67da329f96df332ca1948aa7da676b08) save or statistics file not found, resetting to defaults
+Info [21:21:50] Player codemittens has joined the game
+Warn [21:21:50] AddEntity: Entity at 0x7f851c05d560 (cPlayer, ID 1506) spawning in a non-existent chunk.
+Info [21:21:54] Player codemittens has left the game
+     [21:22:05] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:22:05] Player Codemittens has joined the game
+Warn [21:22:05] AddEntity: Entity at 0x7f851c05d560 (cPlayer, ID 1522) spawning in a non-existent chunk.
+Info [21:22:10] Player Codemittens has left the game
+     [21:23:10] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:23:10] Player Goatguy467 has joined the game
+Warn [21:23:10] AddEntity: Entity at 0x7f851c05d560 (cPlayer, ID 1537) spawning in a non-existent chunk.
+Info [21:23:33] Player Goatguy467 has left the game
+     [21:23:47] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:23:47] Player Im_kinda_trash has joined the game
+Warn [21:23:47] AddEntity: Entity at 0x7f851c04bf90 (cPlayer, ID 1549) spawning in a non-existent chunk.
+Info [21:27:14] Player Im_kinda_trash has left the game
+     [21:27:30] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:27:30] Player Gustavo_Fring696 has joined the game
+Warn [21:27:30] AddEntity: Entity at 0x7f851c0efa60 (cPlayer, ID 1636) spawning in a non-existent chunk.
+Info [21:27:33] Player Gustavo_Fring696 has left the game
+     [21:28:03] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:28:03] Player Im_kinda_trash has joined the game
+Info [21:39:02] Player Im_kinda_trash has left the game
+     [21:39:05] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:39:05] Player Im_kinda_trash has joined the game
+Info [21:39:10] Player Im_kinda_trash has left the game
+     [21:40:44] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:40:44] Player Im_kinda_trash has joined the game
+Warn [21:40:44] AddEntity: Entity at 0x7f851c04bf90 (cPlayer, ID 1714) spawning in a non-existent chunk.
+Info [21:42:57] Player Im_kinda_trash has left the game
+     [21:43:18] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:43:18] Player Gustavo_Fring696 has joined the game
+Warn [21:43:18] AddEntity: Entity at 0x7f851c08f840 (cPlayer, ID 1743) spawning in a non-existent chunk.
+Info [21:43:22] Player Gustavo_Fring696 has left the game
+     [21:43:37] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:43:37] Player Im_kinda_trash has joined the game
+Info [21:45:19] Player Im_kinda_trash has left the game
+     [21:45:34] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:45:34] Player GalaxyLuck20 has joined the game
+Warn [21:45:34] AddEntity: Entity at 0x7f851c08a530 (cPlayer, ID 1767) spawning in a non-existent chunk.

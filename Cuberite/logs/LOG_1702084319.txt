@@ -1,0 +1,51 @@
+     [01:11:59] --- Started Log ---
+     [01:11:59] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [01:11:59] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [01:11:59] Creating new server instance...
+     [01:11:59] Reading server config...
+     [01:11:59] Starting server...
+Info [01:11:59] Compatible clients: 1.8.x-1.14.4
+Warn [01:11:59] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [01:11:59] Loaded 789 crafting recipes
+     [01:11:59] Loaded 1.12.2 380 recipe book
+Warn [01:11:59] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [01:11:59] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [01:11:59] Loaded 67 furnace recipes and 66 fuels
+     [01:11:59] Loaded 49 brewing recipes
+Warn [01:11:59] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [01:11:59] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:11:59] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:11:59] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [01:11:59] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [01:11:59] -- Loading Plugins --
+     [01:11:59] [Core] Initialised!
+     [01:11:59] [ChatLog] Initialized ChatLog v.3
+     [01:11:59] -- Loaded 2 Plugins --
+     [01:12:00] Preparing spawn (world): 38.00% (152/400; 150.64 chunks / sec)
+     [01:12:01] Preparing spawn (world): 68.75% (275/400; 122.02 chunks / sec)
+Warn [01:12:02] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [01:12:03] Preparing spawn (world_nether): 14.00% (56/400; 54.37 chunks / sec)
+     [01:12:04] Preparing spawn (world_nether): 42.00% (168/400; 109.16 chunks / sec)
+     [01:12:05] Preparing spawn (world_nether): 69.25% (277/400; 83.59 chunks / sec)
+     [01:12:06] Preparing spawn (world_the_end): 61.25% (245/400; 245.00 chunks / sec)
+Warn [01:12:07] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [01:12:07] Startup complete, took 8120ms!
+     [01:12:58] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:12:58] Player daniel has joined the game
+Warn [01:12:58] AddEntity: Entity at 0x7fc4b80227d0 (cPlayer, ID 214) spawning in a non-existent chunk.
+Warn [01:13:00] MoveEntityToNewChunk: Entity at 0x7fc4e04999d0 (cZombie, ID 259) moving to a non-existent chunk.
+Warn [01:50:17] MoveEntityToNewChunk: Entity at 0x7fc4e05a7d40 (cHorse, ID 1902) moving to a non-existent chunk.
+Info [02:04:23] Player daniel has left the game
+     [02:04:55] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [02:04:55] Player "daniele" (98a88ea2ecc4396c93f759118f1f0ea9) save or statistics file not found, resetting to defaults
+Info [02:04:55] Player daniele has joined the game
+Info [02:05:08] Player daniele has left the game
+     [02:05:10] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:05:10] Player daniele has joined the game
+Info [02:08:30] Player daniele has left the game
+     [02:08:32] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:08:32] Player daniele has joined the game
+Info [02:09:36] Player daniele has left the game
+     [02:09:37] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:09:37] Player daniele has joined the game
+Warn [02:11:45] MoveEntityToNewChunk: Entity at 0x7fc4e0372f20 (cBat, ID 2905) moving to a non-existent chunk.

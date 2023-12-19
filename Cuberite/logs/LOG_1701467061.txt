@@ -1,0 +1,47 @@
+     [21:44:21] --- Started Log ---
+     [21:44:21] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [21:44:21] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [21:44:21] Creating new server instance...
+     [21:44:21] Reading server config...
+     [21:44:21] Starting server...
+Info [21:44:21] Compatible clients: 1.8.x-1.14.4
+Warn [21:44:21] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [21:44:21] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [21:44:21] WebServer: The server will run in unsecured HTTP mode.
+Info [21:44:21] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [21:44:21] Loaded 789 crafting recipes
+     [21:44:21] Loaded 1.12.2 380 recipe book
+Warn [21:44:21] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [21:44:21] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [21:44:21] Loaded 67 furnace recipes and 66 fuels
+     [21:44:21] Loaded 49 brewing recipes
+Warn [21:44:21] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:44:21] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:44:21] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:44:21] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:44:21] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [21:44:21] -- Loading Plugins --
+     [21:44:22] [Core] Initialised!
+     [21:44:22] [ChatLog] Initialized ChatLog v.3
+     [21:44:22] -- Loaded 2 Plugins --
+     [21:44:23] Preparing spawn (world): 3.25% (13/400; 12.78 chunks / sec)
+     [21:44:24] Preparing spawn (world): 70.25% (281/400; 266.14 chunks / sec)
+Warn [21:44:24] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [21:44:25] Preparing spawn (world_nether): 42.00% (168/400; 165.68 chunks / sec)
+     [21:44:26] Preparing spawn (world_nether): 84.50% (338/400; 168.82 chunks / sec)
+Warn [21:44:27] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+Info [21:44:27] WebAdmin is running on port(s) 9098
+     [21:44:27] Startup complete, took 6054ms!
+     [21:47:58] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [21:47:58] Player "RpPlayz_YT" (dbd7363674373076b40ca5e354a31f66) save or statistics file not found, resetting to defaults
+Info [21:47:58] Player RpPlayz_YT has joined the game
+Warn [21:47:58] AddEntity: Entity at 0x7f63b40431a0 (cPlayer, ID 252) spawning in a non-existent chunk.
+     [21:48:17] Player RpPlayz_YT is executing command "/sethome" in world "world" at world age 4690.
+Info [21:48:17] Player RpPlayz_YT issued an unknown command: "/sethome"
+     [21:48:21] Player RpPlayz_YT is executing command "/help" in world "world" at world age 4751.
+     [21:48:26] Player RpPlayz_YT is executing command "/help" in world "world" at world age 4860.
+     [21:48:31] Player RpPlayz_YT is executing command "/whitelist" in world "world" at world age 4957.
+Info [21:48:57] Player RpPlayz_YT has left the game
+     [22:01:32] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [22:01:32] Player RpPlayz_YT has joined the game
+Warn [22:01:32] AddEntity: Entity at 0x7f63b4067650 (cPlayer, ID 501) spawning in a non-existent chunk.

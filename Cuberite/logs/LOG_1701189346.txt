@@ -1,0 +1,529 @@
+     [16:35:46] --- Started Log ---
+     [16:35:46] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [16:35:46] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [16:35:46] Creating new server instance...
+     [16:35:46] Reading server config...
+     [16:35:46] Starting server...
+Info [16:35:46] Compatible clients: 1.8.x-1.14.4
+Warn [16:35:46] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [16:35:46] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [16:35:46] WebServer: The server will run in unsecured HTTP mode.
+Info [16:35:46] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [16:35:46] Loaded 789 crafting recipes
+     [16:35:46] Loaded 1.12.2 380 recipe book
+Warn [16:35:46] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [16:35:46] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [16:35:46] Loaded 67 furnace recipes and 66 fuels
+     [16:35:46] Loaded 49 brewing recipes
+Warn [16:35:46] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [16:35:46] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [16:35:46] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [16:35:46] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [16:35:46] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [16:35:46] -- Loading Plugins --
+     [16:35:46] [Core] Initialised!
+     [16:35:46] [ChatLog] Initialized ChatLog v.3
+     [16:35:46] -- Loaded 2 Plugins --
+     [16:35:47] Preparing spawn (world): 9.25% (37/400; 36.60 chunks / sec)
+     [16:35:48] Preparing spawn (world): 83.75% (335/400; 297.70 chunks / sec)
+Warn [16:35:48] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [16:35:49] Preparing spawn (world_nether): 32.00% (128/400; 120.98 chunks / sec)
+     [16:35:50] Preparing spawn (world_nether): 82.75% (331/400; 203.00 chunks / sec)
+Warn [16:35:51] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+Info [16:35:51] WebAdmin is running on port(s) 9098
+     [16:35:51] Startup complete, took 5423ms!
+     [16:36:26] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [16:36:26] Player "eroine" (6b2c72b506903b8286838c1518b27b36) save or statistics file not found, resetting to defaults
+Info [16:36:26] Player eroine has joined the game
+Warn [16:36:26] AddEntity: Entity at 0x7f0d1801cf40 (cPlayer, ID 174) spawning in a non-existent chunk.
+Info [16:37:54] Player eroine has left the game
+     [16:47:27] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [16:47:27] Player GalaxyLuck20 has joined the game
+Warn [16:47:27] AddEntity: Entity at 0x7f0d1806aca0 (cPlayer, ID 212) spawning in a non-existent chunk.
+     [16:51:22] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [16:51:22] Player josh2009 has joined the game
+Info [16:51:27] [ChatLog] [GalaxyLuck20]: W
+Info [16:51:46] Player GalaxyLuck20 has left the game
+Info [16:51:47] Player josh2009 has left the game
+     [16:54:53] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [16:54:53] Player josh2009 has joined the game
+Warn [17:01:14] MoveEntityToNewChunk: Entity at 0x7f0d442a2320 (cBat, ID 438) moving to a non-existent chunk.
+Info [17:08:25] Player josh2009 has left the game
+     [17:08:29] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:08:29] Player josh2009 has joined the game
+Warn [17:08:29] AddEntity: Entity at 0x7f0d18029fe0 (cPlayer, ID 552) spawning in a non-existent chunk.
+Warn [17:08:32] MoveEntityToNewChunk: Entity at 0x7f0d18029fe0 (cPlayer, ID 552) moving to a non-existent chunk.
+Warn [17:14:57] Unhandled window click mode / button combination: 2 (0x2)
+Warn [17:14:57] SlotArea: Unhandled click action: 255 (caUnknown)
+Info [17:15:12] Player josh2009 has left the game
+     [17:15:49] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:15:49] Player josh2009 has joined the game
+Info [17:18:46] Player josh2009 has left the game
+     [17:19:46] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:19:46] Player GalaxyLuck20 has joined the game
+Info [17:20:54] [ChatLog] [GalaxyLuck20]: Balls
+Info [17:22:55] Player GalaxyLuck20 has left the game
+     [17:27:10] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:27:10] Player josh2009 has joined the game
+Warn [17:27:10] AddEntity: Entity at 0x7f0d1808c5d0 (cPlayer, ID 1096) spawning in a non-existent chunk.
+Info [17:27:12] Player josh2009 has left the game
+     [17:27:35] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:27:35] Player josh2009 has joined the game
+Warn [17:27:35] AddEntity: Entity at 0x7f0d1808c5d0 (cPlayer, ID 1162) spawning in a non-existent chunk.
+Warn [17:31:12] MoveEntityToNewChunk: Entity at 0x7f0d4436bfd0 (cBat, ID 1312) moving to a non-existent chunk.
+     [17:34:55] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:34:55] Player GalaxyLuck20 has joined the game
+Warn [17:34:55] AddEntity: Entity at 0x7f0d18088430 (cPlayer, ID 1438) spawning in a non-existent chunk.
+Info [17:35:08] [ChatLog] [josh2009]: hey
+Info [17:35:20] [ChatLog] [GalaxyLuck20]: wsg
+Info [17:35:39] [ChatLog] [josh2009]: we got beds
+Info [17:35:53] [ChatLog] [GalaxyLuck20]: wait for all 3 of us
+Info [17:36:04] [ChatLog] [josh2009]: no for two
+Info [17:36:15] [ChatLog] [GalaxyLuck20]: i have enough for a 3rd
+Info [17:36:29] [ChatLog] [GalaxyLuck20]: i did this
+Info [17:36:40] [ChatLog] [josh2009]: who is the 3rd
+Info [17:36:50] [ChatLog] [GalaxyLuck20]: darrell?
+Info [17:37:09] [ChatLog] [josh2009]: o
+Info [17:37:18] [ChatLog] [GalaxyLuck20]: just incase
+Info [17:37:22] Player GalaxyLuck20 has left the game
+Warn [17:46:39] MoveEntityToNewChunk: Entity at 0x7f0d442eb140 (cBat, ID 1806) moving to a non-existent chunk.
+Info [17:53:45] Player josh2009 has left the game
+     [17:54:52] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:54:52] Player josh2009 has joined the game
+     [17:58:14] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:58:14] Player GalaxyLuck20 has joined the game
+Info [17:59:10] [ChatLog] [GalaxyLuck20]: balls
+Info [17:59:25] [ChatLog] [josh2009]: no
+     [18:01:36] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:01:36] Player imabarrel has joined the game
+Info [18:01:50] [ChatLog] [GalaxyLuck20]: darrell has bed
+Info [18:03:13] [ChatLog] [GalaxyLuck20]: srry']
+Info [18:06:00] [ChatLog] [GalaxyLuck20]: guys there is redstone here
+Info [18:06:07] [ChatLog] [josh2009]: k
+Info [18:06:10] [ChatLog] [imabarrel]: k
+Info [18:06:24] [ChatLog] [GalaxyLuck20]: I can't mine it :,)
+Info [18:06:41] [ChatLog] [imabarrel]: i have a stone pic
+Info [18:06:46] [ChatLog] [GalaxyLuck20]: same
+Info [18:06:57] [ChatLog] [josh2009]: im going
+Info [18:06:58] [ChatLog] [GalaxyLuck20]: you can't mine redstone without iron
+Info [18:07:04] [ChatLog] [imabarrel]: ik
+Info [18:07:11] [ChatLog] [imabarrel]: josh has one
+Info [18:07:25] [ChatLog] [GalaxyLuck20]: ik
+Info [18:07:41] [ChatLog] [imabarrel]: i need food
+Info [18:07:52] [ChatLog] [GalaxyLuck20]: got u
+Info [18:08:30] [ChatLog] [imabarrel]: thx
+Info [18:10:50] [ChatLog] [imabarrel]: i got coal ;)
+Warn [18:12:32] *** Window lost sync at item 2 in SlotArea with 3 items ***
+Warn [18:12:32] My item:    charcoal:1 * 1
+Warn [18:12:32] Their item: -1:0:0 * 0
+Info [18:13:35] [ChatLog] [GalaxyLuck20]: ok
+Info [18:14:32] [ChatLog] [josh2009]: go to bed
+Info [18:14:53] [ChatLog] [GalaxyLuck20]: do your work rq
+Info [18:16:02] [ChatLog] [GalaxyLuck20]: no
+Info [18:16:06] [ChatLog] [GalaxyLuck20]: bad josh
+Info [18:18:11] [ChatLog] [GalaxyLuck20]: hold on a second longer,
+Info [18:18:16] [ChatLog] [GalaxyLuck20]: then ill come out
+Info [18:19:21] [ChatLog] [GalaxyLuck20]: done
+Info [18:19:47] [ChatLog] [josh2009]: give me some
+Info [18:19:58] [ChatLog] [GalaxyLuck20]: i used all my iron
+Info [18:20:10] [ChatLog] [GalaxyLuck20]: not even kidding rn
+Info [18:20:13] [ChatLog] [josh2009]: get more
+Info [18:20:19] [ChatLog] [imabarrel]: YOU LITTLE SWEAT
+Info [18:20:27] [ChatLog] [GalaxyLuck20]: i was gonna strip mine 4 diamonds
+Info [18:20:33] [ChatLog] [GalaxyLuck20]: to give to yall
+Info [18:20:59] [ChatLog] [josh2009]: ok but if u fid iorn give it to us k
+Info [18:21:04] [ChatLog] [GalaxyLuck20]: k
+Info [18:21:14] [ChatLog] [imabarrel]: thx
+Info [18:21:19] [ChatLog] [GalaxyLuck20]: found coal
+     [18:21:41] Player GalaxyLuck20 is executing command "/w imabarrel yeah" in world "world" at world age 126002.
+Info [18:21:41] Player GalaxyLuck20 issued an unknown command: "/w imabarrel yeah"
+     [18:22:02] Player GalaxyLuck20 is executing command "/help" in world "world" at world age 126418.
+     [18:22:14] Player GalaxyLuck20 is executing command "/time" in world "world" at world age 126662.
+Warn [18:22:19] MoveEntityToNewChunk: Entity at 0x7f0d44349a70 (cChicken, ID 2693) moving to a non-existent chunk.
+     [18:22:21] Player GalaxyLuck20 is executing command "/time query" in world "world" at world age 126801.
+Info [18:22:30] [ChatLog] [GalaxyLuck20]: ??????????????/
+Info [18:22:37] [ChatLog] [imabarrel]: what?
+Info [18:23:02] [ChatLog] [imabarrel]: MY PICAXE BROKE
+Info [18:23:10] [ChatLog] [GalaxyLuck20]: i gotchu
+Info [18:23:19] [ChatLog] [imabarrel]: thank you
+Info [18:23:24] [ChatLog] [GalaxyLuck20]: oh sht nvm
+Info [18:23:33] [ChatLog] [GalaxyLuck20]: apperently mine broke too
+Info [18:23:35] [ChatLog] [imabarrel]: what?
+Info [18:23:42] [ChatLog] [imabarrel]: TT
+Info [18:23:57] [ChatLog] [GalaxyLuck20]: found sum iron
+Info [18:24:43] [ChatLog] [GalaxyLuck20]: found sum more
+Info [18:25:22] [ChatLog] [josh2009]: give it to me
+Info [18:25:28] [ChatLog] [imabarrel]: what?
+Info [18:25:53] [ChatLog] [GalaxyLuck20]: oh i just passed it so yall can mine it
+Info [18:27:43] [ChatLog] [GalaxyLuck20]: i need food, yall gotsum?
+Info [18:27:50] [ChatLog] [imabarrel]: i do
+Info [18:28:08] [ChatLog] [GalaxyLuck20]: pls, im at 3 1/2 hearts
+Info [18:28:11] [ChatLog] [imabarrel]: i got u
+Info [18:28:34] [ChatLog] [imabarrel]: there
+Info [18:28:38] [ChatLog] [GalaxyLuck20]: thx
+Info [18:29:06] [ChatLog] [GalaxyLuck20]: there is a pick if u need one
+Info [18:29:32] [ChatLog] [imabarrel]: thank you
+Info [18:29:39] [ChatLog] [GalaxyLuck20]: no probs
+Info [18:29:49] [ChatLog] [GalaxyLuck20]: thank you
+Info [18:31:32] [ChatLog] [GalaxyLuck20]: there's some more iron over here
+Info [18:32:25] [ChatLog] [GalaxyLuck20]: nooooooooooooo
+Info [18:32:35] [ChatLog] [GalaxyLuck20]: there's a water caaaaaaaaveeee
+Info [18:33:11] [ChatLog] [GalaxyLuck20]: look at the ceiling
+Info [18:33:31] [ChatLog] [GalaxyLuck20]: theres so much iron
+Info [18:34:21] [ChatLog] [GalaxyLuck20]: srry
+Info [18:35:21] [ChatLog] [GalaxyLuck20]: imma get 3 pieces of iron for a new iron pick
+Info [18:35:27] [ChatLog] [GalaxyLuck20]: mines finna break
+Info [18:35:32] [ChatLog] [josh2009]: k
+Info [18:35:46] [ChatLog] [GalaxyLuck20]: rest goes to u guys
+Info [18:36:00] [ChatLog] [imabarrel]: k
+Info [18:36:24] [ChatLog] [imabarrel]: josh go hunting
+Info [18:36:47] [ChatLog] [GalaxyLuck20]: go hunt the miserable piles of chaos
+Info [18:38:41] [ChatLog] [imabarrel]: IM LOOKING FRESH
+Info [18:38:44] [ChatLog] [imabarrel]: fr fr
+Info [18:38:50] [ChatLog] [GalaxyLuck20]: real
+Info [18:40:05] [ChatLog] [josh2009]: im making a farm
+Info [18:40:15] [ChatLog] [GalaxyLuck20]: imma get food and wood
+Info [18:40:28] [ChatLog] [GalaxyLuck20]: and harvest the sugarcane
+Info [18:40:35] [ChatLog] [imabarrel]: josh go hunting and lucky mine i will farm
+Info [18:40:52] [ChatLog] [GalaxyLuck20]: kk
+Info [18:42:35] [ChatLog] [josh2009]: i have balls
+Info [18:44:49] [ChatLog] [imabarrel]: do yall got 7 iron
+Info [18:45:00] [ChatLog] [GalaxyLuck20]: no
+Info [18:45:07] [ChatLog] [imabarrel]: sad
+Info [18:46:26] [ChatLog] [GalaxyLuck20]: omw back
+Info [18:47:00] [ChatLog] [imabarrel]: go to bed
+Info [18:47:24] [ChatLog] [imabarrel]: lucky GO TO BED
+Info [18:48:21] Player GalaxyLuck20 has left the game
+     [18:48:24] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:48:24] Player GalaxyLuck20 has joined the game
+Info [18:48:32] Player imabarrel has left the game
+     [18:48:39] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:48:39] Player imabarrel has joined the game
+Info [18:48:40] [ChatLog] [GalaxyLuck20]: ?????????/
+Info [18:48:52] [ChatLog] [imabarrel]: mb
+Info [18:48:52] [ChatLog] [GalaxyLuck20]: i was sent back to spawn lmao
+Info [18:50:08] [ChatLog] [GalaxyLuck20]: does anyone want a stack of stone picks?
+Info [18:50:15] [ChatLog] [imabarrel]: no
+Info [18:50:22] [ChatLog] [GalaxyLuck20]: i mean litturally
+Info [18:50:28] [ChatLog] [imabarrel]: no?
+Info [18:50:29] [ChatLog] [GalaxyLuck20]: i crafted a stack of them
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Warn [18:50:56] Clicked: Wrong window ID (exp 109, got 0) received from "GalaxyLuck20"; ignoring click.
+Info [18:50:59] Player josh2009 has left the game
+Info [18:50:59] Player GalaxyLuck20 has left the game
+     [18:51:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:51:00] Player GalaxyLuck20 has joined the game
+     [18:51:02] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:51:02] Player josh2009 has joined the game
+     [18:52:17] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [18:52:17] Player "imfriendliiy" (3464ad7e057a321485888ce2bd172445) save or statistics file not found, resetting to defaults
+Info [18:52:18] Player imfriendliiy has joined the game
+Warn [18:52:27] *** Window lost sync at item 26 in SlotArea with 27 items ***
+Warn [18:52:27] My item:    stonepickaxe:0 * 1
+Warn [18:52:27] Their item: -1:0:0 * 0
+Info [18:52:31] Player GalaxyLuck20 has left the game
+Info [18:52:36] [ChatLog] [josh2009]: wood
+     [18:52:39] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:52:39] Player GalaxyLuck20 has joined the game
+Info [18:53:06] [ChatLog] [GalaxyLuck20]: did i do good dad?
+Info [18:53:16] [ChatLog] [GalaxyLuck20]: LLLLLLLLLLLLLLll
+Info [18:53:17] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:18] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:18] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:19] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:19] [ChatLog] [GalaxyLuck20]: LT
+Info [18:53:20] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:20] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:20] [ChatLog] [GalaxyLuck20]: LT
+Info [18:53:20] [ChatLog] [imabarrel]: L
+Info [18:53:21] [ChatLog] [GalaxyLuck20]: TL
+Info [18:53:21] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:21] [ChatLog] [GalaxyLuck20]: L
+Info [18:53:22] [ChatLog] [imabarrel]: l
+Info [18:53:23] [ChatLog] [imabarrel]: l
+Info [18:53:23] [ChatLog] [imabarrel]: l
+Info [18:53:24] [ChatLog] [imabarrel]: l
+Info [18:53:24] [ChatLog] [imabarrel]: ll
+Info [18:53:25] [ChatLog] [imabarrel]: l
+Info [18:53:25] [ChatLog] [imabarrel]: l
+Info [18:53:26] [ChatLog] [imabarrel]: l
+Info [18:53:28] [ChatLog] [imabarrel]: l
+Info [18:53:28] [ChatLog] [imabarrel]: l
+Info [18:53:29] [ChatLog] [imabarrel]: l
+Info [18:53:29] [ChatLog] [imabarrel]: l
+Info [18:53:30] [ChatLog] [imabarrel]: l
+Info [18:53:33] [ChatLog] [imfriendliiy]: spawned in ocean
+     [18:53:38] Player imfriendliiy is executing command "/rtp" in world "world" at world age 163977.
+Info [18:53:38] Player imfriendliiy issued an unknown command: "/rtp"
+Info [18:53:40] [ChatLog] [GalaxyLuck20]: we know
+Info [18:53:41] [ChatLog] [imabarrel]: so
+     [18:53:41] Player imfriendliiy is executing command "/help" in world "world" at world age 164044.
+     [18:53:49] Player imfriendliiy is executing command "/whitelist off" in world "world" at world age 164203.
+     [18:53:55] Player imfriendliiy is executing command "/help 2" in world "world" at world age 164322.
+     [18:54:01] Player imfriendliiy is executing command "/?" in world "world" at world age 164432.
+     [18:54:09] Player imfriendliiy is executing command "/time 1000" in world "world" at world age 164593.
+     [18:54:24] Player imfriendliiy is executing command "/hom" in world "world" at world age 164891.
+Info [18:54:24] Player imfriendliiy issued an unknown command: "/hom"
+     [18:54:26] Player imfriendliiy is executing command "/home" in world "world" at world age 164932.
+Info [18:54:26] Player imfriendliiy issued an unknown command: "/home"
+Info [18:54:36] [ChatLog] [GalaxyLuck20]: imma get an xray texturepack
+Info [18:54:47] [ChatLog] [josh2009]: k
+Info [18:54:53] [ChatLog] [josh2009]: who are u
+Info [18:55:06] [ChatLog] [imfriendliiy]: hmm
+Info [18:55:11] [ChatLog] [imfriendliiy]: i joined
+Info [18:55:16] [ChatLog] [josh2009]: your name
+Info [18:55:24] [ChatLog] [imfriendliiy]: imabarrel
+Info [18:55:27] [ChatLog] [imfriendliiy]: imfriendliiy
+Info [18:56:09] [ChatLog] [josh2009]: no
+Info [18:56:14] [ChatLog] [imabarrel]: stop
+Info [18:56:37] [ChatLog] [imfriendliiy]: give me a sec
+Info [18:56:40] [ChatLog] [josh2009]: this is our land
+Info [18:56:51] [ChatLog] [imfriendliiy]: ok
+Info [18:56:53] [ChatLog] [GalaxyLuck20]: lmao im downloading it
+Info [18:57:01] [ChatLog] [josh2009]: who are u
+Info [18:57:04] [ChatLog] [GalaxyLuck20]: its done
+Info [18:57:28] [ChatLog] [imfriendliiy]: what
+Info [18:57:38] [ChatLog] [imfriendliiy]: i cant ssay
+Info [18:57:39] [ChatLog] [josh2009]: you name
+Info [18:58:23] Player GalaxyLuck20 has left the game
+     [18:59:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:59:04] Player GalaxyLuck20 has joined the game
+Info [18:59:14] [ChatLog] [imabarrel]: hey lucky
+Info [18:59:14] [ChatLog] [GalaxyLuck20]: HOLY SHI-
+Info [18:59:21] [ChatLog] [josh2009]: come
+Info [18:59:22] [ChatLog] [imabarrel]: what?
+Info [18:59:25] [ChatLog] [imfriendliiy]: u took my wood
+Info [18:59:35] [ChatLog] [josh2009]: come
+Info [18:59:35] [ChatLog] [GalaxyLuck20]: I ACTUALLY HAVE XRAY
+Info [19:00:02] [ChatLog] [imfriendliiy]: who is oped?
+Info [19:00:11] [ChatLog] [GalaxyLuck20]: wdym
+Info [19:00:16] [ChatLog] [imfriendliiy]: who has op
+Info [19:00:26] [ChatLog] [josh2009]: lucky u know him
+Info [19:00:30] [ChatLog] [GalaxyLuck20]: nope
+Info [19:00:53] [ChatLog] [imfriendliiy]: tell him to join and do /gamerule KeepInvintory true
+Info [19:01:07] [ChatLog] [GalaxyLuck20]: we don't know the op
+Info [19:01:21] [ChatLog] [imabarrel]: MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Info [19:01:23] [ChatLog] [josh2009]: come
+Info [19:01:25] [ChatLog] [imfriendliiy]: stop
+Info [19:01:34] [ChatLog] [imfriendliiy]: SPIDER
+Info [19:01:35] [ChatLog] [josh2009]: come with me
+Info [19:01:49] [ChatLog] [imfriendliiy]: IMA DIE
+Info [19:01:53] [ChatLog] [imabarrel]: I GOT BOWWWWWWWWWWWWWWW
+Info [19:01:55] [ChatLog] [josh2009]: come
+Info [19:02:07] [ChatLog] [imfriendliiy]: STOP
+Info [19:02:13] [ChatLog] [GalaxyLuck20]: I HAVE 25 DIAMONDS?
+Info [19:02:13] Player imfriendliiy has left the game
+     [19:02:19] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:02:19] Player imfriendliiy has joined the game
+Info [19:02:27] [ChatLog] [imfriendliiy]: there
+Info [19:02:39] [ChatLog] [imfriendliiy]: im 2 and half hearts
+Info [19:02:39] [ChatLog] [josh2009]: come u will not die
+Info [19:03:02] [ChatLog] [GalaxyLuck20]: josh or darrell come to the mine
+Info [19:03:13] [ChatLog] [imabarrel]: i got u
+Info [19:03:34] [ChatLog] [GalaxyLuck20]: imma give u 36 diamonds
+Info [19:03:44] [ChatLog] [imfriendliiy]: who
+Info [19:03:50] [ChatLog] [josh2009]: imfreindly come
+Info [19:03:54] [ChatLog] [imabarrel]: WHAT THE HEL-
+Info [19:04:06] [ChatLog] [GalaxyLuck20]: FRRRRRRR
+Info [19:05:03] [ChatLog] [imfriendliiy]: IM HALF  HEAT
+Info [19:05:06] [ChatLog] [imfriendliiy]: HEART
+Info [19:05:42] Player imabarrel has left the game
+Info [19:05:43] Player josh2009 has left the game
+Info [19:06:15] Player GalaxyLuck20 has left the game
+Info [19:07:46] [ChatLog] [imfriendliiy]: th
+     [19:09:45] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:09:45] Player GalaxyLuck20 has joined the game
+Warn [19:09:45] AddEntity: Entity at 0x7f0d18074e10 (cPlayer, ID 4708) spawning in a non-existent chunk.
+     [19:10:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:10:04] Player josh2009 has joined the game
+Info [19:10:19] [ChatLog] [imfriendliiy]: i found dims
+Info [19:10:30] [ChatLog] [imfriendliiy]: BR
+Info [19:10:32] [ChatLog] [imfriendliiy]: MY DIAMONDS
+Info [19:10:33] Player josh2009 has left the game
+     [19:10:33] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:10:33] Player imabarrel has joined the game
+Info [19:10:35] [ChatLog] [imfriendliiy]: WTF
+Info [19:10:49] [ChatLog] [imfriendliiy]: OSH
+Info [19:10:52] [ChatLog] [GalaxyLuck20]: skill issue
+Info [19:10:54] [ChatLog] [imfriendliiy]: josh
+Info [19:11:36] [ChatLog] [imfriendliiy]: josh
+Info [19:11:37] [ChatLog] [imabarrel]: war
+Info [19:11:40] [ChatLog] [imabarrel]: WAR
+     [19:11:43] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:11:43] Player josh2009 has joined the game
+Info [19:11:43] [ChatLog] [GalaxyLuck20]: we declare war
+Info [19:11:45] [ChatLog] [imabarrel]: WARRRRRRRRRRRRRR
+Info [19:11:46] [ChatLog] [imfriendliiy]: JOSH
+Info [19:11:54] [ChatLog] [imfriendliiy]: KILL GALAXY
+Info [19:12:03] [ChatLog] [imfriendliiy]: HE KILLED ME WHEN I HAD MINED MY DIMS
+Info [19:12:04] [ChatLog] [imabarrel]: FUCK NO
+Info [19:12:10] [ChatLog] [GalaxyLuck20]: skill issue
+Info [19:12:12] [ChatLog] [imfriendliiy]: HE TOOK MY SHIT
+Info [19:12:17] [ChatLog] [GalaxyLuck20]: haha i have xray
+Info [19:12:55] [ChatLog] [GalaxyLuck20]: fuckoff
+Info [19:13:03] [ChatLog] [imfriendliiy]: josh
+Info [19:14:35] [ChatLog] [imabarrel]: go mine lucky
+Info [19:14:42] [ChatLog] [GalaxyLuck20]: i already am
+Info [19:16:04] Player josh2009 has left the game
+     [19:16:10] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:16:10] Player josh2009 has joined the game
+Info [19:17:12] Player josh2009 has left the game
+Info [19:17:18] Player GalaxyLuck20 has left the game
+Info [19:17:23] Player imabarrel has left the game
+Info [19:17:25] Player imfriendliiy has left the game
+     [19:17:27] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:17:27] Player imfriendliiy has joined the game
+Info [19:17:51] [ChatLog] [imfriendliiy]: YOU WANTED TO KILL ME I KILLED YOU
+     [19:18:07] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:18:07] Player josh2009 has joined the game
+Warn [19:18:07] AddEntity: Entity at 0x7f0d18000f20 (cPlayer, ID 5418) spawning in a non-existent chunk.
+Info [19:18:19] [ChatLog] [imfriendliiy]: JOSH HI]
+Info [19:18:33] Player josh2009 has left the game
+     [19:18:40] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:18:40] Player josh2009 has joined the game
+     [19:19:53] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:19:53] Player GalaxyLuck20 has joined the game
+Warn [19:20:39] *** Window lost sync at item 0 in SlotArea with 4 items ***
+Warn [19:20:39] My item:    306:22:22 * 1
+Warn [19:20:39] Their item: -1:0:0 * 0
+Warn [19:20:39] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:40] *** Window lost sync at item 1 in SlotArea with 4 items ***
+Warn [19:20:40] My item:    307:22:22 * 1
+Warn [19:20:40] Their item: -1:0:0 * 0
+Warn [19:20:40] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:40] *** Window lost sync at item 0 in SlotArea with 4 items ***
+Warn [19:20:40] My item:    306:22:22 * 1
+Warn [19:20:40] Their item: -1:0:0 * 0
+Warn [19:20:40] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:41] *** Window lost sync at item 1 in SlotArea with 4 items ***
+Warn [19:20:41] My item:    307:22:22 * 1
+Warn [19:20:41] Their item: -1:0:0 * 0
+Warn [19:20:41] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:41] *** Window lost sync at item 1 in SlotArea with 4 items ***
+Warn [19:20:41] My item:    307:22:22 * 1
+Warn [19:20:41] Their item: -1:0:0 * 0
+Warn [19:20:41] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:41] *** Window lost sync at item 1 in SlotArea with 4 items ***
+Warn [19:20:41] My item:    307:22:22 * 1
+Warn [19:20:41] Their item: -1:0:0 * 0
+Warn [19:20:41] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:52] *** Window lost sync at item 3 in SlotArea with 4 items ***
+Warn [19:20:52] My item:    309:22:22 * 1
+Warn [19:20:52] Their item: -1:0:0 * 0
+Warn [19:20:52] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:53] *** Window lost sync at item 2 in SlotArea with 4 items ***
+Warn [19:20:53] My item:    308:22:22 * 1
+Warn [19:20:53] Their item: -1:0:0 * 0
+Warn [19:20:53] SlotArea: Unhandled click action: 14 (caDropKey)
+Warn [19:20:54] *** Window lost sync at item 3 in SlotArea with 4 items ***
+Warn [19:20:54] My item:    309:22:22 * 1
+Warn [19:20:54] Their item: -1:0:0 * 0
+Warn [19:20:54] SlotArea: Unhandled click action: 14 (caDropKey)
+Info [19:21:09] [ChatLog] [imfriendliiy]: FULL DIAMOND BABY
+Info [19:21:12] Player GalaxyLuck20 has left the game
+     [19:21:29] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:21:29] Player GalaxyLuck20 has joined the game
+Info [19:21:45] Player josh2009 has left the game
+Info [19:21:53] Player GalaxyLuck20 has left the game
+Info [19:22:35] [ChatLog] [imfriendliiy]: I HAVE SO MANY DIMS
+Info [19:31:02] Player imfriendliiy has left the game
+     [19:31:14] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:31:14] Player imfriendliiy has joined the game
+Warn [19:31:14] AddEntity: Entity at 0x7f0d180acdb0 (cPlayer, ID 5974) spawning in a non-existent chunk.
+Warn [19:31:14] MoveEntityToNewChunk: Entity at 0x7f0d180acdb0 (cPlayer, ID 5974) moving to a non-existent chunk.
+Warn [19:31:15] MoveEntityToNewChunk: Entity at 0x7f0d180acdb0 (cPlayer, ID 5974) moving to a non-existent chunk.
+Warn [19:31:16] MoveEntityToNewChunk: Entity at 0x7f0d180acdb0 (cPlayer, ID 5974) moving to a non-existent chunk.
+     [19:32:54] Player imfriendliiy is executing command "/seed" in world "world" at world age 210668.
+Info [19:32:54] Player imfriendliiy tried to execute forbidden command: "/seed"
+     [19:38:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [19:38:00] Player "yes" (ea922ad6ec0a3f6ab7ae0a1b23a7304a) save or statistics file not found, resetting to defaults
+Info [19:38:00] Player yes has joined the game
+Warn [19:38:00] AddEntity: Entity at 0x7f0d18025460 (cPlayer, ID 6046) spawning in a non-existent chunk.
+Info [19:38:06] [ChatLog] [imfriendliiy]: hi
+Info [19:38:11] [ChatLog] [yes]: hi
+Info [19:38:41] [ChatLog] [yes]: u freind
+Info [19:38:45] [ChatLog] [imfriendliiy]: yex
+Info [19:39:00] Player imfriendliiy has left the game
+     [19:43:16] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:43:16] Player imfriendliiy has joined the game
+Warn [19:43:16] AddEntity: Entity at 0x7f0d18083fc0 (cPlayer, ID 6211) spawning in a non-existent chunk.
+Info [19:45:13] [ChatLog] [imfriendliiy]: hi
+Info [19:46:25] Player imfriendliiy has left the game
+     [19:47:26] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [19:47:26] Player "Balls" (eac18a03d52b33d4a3d18c3f8008f845) save or statistics file not found, resetting to defaults
+Info [19:47:26] Player Balls has joined the game
+Info [20:00:00] Player yes has left the game
+     [20:00:21] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:00:21] Player josh2009 has joined the game
+Info [20:00:27] Player josh2009 has left the game
+     [20:00:38] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:00:38] Player imfriendliiy has joined the game
+Warn [20:00:38] AddEntity: Entity at 0x7f0d180d1500 (cPlayer, ID 6681) spawning in a non-existent chunk.
+     [20:00:44] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:00:44] Player josh2009 has joined the game
+Info [20:00:47] [ChatLog] [imfriendliiy]: hiii
+Info [20:00:48] Player josh2009 has left the game
+Info [20:00:53] [ChatLog] [Balls]: yo
+Info [20:00:55] [ChatLog] [imfriendliiy]: WHY EVERYONE KEEP LEAVEING
+Info [20:01:09] [ChatLog] [Balls]: idk
+     [20:01:55] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:01:55] Player yes has joined the game
+Info [20:03:33] Player yes has left the game
+Info [20:04:24] Player Balls has left the game
+     [20:05:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:05:00] Player yes has joined the game
+Info [20:05:15] Player imfriendliiy has left the game
+Info [20:05:55] Player yes has left the game
+     [20:06:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:06:04] Player Balls has joined the game
+     [20:06:12] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [20:06:12] Player "daddy_chilllll" (9cfbcc39a29339eeb3ca7d6bab88808c) save or statistics file not found, resetting to defaults
+Info [20:06:12] Player daddy_chilllll has joined the game
+Warn [20:06:12] AddEntity: Entity at 0x7f0d181b67f0 (cPlayer, ID 6965) spawning in a non-existent chunk.
+     [20:06:20] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:06:20] Player josh2009 has joined the game
+Info [20:07:15] Player josh2009 has left the game
+     [20:07:38] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:07:38] Player josh2009 has joined the game
+Info [20:17:32] Player daddy_chilllll has left the game
+Info [20:17:32] Player Balls has left the game
+Info [20:17:32] Player josh2009 has left the game
+     [20:17:33] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:17:33] Player Balls has joined the game
+     [20:17:35] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:17:35] Player daddy_chilllll has joined the game
+     [20:17:47] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:17:47] Player yes has joined the game
+Info [20:18:04] Player Balls has left the game
+     [20:18:17] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:18:17] Player GalaxyLuck20 has joined the game
+Info [20:19:04] Player GalaxyLuck20 has left the game
+     [20:19:20] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:19:20] Player Balls has joined the game
+Info [20:19:25] Player yes has left the game
+     [20:19:49] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:19:49] Player josh2009 has joined the game
+Info [20:20:01] Player Balls has left the game
+Info [20:20:04] Player josh2009 has left the game
+Info [20:20:05] Player daddy_chilllll has left the game
+     [20:21:07] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:21:07] Player imfriendliiy has joined the game
+Warn [20:21:07] AddEntity: Entity at 0x7f0d1807f910 (cPlayer, ID 7287) spawning in a non-existent chunk.
+Info [20:24:26] Player imfriendliiy has left the game
+     [20:54:31] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:54:31] Player josh2009 has joined the game
+Warn [20:54:31] AddEntity: Entity at 0x7f0d180da5f0 (cPlayer, ID 7381) spawning in a non-existent chunk.
+Info [20:57:38] Player josh2009 has left the game
+     [20:59:53] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:59:53] Player josh2009 has joined the game
+Warn [20:59:53] AddEntity: Entity at 0x7f0d180da5f0 (cPlayer, ID 7488) spawning in a non-existent chunk.
+Info [21:00:15] Player josh2009 has left the game
+     [21:09:12] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:09:12] Player josh2009 has joined the game
+Warn [21:09:12] AddEntity: Entity at 0x7f0d1813ee60 (cPlayer, ID 7559) spawning in a non-existent chunk.

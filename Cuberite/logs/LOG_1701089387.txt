@@ -1,0 +1,53 @@
+     [12:49:47] --- Started Log ---
+     [12:49:47] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [12:49:47] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [12:49:47] Creating new server instance...
+     [12:49:47] Reading server config...
+     [12:49:47] Starting server...
+Info [12:49:47] Compatible clients: 1.8.x-1.14.4
+Warn [12:49:47] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [12:49:47] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [12:49:47] WebServer: The server will run in unsecured HTTP mode.
+Info [12:49:47] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [12:49:47] Loaded 789 crafting recipes
+     [12:49:47] Loaded 1.12.2 380 recipe book
+Warn [12:49:47] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [12:49:47] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [12:49:47] Loaded 67 furnace recipes and 66 fuels
+     [12:49:47] Loaded 49 brewing recipes
+Warn [12:49:47] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [12:49:47] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [12:49:47] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [12:49:47] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [12:49:47] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [12:49:48] -- Loading Plugins --
+     [12:49:48] [Core] Initialised!
+     [12:49:48] [ChatLog] Initialized ChatLog v.3
+     [12:49:48] -- Loaded 2 Plugins --
+     [12:49:49] Preparing spawn (world): 55.25% (221/400; 213.32 chunks / sec)
+Warn [12:49:49] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [12:49:50] Preparing spawn (world_nether): 40.25% (161/400; 160.84 chunks / sec)
+     [12:49:51] Preparing spawn (world_nether): 77.75% (311/400; 150.00 chunks / sec)
+Warn [12:49:52] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+Info [12:49:52] WebAdmin is running on port(s) 9098
+     [12:49:52] Startup complete, took 4465ms!
+     [14:41:56] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [14:41:56] Player "Apio" (038b816eb342375d8bba6a2cbd7c9d4b) save or statistics file not found, resetting to defaults
+Info [14:41:56] Player Apio has joined the game
+Warn [14:41:56] AddEntity: Entity at 0x7f2c2c094b70 (cPlayer, ID 159) spawning in a non-existent chunk.
+Info [14:42:07] Player Apio has left the game
+     [17:27:13] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [17:27:13] Player "AKDHF" (f64c464afe103572a6cbd1cef1db015e) save or statistics file not found, resetting to defaults
+Info [17:27:13] Player AKDHF has joined the game
+Warn [17:27:13] AddEntity: Entity at 0x7f2c2c08e040 (cPlayer, ID 172) spawning in a non-existent chunk.
+     [17:27:41] Player AKDHF is executing command "/gamemode c" in world "world" at world age 331628.
+Info [17:27:41] Player AKDHF tried to execute forbidden command: "/gamemode"
+Info [17:27:49] Player AKDHF has left the game
+     [18:29:03] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [18:29:03] Player "TheJCoop" (f70b912eecfc361386e111c1c2dd99bf) save or statistics file not found, resetting to defaults
+Info [18:29:03] Player TheJCoop has joined the game
+Warn [18:29:03] AddEntity: Entity at 0x7f2c2c14d040 (cPlayer, ID 206) spawning in a non-existent chunk.
+Info [18:32:56] Player TheJCoop has left the game
+     [18:34:51] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:34:51] Player TheJCoop has joined the game
+Warn [18:34:51] AddEntity: Entity at 0x7f2c2c046280 (cPlayer, ID 266) spawning in a non-existent chunk.

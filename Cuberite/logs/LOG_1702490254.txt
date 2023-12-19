@@ -1,0 +1,54 @@
+     [17:57:34] --- Started Log ---
+     [17:57:34] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [17:57:34] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [17:57:34] Creating new server instance...
+     [17:57:34] Reading server config...
+     [17:57:34] Starting server...
+Info [17:57:34] Compatible clients: 1.8.x-1.14.4
+Warn [17:57:34] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [17:57:34] Loaded 789 crafting recipes
+     [17:57:34] Loaded 1.12.2 380 recipe book
+Warn [17:57:34] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [17:57:34] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [17:57:34] Loaded 67 furnace recipes and 66 fuels
+     [17:57:34] Loaded 49 brewing recipes
+Warn [17:57:34] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [17:57:34] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [17:57:34] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [17:57:34] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [17:57:34] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [17:57:34] -- Loading Plugins --
+     [17:57:34] [Core] Initialised!
+     [17:57:34] [ChatLog] Initialized ChatLog v.3
+     [17:57:34] -- Loaded 2 Plugins --
+     [17:57:35] Preparing spawn (world): 39.25% (157/400; 155.60 chunks / sec)
+     [17:57:36] Preparing spawn (world): 82.25% (329/400; 171.83 chunks / sec)
+Warn [17:57:37] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [17:57:38] Preparing spawn (world_nether): 7.25% (29/400; 26.88 chunks / sec)
+     [17:57:39] Preparing spawn (world_nether): 55.25% (221/400; 191.62 chunks / sec)
+     [17:57:40] Preparing spawn (world_nether): 89.25% (357/400; 136.00 chunks / sec)
+Warn [17:57:41] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [17:57:41] Startup complete, took 6866ms!
+     [17:59:45] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [17:59:45] Player usename has joined the game
+Warn [17:59:45] AddEntity: Entity at 0x7f5090031fa0 (cPlayer, ID 224) spawning in a non-existent chunk.
+Info [18:02:46] Player usename has left the game
+     [18:02:48] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:02:48] Player usename has joined the game
+Info [18:05:36] Player usename has left the game
+     [18:06:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [18:06:00] Player "urmomgay" (c004983f462136dbb8df7addd78c25b9) save or statistics file not found, resetting to defaults
+Info [18:06:00] Player urmomgay has joined the game
+Warn [18:06:00] AddEntity: Entity at 0x7f5090040f10 (cPlayer, ID 327) spawning in a non-existent chunk.
+Info [18:06:15] Player urmomgay has left the game
+     [18:06:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:06:25] Player urmomgay has joined the game
+Warn [18:06:25] AddEntity: Entity at 0x7f5090040f10 (cPlayer, ID 369) spawning in a non-existent chunk.
+Info [18:06:40] Player urmomgay has left the game
+     [18:07:06] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:07:06] Player urmomgay has joined the game
+Warn [18:07:06] AddEntity: Entity at 0x7f50900130d0 (cPlayer, ID 411) spawning in a non-existent chunk.
+Info [18:07:20] Player urmomgay has left the game
+     [18:11:12] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:11:12] Player urmomgay has joined the game
+Warn [18:11:12] AddEntity: Entity at 0x7f509003a180 (cPlayer, ID 459) spawning in a non-existent chunk.

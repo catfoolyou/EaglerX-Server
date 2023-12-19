@@ -1,0 +1,40 @@
+     [09:18:23] --- Started Log ---
+     [09:18:23] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [09:18:23] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [09:18:23] Creating new server instance...
+     [09:18:23] Reading server config...
+     [09:18:23] Starting server...
+Info [09:18:23] Compatible clients: 1.8.x-1.14.4
+Warn [09:18:23] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [09:18:23] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [09:18:23] WebServer: The server will run in unsecured HTTP mode.
+Info [09:18:23] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [09:18:23] Loaded 789 crafting recipes
+     [09:18:24] Loaded 1.12.2 380 recipe book
+Warn [09:18:24] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [09:18:24] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [09:18:24] Loaded 67 furnace recipes and 66 fuels
+     [09:18:24] Loaded 49 brewing recipes
+Warn [09:18:24] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [09:18:24] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [09:18:24] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [09:18:24] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [09:18:24] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [09:18:24] -- Loading Plugins --
+     [09:18:24] [Core] Initialised!
+     [09:18:24] [ChatLog] Initialized ChatLog v.3
+     [09:18:24] -- Loaded 2 Plugins --
+     [09:18:25] Preparing spawn (world): 40.25% (161/400; 160.84 chunks / sec)
+     [09:18:27] Preparing spawn (world): 74.00% (296/400; 129.56 chunks / sec)
+Warn [09:18:27] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [09:18:29] Preparing spawn (world_nether): 21.50% (86/400; 82.38 chunks / sec)
+     [09:18:30] Preparing spawn (world_nether): 33.00% (132/400; 45.59 chunks / sec)
+     [09:18:31] Preparing spawn (world_nether): 42.50% (170/400; 31.48 chunks / sec)
+     [09:18:32] Preparing spawn (world_nether): 79.75% (319/400; 143.41 chunks / sec)
+Warn [09:18:33] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+Info [09:18:33] WebAdmin is running on port(s) 9098
+     [09:18:33] Startup complete, took 9809ms!
+     [09:19:35] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [09:19:35] Player "EaglerDeev530" (ca6fbbabe8343d55bd25ceda992e7748) save or statistics file not found, resetting to defaults
+Info [09:19:35] Player EaglerDeev530 has joined the game
+Warn [09:19:35] AddEntity: Entity at 0x7fd904023600 (cPlayer, ID 149) spawning in a non-existent chunk.

@@ -1,0 +1,73 @@
+     [22:30:23] --- Started Log ---
+     [22:30:23] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [22:30:23] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [22:30:23] Creating new server instance...
+     [22:30:23] Reading server config...
+     [22:30:23] Starting server...
+Info [22:30:23] Compatible clients: 1.8.x-1.14.4
+Warn [22:30:23] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [22:30:23] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [22:30:23] WebServer: The server will run in unsecured HTTP mode.
+Info [22:30:23] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [22:30:23] Loaded 789 crafting recipes
+     [22:30:23] Loaded 1.12.2 380 recipe book
+Warn [22:30:23] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [22:30:23] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [22:30:23] Loaded 67 furnace recipes and 66 fuels
+     [22:30:23] Loaded 49 brewing recipes
+Warn [22:30:23] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [22:30:24] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [22:30:24] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [22:30:24] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [22:30:24] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [22:30:24] -- Loading Plugins --
+     [22:30:24] [Core] Initialised!
+     [22:30:24] [ChatLog] Initialized ChatLog v.3
+     [22:30:24] -- Loaded 2 Plugins --
+     [22:30:25] Preparing spawn (world): 1.75% (7/400; 6.22 chunks / sec)
+     [22:30:26] Preparing spawn (world): 11.50% (46/400; 38.77 chunks / sec)
+     [22:30:27] Preparing spawn (world): 31.25% (125/400; 72.48 chunks / sec)
+     [22:30:28] Preparing spawn (world): 50.75% (203/400; 77.46 chunks / sec)
+     [22:30:29] Preparing spawn (world): 80.00% (320/400; 97.99 chunks / sec)
+Warn [22:30:29] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [22:30:31] Preparing spawn (world_nether): 2.50% (10/400; 8.70 chunks / sec)
+     [22:30:32] Preparing spawn (world_nether): 17.25% (69/400; 48.36 chunks / sec)
+     [22:30:33] Preparing spawn (world_nether): 40.50% (162/400; 90.73 chunks / sec)
+     [22:30:34] Preparing spawn (world_nether): 73.25% (293/400; 119.31 chunks / sec)
+Warn [22:30:35] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+Info [22:30:35] WebAdmin is running on port(s) 9098
+     [22:30:35] Startup complete, took 12228ms!
+     [23:15:01] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [23:15:01] Player "garen2_0" (45ab8206e9d73558a28f91561e1254a3) save or statistics file not found, resetting to defaults
+Info [23:15:01] Player garen2_0 has joined the game
+Warn [23:15:01] AddEntity: Entity at 0x7f7558093790 (cPlayer, ID 239) spawning in a non-existent chunk.
+     [23:16:03] Player garen2_0 is executing command "/tpr" in world "world" at world age 54421.
+Info [23:16:03] Player garen2_0 issued an unknown command: "/tpr"
+     [23:16:06] Player garen2_0 is executing command "/help" in world "world" at world age 54496.
+Warn [23:21:23] MoveEntityToNewChunk: Entity at 0x7f75800b3560 (cBat, ID 488) moving to a non-existent chunk.
+Info [23:28:44] Player garen2_0 has left the game
+     [23:58:45] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [23:58:45] Player "SirLucero" (e5e0d349b77f31358404e38847413a8c) save or statistics file not found, resetting to defaults
+Info [23:58:45] Player SirLucero has joined the game
+Warn [23:58:45] AddEntity: Entity at 0x7f75580aa560 (cPlayer, ID 1017) spawning in a non-existent chunk.
+     [23:59:03] Player SirLucero is executing command "/gamemode c" in world "world" at world age 105600.
+Info [23:59:03] Player SirLucero tried to execute forbidden command: "/gamemode"
+Info [23:59:09] Player SirLucero has left the game
+     [01:37:48] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [01:37:48] Player "Nightlife" (ebcbe0272d8e3ef8a31dd7d6a14a9741) save or statistics file not found, resetting to defaults
+Info [01:37:48] Player Nightlife has joined the game
+Warn [01:37:48] AddEntity: Entity at 0x7f755802b9b0 (cPlayer, ID 1196) spawning in a non-existent chunk.
+     [01:38:44] Player Nightlife is executing command "/op list" in world "world" at world age 224396.
+Info [01:38:44] Player Nightlife tried to execute forbidden command: "/op"
+     [01:38:53] Player Nightlife is executing command "/op Nightlife" in world "world" at world age 224578.
+Info [01:38:53] Player Nightlife tried to execute forbidden command: "/op"
+     [01:39:00] Player Nightlife is executing command "/gamemode c" in world "world" at world age 224727.
+Info [01:39:00] Player Nightlife tried to execute forbidden command: "/gamemode"
+Info [01:45:10] Player Nightlife has left the game
+     [01:49:16] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:49:16] Player Nightlife has joined the game
+Warn [01:49:16] AddEntity: Entity at 0x7f75580add40 (cPlayer, ID 1547) spawning in a non-existent chunk.
+Info [01:49:20] Player Nightlife has left the game
+     [02:05:50] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:05:50] Player GET_jumped_KID has joined the game
+Warn [02:05:50] AddEntity: Entity at 0x7f755806f9b0 (cPlayer, ID 1624) spawning in a non-existent chunk.

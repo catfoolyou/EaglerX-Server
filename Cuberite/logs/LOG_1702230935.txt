@@ -1,0 +1,70 @@
+     [17:55:35] --- Started Log ---
+     [17:55:35] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [17:55:35] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [17:55:35] Creating new server instance...
+     [17:55:35] Reading server config...
+     [17:55:35] Starting server...
+Info [17:55:35] Compatible clients: 1.8.x-1.14.4
+Warn [17:55:35] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [17:55:35] Loaded 789 crafting recipes
+     [17:55:35] Loaded 1.12.2 380 recipe book
+Warn [17:55:35] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [17:55:35] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [17:55:35] Loaded 67 furnace recipes and 66 fuels
+     [17:55:35] Loaded 49 brewing recipes
+Warn [17:55:35] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [17:55:36] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [17:55:36] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [17:55:36] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [17:55:36] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [17:55:36] -- Loading Plugins --
+     [17:55:36] [Core] Initialised!
+     [17:55:36] [ChatLog] Initialized ChatLog v.3
+     [17:55:36] -- Loaded 2 Plugins --
+     [17:55:37] Preparing spawn (world): 5.00% (20/400; 17.73 chunks / sec)
+     [17:55:38] Preparing spawn (world): 47.75% (191/400; 171.00 chunks / sec)
+Warn [17:55:39] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [17:55:40] Preparing spawn (world_nether): 15.25% (61/400; 58.71 chunks / sec)
+     [17:55:41] Preparing spawn (world_nether): 42.00% (168/400; 103.08 chunks / sec)
+     [17:55:42] Preparing spawn (world_nether): 86.50% (346/400; 146.86 chunks / sec)
+Warn [17:55:43] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [17:55:43] Startup complete, took 8130ms!
+     [18:17:31] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:17:31] Player Im_kinda_trash has joined the game
+Warn [18:17:31] AddEntity: Entity at 0x7f2520095780 (cPlayer, ID 232) spawning in a non-existent chunk.
+Info [18:17:41] Player Im_kinda_trash has left the game
+     [18:24:18] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:24:18] Player EaglDeev583 has joined the game
+Warn [18:24:18] AddEntity: Entity at 0x7f252005f270 (cPlayer, ID 341) spawning in a non-existent chunk.
+     [18:24:52] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:24:52] Player python660 has joined the game
+Info [18:28:23] Player EaglDeev583 has left the game
+     [18:28:28] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:28:28] Player EaglDeev583 has joined the game
+     [18:31:50] Player EaglDeev583 is executing command "//tp -504 ~ -1800" in world "world" at world age 43171.
+Info [18:31:50] Player EaglDeev583 issued an unknown command: "//tp -504 ~ -1800"
+     [18:31:55] Player EaglDeev583 is executing command "/tp -504 ~ -1800" in world "world" at world age 43270.
+Info [18:31:55] Player EaglDeev583 tried to execute forbidden command: "/tp"
+     [18:31:58] Player EaglDeev583 is executing command "/help" in world "world" at world age 43328.
+Info [18:32:03] [ChatLog] [EaglDeev583]: hi
+Info [18:32:38] [ChatLog] [EaglDeev583]: hi
+Info [18:32:42] [ChatLog] [python660]: hi
+Info [18:33:16] Player python660 has left the game
+Info [18:33:20] Player EaglDeev583 has left the game
+     [18:52:53] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:52:54] Player Alfredo777_ has joined the game
+Warn [18:52:54] AddEntity: Entity at 0x7f252009e530 (cPlayer, ID 489) spawning in a non-existent chunk.
+Info [18:53:41] Player Alfredo777_ has left the game
+     [19:00:08] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:00:08] Player p1tis0 has joined the game
+Warn [19:00:08] AddEntity: Entity at 0x7f2520092c20 (cPlayer, ID 527) spawning in a non-existent chunk.
+Info [19:00:54] Player p1tis0 has left the game
+     [20:20:36] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [20:20:36] Player "YeeishYeer279" (6bdd3be7a2ad3eb38a26e463fcfc17e0) save or statistics file not found, resetting to defaults
+Info [20:20:36] Player YeeishYeer279 has joined the game
+Warn [20:20:36] AddEntity: Entity at 0x7f252008a8e0 (cPlayer, ID 626) spawning in a non-existent chunk.
+Info [20:22:06] Player YeeishYeer279 has left the game
+     [00:04:28] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [00:04:28] Player Alfredo777_ has joined the game
+Warn [00:04:28] AddEntity: Entity at 0x7f25200afdf0 (cPlayer, ID 768) spawning in a non-existent chunk.
+Warn [00:22:28] MoveEntityToNewChunk: Entity at 0x7f2548486bf0 (cBat, ID 1288) moving to a non-existent chunk.

@@ -1,0 +1,59 @@
+     [03:30:58] --- Started Log ---
+     [03:30:58] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [03:30:58] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [03:30:58] Creating new server instance...
+     [03:30:58] Reading server config...
+     [03:30:58] Starting server...
+Info [03:30:58] Compatible clients: 1.8.x-1.14.4
+Warn [03:30:58] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [03:30:58] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [03:30:58] WebServer: The server will run in unsecured HTTP mode.
+Info [03:30:58] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [03:30:58] Loaded 789 crafting recipes
+     [03:30:58] Loaded 1.12.2 380 recipe book
+Warn [03:30:58] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [03:30:58] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [03:30:58] Loaded 67 furnace recipes and 66 fuels
+     [03:30:58] Loaded 49 brewing recipes
+Warn [03:30:58] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [03:30:58] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:30:58] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:30:58] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [03:30:58] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [03:30:58] -- Loading Plugins --
+     [03:30:58] [Core] Initialised!
+     [03:30:58] [ChatLog] Initialized ChatLog v.3
+     [03:30:58] -- Loaded 2 Plugins --
+     [03:30:59] Preparing spawn (world): 30.25% (121/400; 119.21 chunks / sec)
+     [03:31:00] Preparing spawn (world): 71.50% (286/400; 163.04 chunks / sec)
+Warn [03:31:00] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [03:31:01] Preparing spawn (world_nether): 17.00% (68/400; 66.47 chunks / sec)
+     [03:31:02] Preparing spawn (world_nether): 51.25% (205/400; 135.64 chunks / sec)
+     [03:31:03] Preparing spawn (world_nether): 86.00% (344/400; 138.45 chunks / sec)
+Warn [03:31:04] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+Info [03:31:04] WebAdmin is running on port(s) 9098
+     [03:31:04] Startup complete, took 6832ms!
+     [04:03:02] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [04:03:02] Player "assassin" (96b873c0205d39f8950f2340b2962688) save or statistics file not found, resetting to defaults
+Info [04:03:02] Player assassin has joined the game
+Warn [04:03:02] AddEntity: Entity at 0x7f953005c540 (cPlayer, ID 152) spawning in a non-existent chunk.
+Info [04:03:31] Player assassin has left the game
+     [04:13:59] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [04:13:59] Player assassin has joined the game
+Warn [04:14:00] AddEntity: Entity at 0x7f9530047180 (cPlayer, ID 173) spawning in a non-existent chunk.
+     [04:14:23] Player assassin is executing command "/gamemode c" in world "world" at world age 51766.
+Info [04:14:23] Player assassin tried to execute forbidden command: "/gamemode"
+     [04:14:36] Player assassin is executing command "/gamemode c" in world "world" at world age 52011.
+Info [04:14:36] Player assassin tried to execute forbidden command: "/gamemode"
+     [04:16:45] Player assassin is executing command "/help" in world "world" at world age 54562.
+     [04:17:02] Player assassin is executing command "/?" in world "world" at world age 54896.
+     [04:17:12] Player assassin is executing command "/whitelist" in world "world" at world age 55106.
+     [04:17:28] Player assassin is executing command "/time" in world "world" at world age 55416.
+     [04:17:48] Player assassin is executing command "/whitelist gamemode c" in world "world" at world age 55813.
+     [04:18:03] Player assassin is executing command "/gamemode c" in world "world" at world age 56121.
+Info [04:18:03] Player assassin tried to execute forbidden command: "/gamemode"
+Info [04:18:12] Player assassin has left the game
+     [05:07:59] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [05:07:59] Player "OrangeMan" (5fa72a597b0f341d846286fe581a8286) save or statistics file not found, resetting to defaults
+Info [05:07:59] Player OrangeMan has joined the game
+Warn [05:07:59] AddEntity: Entity at 0x7f9530015680 (cPlayer, ID 263) spawning in a non-existent chunk.

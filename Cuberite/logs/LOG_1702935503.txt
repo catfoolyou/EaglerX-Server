@@ -1,0 +1,29 @@
+     [21:38:23] --- Started Log ---
+     [21:38:23] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [21:38:23] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [21:38:23] Creating new server instance...
+     [21:38:23] Reading server config...
+     [21:38:23] Starting server...
+Info [21:38:23] Compatible clients: 1.8.x-1.14.4
+Warn [21:38:23] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [21:38:23] Loaded 789 crafting recipes
+     [21:38:23] Loaded 1.12.2 380 recipe book
+Warn [21:38:23] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [21:38:23] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [21:38:23] Loaded 67 furnace recipes and 66 fuels
+     [21:38:23] Loaded 49 brewing recipes
+Warn [21:38:23] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:38:23] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:38:23] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [21:38:23] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [21:38:23] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [21:38:23] -- Loading Plugins --
+     [21:38:23] [Core] Initialised!
+     [21:38:23] [ChatLog] Initialized ChatLog v.3
+     [21:38:23] -- Loaded 2 Plugins --
+     [21:38:25] Preparing spawn (world_nether): 43.75% (175/400; 174.83 chunks / sec)
+Warn [21:38:26] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+     [21:38:26] Startup complete, took 3585ms!
+     [21:38:45] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [21:38:45] Player Catfoolyou has joined the game
+Warn [21:38:45] AddEntity: Entity at 0x7fb59c01aa80 (cPlayer, ID 83) spawning in a non-existent chunk.

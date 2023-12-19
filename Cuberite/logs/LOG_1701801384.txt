@@ -1,0 +1,134 @@
+     [18:36:24] --- Started Log ---
+     [18:36:24] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [18:36:24] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [18:36:24] Creating new server instance...
+     [18:36:24] Reading server config...
+     [18:36:24] Starting server...
+Info [18:36:24] Compatible clients: 1.8.x-1.14.4
+Warn [18:36:24] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [18:36:24] Loaded 789 crafting recipes
+     [18:36:24] Loaded 1.12.2 380 recipe book
+Warn [18:36:24] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [18:36:24] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [18:36:24] Loaded 67 furnace recipes and 66 fuels
+     [18:36:24] Loaded 49 brewing recipes
+Warn [18:36:24] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [18:36:25] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [18:36:25] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [18:36:25] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [18:36:25] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [18:36:25] -- Loading Plugins --
+     [18:36:25] [Core] Initialised!
+     [18:36:25] [ChatLog] Initialized ChatLog v.3
+     [18:36:25] -- Loaded 2 Plugins --
+     [18:36:26] Preparing spawn (world): 17.00% (68/400; 65.13 chunks / sec)
+     [18:36:27] Preparing spawn (world): 42.00% (168/400; 89.05 chunks / sec)
+     [18:36:28] Preparing spawn (world): 93.25% (373/400; 180.30 chunks / sec)
+Warn [18:36:28] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [18:36:29] Preparing spawn (world_nether): 10.25% (41/400; 41.00 chunks / sec)
+     [18:36:30] Preparing spawn (world_nether): 35.25% (141/400; 96.15 chunks / sec)
+     [18:36:31] Preparing spawn (world_nether): 73.25% (293/400; 151.24 chunks / sec)
+Warn [18:36:33] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [18:36:33] Startup complete, took 8736ms!
+     [18:42:08] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:42:08] Player GalaxyLuck20 has joined the game
+Warn [18:42:08] AddEntity: Entity at 0x7f29e802ddd0 (cPlayer, ID 215) spawning in a non-existent chunk.
+Info [18:48:27] Player GalaxyLuck20 has left the game
+     [19:06:19] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:06:19] Player Gustavo_Fring696 has joined the game
+Warn [19:06:19] AddEntity: Entity at 0x7f29e8094190 (cPlayer, ID 303) spawning in a non-existent chunk.
+Info [19:07:58] Player Gustavo_Fring696 has left the game
+     [19:09:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:09:04] Player Gustavo_Fring696 has joined the game
+Info [19:17:59] Player Gustavo_Fring696 has left the game
+     [19:19:10] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:19:10] Player Gustavo_Fring696 has joined the game
+Warn [19:19:10] AddEntity: Entity at 0x7f29e8094190 (cPlayer, ID 1039) spawning in a non-existent chunk.
+     [19:20:30] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:20:30] Player Codemittens has joined the game
+Warn [19:20:30] AddEntity: Entity at 0x7f29e80063e0 (cPlayer, ID 1074) spawning in a non-existent chunk.
+Warn [19:21:42] SpawnSplitExperienceOrbs: Attempting to create an experience orb with non-positive reward!
+Info [19:21:56] Player Gustavo_Fring696 has left the game
+     [19:22:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:22:04] Player Gustavo_Fring696 has joined the game
+Info [19:22:12] Player Gustavo_Fring696 has left the game
+     [19:22:14] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:22:14] Player GalaxyLuck20 has joined the game
+Warn [19:22:14] AddEntity: Entity at 0x7f29e8054230 (cPlayer, ID 1222) spawning in a non-existent chunk.
+     [19:24:27] Player GalaxyLuck20 is executing command "/wild" in world "world" at world age 57202.
+Info [19:24:27] Player GalaxyLuck20 issued an unknown command: "/wild"
+     [19:24:38] Player Codemittens is executing command "/wild" in world "world" at world age 57422.
+Info [19:24:38] Player Codemittens issued an unknown command: "/wild"
+     [19:24:39] Player GalaxyLuck20 is executing command "/tpa josh2009" in world "world" at world age 57447.
+Info [19:24:39] Player GalaxyLuck20 issued an unknown command: "/tpa josh2009"
+Warn [19:24:57] SpawnSplitExperienceOrbs: Attempting to create an experience orb with non-positive reward!
+Warn [19:25:49] SpawnSplitExperienceOrbs: Attempting to create an experience orb with non-positive reward!
+Info [19:25:56] [ChatLog] [GalaxyLuck20]: yo
+Info [19:26:00] Player GalaxyLuck20 has left the game
+Info [19:26:01] [ChatLog] [Codemittens]: faggot
+Info [19:26:08] Player Codemittens has left the game
+     [19:32:12] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:32:12] Player jay_ceq____ has joined the game
+Warn [19:32:12] AddEntity: Entity at 0x7f29e800c290 (cPlayer, ID 1339) spawning in a non-existent chunk.
+     [19:32:13] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:32:13] Player Gustavo_Fring696 has joined the game
+Warn [19:32:13] AddEntity: Entity at 0x7f29e8023840 (cPlayer, ID 1396) spawning in a non-existent chunk.
+Info [19:32:21] Player Gustavo_Fring696 has left the game
+     [19:32:42] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [19:32:42] Player "Josh2009_" (14135bb8fcd33a0ab3f3f4a9842d8a3e) save or statistics file not found, resetting to defaults
+Info [19:32:42] Player Josh2009_ has joined the game
+Warn [19:32:42] AddEntity: Entity at 0x7f29e8085830 (cPlayer, ID 1443) spawning in a non-existent chunk.
+Info [19:32:46] Player Josh2009_ has left the game
+     [19:32:55] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:32:55] Player Josh2009 has joined the game
+Warn [19:32:55] AddEntity: Entity at 0x7f29e801a1b0 (cPlayer, ID 1489) spawning in a non-existent chunk.
+Info [19:34:59] Player Josh2009 has left the game
+     [19:35:14] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:35:14] Player daddy_chilllll has joined the game
+Warn [19:35:14] AddEntity: Entity at 0x7f29e807f340 (cPlayer, ID 1696) spawning in a non-existent chunk.
+Info [19:35:19] Player daddy_chilllll has left the game
+     [19:35:31] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [19:35:31] Player "Daddy_chilllll" (ea6007fd46123fa7a1bb82f14c794fb2) save or statistics file not found, resetting to defaults
+Info [19:35:31] Player Daddy_chilllll has joined the game
+Warn [19:35:31] AddEntity: Entity at 0x7f29e8046710 (cPlayer, ID 1758) spawning in a non-existent chunk.
+Info [19:35:38] Player Daddy_chilllll has left the game
+     [19:35:50] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:35:50] Player Goatguy467 has joined the game
+Info [19:36:02] Player jay_ceq____ has left the game
+Warn [19:36:04] MoveEntityToNewChunk: Entity at 0x7f2a108c2a30 (cBat, ID 1424) moving to a non-existent chunk.
+Info [19:36:11] Player Goatguy467 has left the game
+     [19:36:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [19:36:25] Player "jay_ceq_____" (167514c68958364bbab5b6f05e4b846a) save or statistics file not found, resetting to defaults
+Info [19:36:25] Player jay_ceq_____ has joined the game
+Info [19:36:36] Player jay_ceq_____ has left the game
+     [19:37:42] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:37:42] Player Codemittens has joined the game
+Warn [19:37:42] AddEntity: Entity at 0x7f29e8064450 (cPlayer, ID 1873) spawning in a non-existent chunk.
+Info [19:37:54] Player Codemittens has left the game
+     [19:38:14] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [19:38:14] Player Gustavo_Fring696 has joined the game
+Warn [19:38:14] AddEntity: Entity at 0x7f29e8025dd0 (cPlayer, ID 1924) spawning in a non-existent chunk.
+Info [19:41:50] Player Gustavo_Fring696 has left the game
+     [19:43:09] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [19:43:09] Player "unspeakfan" (491ef499a8dd33159e09eac1b8a6cc7a) save or statistics file not found, resetting to defaults
+Info [19:43:09] Player unspeakfan has joined the game
+Warn [19:43:09] AddEntity: Entity at 0x7f29e80778a0 (cPlayer, ID 2032) spawning in a non-existent chunk.
+Info [19:44:00] Player unspeakfan has left the game
+     [20:14:06] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:14:06] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [20:14:06] AddEntity: Entity at 0x7f29e80d0c20 (cPlayer, ID 2082) spawning in a non-existent chunk.
+     [20:14:08] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:14:08] Player Goatguy467 has joined the game
+Info [20:14:11] [ChatLog] [U53r_3pWrl3ta0P_]: hi
+Warn [20:14:14] MoveEntityToNewChunk: Entity at 0x7f2a10394140 (cBat, ID 2085) moving to a non-existent chunk.
+     [20:14:16] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:14:16] Player Gustavo_Fring696 has joined the game
+Info [20:16:40] Player U53r_3pWrl3ta0P_ has left the game
+     [20:17:27] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:17:27] Player U53r_3pWrl3ta0P_ has joined the game
+Info [20:19:05] Player Gustavo_Fring696 has left the game
+Info [20:19:07] Player Goatguy467 has left the game
+Info [20:20:04] Player U53r_3pWrl3ta0P_ has left the game
+     [20:22:11] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [20:22:11] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [20:26:07] SpawnSplitExperienceOrbs: Attempting to create an experience orb with non-positive reward!

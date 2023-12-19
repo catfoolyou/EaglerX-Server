@@ -1,0 +1,164 @@
+     [18:19:11] --- Started Log ---
+     [18:19:11] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [18:19:11] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [18:19:11] Creating new server instance...
+     [18:19:11] Reading server config...
+     [18:19:11] Starting server...
+Info [18:19:11] Compatible clients: 1.8.x-1.14.4
+Warn [18:19:11] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [18:19:11] Loaded 789 crafting recipes
+     [18:19:11] Loaded 1.12.2 380 recipe book
+Warn [18:19:11] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [18:19:11] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [18:19:11] Loaded 67 furnace recipes and 66 fuels
+     [18:19:11] Loaded 49 brewing recipes
+Warn [18:19:11] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [18:19:11] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [18:19:11] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [18:19:11] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [18:19:11] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [18:19:11] -- Loading Plugins --
+     [18:19:11] [Core] Initialised!
+     [18:19:11] [ChatLog] Initialized ChatLog v.3
+     [18:19:11] -- Loaded 2 Plugins --
+     [18:19:12] Preparing spawn (world): 36.50% (146/400; 139.45 chunks / sec)
+Warn [18:19:13] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [18:19:14] Preparing spawn (world_nether): 32.00% (128/400; 128.00 chunks / sec)
+     [18:19:15] Preparing spawn (world_nether): 67.00% (268/400; 131.70 chunks / sec)
+Warn [18:19:17] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [18:19:17] Startup complete, took 6119ms!
+     [18:19:31] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:19:31] Player daniel has joined the game
+Warn [18:19:31] AddEntity: Entity at 0x7f9650019350 (cPlayer, ID 209) spawning in a non-existent chunk.
+     [18:19:40] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:19:40] Player Pretzel0410 has joined the game
+Info [18:19:57] Player Pretzel0410 has left the game
+     [18:20:19] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:20:19] Player Gustavo_Fring696 has joined the game
+Warn [18:20:19] AddEntity: Entity at 0x7f9650027900 (cPlayer, ID 313) spawning in a non-existent chunk.
+Info [18:20:25] Player Gustavo_Fring696 has left the game
+     [18:20:32] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:20:32] Player Pretzel0410 has joined the game
+Info [18:20:58] Player daniel has left the game
+     [18:21:00] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:21:00] Player daniel has joined the game
+     [18:21:26] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:21:26] Player GalaxyLuck20 has joined the game
+Warn [18:21:26] AddEntity: Entity at 0x7f96500192b0 (cPlayer, ID 447) spawning in a non-existent chunk.
+Info [18:21:53] Player GalaxyLuck20 has left the game
+     [18:22:24] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:22:24] Player jayce has joined the game
+Info [18:22:42] [ChatLog] [jayce]: broooo
+     [18:22:52] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:22:52] Player GalaxyLuck20 has joined the game
+Info [18:23:03] [ChatLog] [daniel]: WHAT
+Info [18:23:06] [ChatLog] [jayce]: all my iron stuff is gone even when i put it in a chest
+Info [18:23:08] [ChatLog] [daniel]: what
+Info [18:23:15] [ChatLog] [jayce]: do you have wool
+     [18:23:19] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:23:19] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [18:23:19] AddEntity: Entity at 0x7f9650054750 (cPlayer, ID 662) spawning in a non-existent chunk.
+Info [18:23:19] [ChatLog] [daniel]: i didnt take nun
+Info [18:23:22] [ChatLog] [daniel]: no
+Info [18:23:28] [ChatLog] [daniel]: i cant find sheep
+Info [18:23:47] Player U53r_3pWrl3ta0P_ has left the game
+Info [18:23:50] [ChatLog] [daniel]: t
+     [18:23:55] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:23:55] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [18:23:55] AddEntity: Entity at 0x7f9650054750 (cPlayer, ID 721) spawning in a non-existent chunk.
+Info [18:24:03] [ChatLog] [GalaxyLuck20]: yooo wassup
+Info [18:24:05] [ChatLog] [U53r_3pWrl3ta0P_]: luckey u mother fucker
+Info [18:24:11] [ChatLog] [GalaxyLuck20]: what
+Info [18:24:13] [ChatLog] [U53r_3pWrl3ta0P_]: u killed
+Info [18:24:13] [ChatLog] [jayce]: wow
+Info [18:24:15] [ChatLog] [U53r_3pWrl3ta0P_]: me
+     [18:24:19] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:24:19] Player Balls has joined the game
+Warn [18:24:19] AddEntity: Entity at 0x7f9650120420 (cPlayer, ID 763) spawning in a non-existent chunk.
+Info [18:24:20] [ChatLog] [GalaxyLuck20]: lmaoooooooo
+Info [18:24:24] [ChatLog] [Balls]: WHOS ON MY ACC
+Info [18:24:29] [ChatLog] [Balls]: TELL ME NOW
+Info [18:24:38] Player GalaxyLuck20 has left the game
+Info [18:24:38] [ChatLog] [U53r_3pWrl3ta0P_]: dude what did i do to u
+Info [18:24:39] [ChatLog] [jayce]: what?
+Info [18:24:45] Player Balls has left the game
+     [18:24:48] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:24:48] Player GalaxyLuck20 has joined the game
+Info [18:24:51] Player GalaxyLuck20 has left the game
+     [18:25:04] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:25:04] Player Gustavo_Fring696 has joined the game
+Warn [18:25:04] AddEntity: Entity at 0x7f965003f1a0 (cPlayer, ID 865) spawning in a non-existent chunk.
+Info [18:25:04] [ChatLog] [U53r_3pWrl3ta0P_]: whos in the game
+Info [18:25:08] [ChatLog] [jayce]: yo
+Info [18:25:14] [ChatLog] [Gustavo_Fring696]: im here now
+Info [18:25:16] [ChatLog] [U53r_3pWrl3ta0P_]: they killed us caleb
+Info [18:25:25] [ChatLog] [Gustavo_Fring696]: who
+     [18:25:27] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:25:27] Player GalaxyLuck20 has joined the game
+Info [18:25:32] [ChatLog] [GalaxyLuck20]: NICK WAS RIGHT
+Info [18:25:34] [ChatLog] [U53r_3pWrl3ta0P_]: luckey the rat bastard
+Info [18:25:36] [ChatLog] [GalaxyLuck20]: IT WAS YOU
+Info [18:25:44] [ChatLog] [GalaxyLuck20]: CALEB
+Info [18:25:47] [ChatLog] [Gustavo_Fring696]: what
+Info [18:25:51] [ChatLog] [GalaxyLuck20]: YOU FUCKING BITCH
+Info [18:25:56] [ChatLog] [jayce]: woahhhh
+Info [18:25:57] [ChatLog] [GalaxyLuck20]: IT WAS YOU
+Info [18:26:02] [ChatLog] [GalaxyLuck20]: I CAN TELL
+     [18:26:03] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:26:03] Player Goatguy467 has joined the game
+Info [18:26:03] [ChatLog] [Gustavo_Fring696]: woah buster
+Info [18:26:06] [ChatLog] [U53r_3pWrl3ta0P_]: shut up jayce
+Info [18:26:11] [ChatLog] [GalaxyLuck20]: I JOINED ON BALLS
+Info [18:26:18] [ChatLog] [GalaxyLuck20]: YOU WERE THE ONLY ONE NOT ON
+Info [18:26:18] [ChatLog] [jayce]: make me
+Info [18:26:28] [ChatLog] [GalaxyLuck20]: YOU BITCH
+Info [18:26:34] [ChatLog] [GalaxyLuck20]: >=(
+Info [18:26:41] [ChatLog] [Gustavo_Fring696]: i didnt do nothin
+Info [18:26:49] [ChatLog] [GalaxyLuck20]: I SAW IR
+Info [18:26:52] [ChatLog] [GalaxyLuck20]: IT
+     [18:26:59] Player Goatguy467 is executing command "/msg Gustavo_Fring696 Hey lets spread the religion of minecraft cristianity" in world "world" at world age 9272.
+Info [18:26:59] Player Goatguy467 tried to execute forbidden command: "/msg"
+Info [18:27:05] [ChatLog] [GalaxyLuck20]: TRY TO LIE
+Info [18:27:08] [ChatLog] [jayce]: does this mean war?
+Info [18:27:12] Player U53r_3pWrl3ta0P_ has left the game
+Info [18:27:12] [ChatLog] [GalaxyLuck20]: DO IT MOTHERFUCKER
+Info [18:27:14] [ChatLog] [daniel]: t
+Info [18:27:16] [ChatLog] [Gustavo_Fring696]: i seriously hope not
+Info [18:27:33] [ChatLog] [Gustavo_Fring696]: blud u have ur stuff back now
+Info [18:27:42] [ChatLog] [GalaxyLuck20]: ok actually tf u do wit my enchanting table back
+Info [18:27:49] [ChatLog] [GalaxyLuck20]: >;/
+Info [18:27:50] Player jayce has left the game
+Info [18:28:06] Player GalaxyLuck20 has left the game
+Info [18:28:33] [ChatLog] [Gustavo_Fring696]: i think war was just ignited'
+     [18:28:41] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:28:41] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [18:28:41] AddEntity: Entity at 0x7f96503fdc50 (cPlayer, ID 1309) spawning in a non-existent chunk.
+     [18:28:46] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:28:46] Player jayce has joined the game
+     [18:28:51] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [18:28:51] Player GalaxyLuck20 has joined the game
+Info [18:28:59] [ChatLog] [Goatguy467]: Gustavo do you have wood i can use
+Info [18:29:02] [ChatLog] [U53r_3pWrl3ta0P_]: ight who killed me
+Info [18:29:02] [ChatLog] [jayce]: wya dan
+Info [18:29:04] [ChatLog] [Gustavo_Fring696]: no
+     [18:29:20] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [18:29:20] Player "Creeperilious" (2cf70092bb8c33e8bcff51d99bf5c9bc) save or statistics file not found, resetting to defaults
+Info [18:29:20] Player Creeperilious has joined the game
+Info [18:29:24] Player U53r_3pWrl3ta0P_ has left the game
+Info [18:29:34] Player Creeperilious has left the game
+Info [18:29:38] [ChatLog] [Gustavo_Fring696]: whos the creeper guy
+Info [18:29:42] [ChatLog] [GalaxyLuck20]: idk
+Info [18:29:58] [ChatLog] [Gustavo_Fring696]: is war begun
+Info [18:30:11] [ChatLog] [jayce]: were not involved
+Info [18:30:12] [ChatLog] [GalaxyLuck20]: did you destroy my enchant table?
+Info [18:30:32] [ChatLog] [Gustavo_Fring696]: i did not destroy your enchantment table
+Info [18:30:46] [ChatLog] [Gustavo_Fring696]: if u want we have a spare
+Info [18:30:47] [ChatLog] [GalaxyLuck20]: god this feels like an among us game
+Info [18:30:51] [ChatLog] [Gustavo_Fring696]: lmao
+Info [18:31:12] [ChatLog] [Gustavo_Fring696]: we have a spare enchant table if u want
+Info [18:31:26] [ChatLog] [GalaxyLuck20]: yall arent even close to me
+Info [18:31:35] [ChatLog] [Gustavo_Fring696]: yea true
+     [18:32:22] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [18:32:22] Player "Im_kinda_trash" (da3ec05e32e1376fb17394584c587b07) save or statistics file not found, resetting to defaults
+Info [18:32:22] Player Im_kinda_trash has joined the game
+Warn [18:32:22] AddEntity: Entity at 0x7f96503fdc50 (cPlayer, ID 1725) spawning in a non-existent chunk.

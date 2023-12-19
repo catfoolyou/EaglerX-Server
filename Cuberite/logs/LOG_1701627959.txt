@@ -1,0 +1,35 @@
+     [18:25:59] --- Started Log ---
+     [18:25:59] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [18:25:59] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [18:25:59] Creating new server instance...
+     [18:25:59] Reading server config...
+     [18:25:59] Starting server...
+Info [18:25:59] Compatible clients: 1.8.x-1.14.4
+Warn [18:25:59] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [18:25:59] The webadmin is enabled but has no users configured. To add new users, edit webadmin.ini
+Warn [18:25:59] WebServer: The server will run in unsecured HTTP mode.
+Info [18:25:59] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [18:25:59] Loaded 789 crafting recipes
+     [18:25:59] Loaded 1.12.2 380 recipe book
+Warn [18:25:59] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [18:25:59] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [18:25:59] Loaded 67 furnace recipes and 66 fuels
+     [18:25:59] Loaded 49 brewing recipes
+Warn [18:25:59] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [18:25:59] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [18:25:59] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [18:25:59] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [18:25:59] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [18:25:59] -- Loading Plugins --
+     [18:25:59] [Core] Initialised!
+     [18:25:59] [ChatLog] Initialized ChatLog v.3
+     [18:25:59] -- Loaded 2 Plugins --
+     [18:26:00] Preparing spawn (world): 29.00% (116/400; 114.97 chunks / sec)
+     [18:26:01] Preparing spawn (world): 48.75% (195/400; 78.92 chunks / sec)
+Warn [18:26:02] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [18:26:03] Preparing spawn (world_nether): 3.50% (14/400; 13.66 chunks / sec)
+     [18:26:04] Preparing spawn (world_nether): 44.25% (177/400; 162.67 chunks / sec)
+     [18:26:05] Preparing spawn (world_nether): 76.00% (304/400; 126.37 chunks / sec)
+     [18:26:06] Preparing spawn (world_nether): 96.25% (385/400; 81.00 chunks / sec)
+     [18:26:08] Preparing spawn (world_the_end): 94.50% (378/400; 372.05 chunks / sec)
+Warn [18:26:08] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}

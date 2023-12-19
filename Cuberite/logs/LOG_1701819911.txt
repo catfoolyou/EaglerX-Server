@@ -1,0 +1,57 @@
+     [23:45:11] --- Started Log ---
+     [23:45:11] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [23:45:11] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [23:45:11] Creating new server instance...
+     [23:45:11] Reading server config...
+     [23:45:11] Starting server...
+Info [23:45:11] Compatible clients: 1.8.x-1.14.4
+Warn [23:45:11] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [23:45:11] Loaded 789 crafting recipes
+     [23:45:11] Loaded 1.12.2 380 recipe book
+Warn [23:45:11] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [23:45:11] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [23:45:11] Loaded 67 furnace recipes and 66 fuels
+     [23:45:11] Loaded 49 brewing recipes
+Warn [23:45:11] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [23:45:12] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [23:45:12] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [23:45:12] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [23:45:12] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [23:45:12] -- Loading Plugins --
+     [23:45:12] [Core] Initialised!
+     [23:45:12] [ChatLog] Initialized ChatLog v.3
+     [23:45:12] -- Loaded 2 Plugins --
+     [23:45:13] Preparing spawn (world): 10.25% (41/400; 40.88 chunks / sec)
+     [23:45:14] Preparing spawn (world): 43.00% (172/400; 121.63 chunks / sec)
+Warn [23:45:15] World "world": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 61, 0}
+     [23:45:16] Preparing spawn (world_nether): 27.25% (109/400; 109.00 chunks / sec)
+     [23:45:17] Preparing spawn (world_nether): 81.00% (324/400; 203.02 chunks / sec)
+     [23:45:19] Preparing spawn (world_the_end): 98.50% (394/400; 393.61 chunks / sec)
+Warn [23:45:19] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 74, 0}
+     [23:45:19] Startup complete, took 7809ms!
+     [01:06:06] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:06:06] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [01:06:06] AddEntity: Entity at 0x7feb50093a10 (cPlayer, ID 223) spawning in a non-existent chunk.
+Warn [01:06:20] MoveEntityToNewChunk: Entity at 0x7feb840c6150 (cBat, ID 232) moving to a non-existent chunk.
+Info [01:07:52] Player U53r_3pWrl3ta0P_ has left the game
+     [01:14:36] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:14:36] Player U53r_3pWrl3ta0P_ has joined the game
+Warn [01:14:36] AddEntity: Entity at 0x7feb50093860 (cPlayer, ID 249) spawning in a non-existent chunk.
+Info [01:15:37] Player U53r_3pWrl3ta0P_ has left the game
+     [01:38:54] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [01:38:54] Player "legion12" (8cccee19e2c437e9a509b1f8f5fdb593) save or statistics file not found, resetting to defaults
+Info [01:38:54] Player legion12 has joined the game
+     [01:40:53] Player legion12 is executing command "/help" in world "world" at world age 137801.
+Info [01:41:08] Player legion12 has left the game
+     [04:36:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [04:36:25] Player "Rondum" (cc6f686395e937759e3bbfb5db5b3e78) save or statistics file not found, resetting to defaults
+Info [04:36:25] Player Rondum has joined the game
+Warn [04:36:25] AddEntity: Entity at 0x7feb500b95d0 (cPlayer, ID 348) spawning in a non-existent chunk.
+     [04:38:28] Player Rondum is executing command "/gamemode c" in world "world" at world age 349339.
+Info [04:38:28] Player Rondum tried to execute forbidden command: "/gamemode"
+     [04:38:33] Player Rondum is executing command "/op" in world "world" at world age 349429.
+Info [04:38:33] Player Rondum tried to execute forbidden command: "/op"
+Info [04:39:43] Player Rondum has left the game
+     [04:40:47] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [04:40:47] Player Rondum has joined the game
+Warn [04:40:47] AddEntity: Entity at 0x7feb500ba060 (cPlayer, ID 472) spawning in a non-existent chunk.
