@@ -9,10 +9,11 @@
 Run it in Gitpod
 1) Go to (https://gitpod.io/#https://github.com/catfoolyou/EaglerX-Server)
 2) In the console run `chmod +x ./main.sh`
-3) Run `main.sh`
-4) Go to the ports section and set them all to public (click the lock icon)
-5) Copy the URL from port 25565 (replace https:// with wss:// or it won't work)
-6) Connect to this url in your client (https://github.com/catfoolyou/EaglerX-Client)
+3) Then run `sudo apt-get install tmux`
+4) Then run `main.sh`
+5) Go to the ports section and set them all to public (click the lock icon)
+6) Click the URL from port 8081, and use the wss:// link it gives you
+7) Connect to this url in your client (https://github.com/catfoolyou/EaglerX-Client)
 
 ## To run server commands:
 In the "Console" tab in the replit, you can send server commands.
