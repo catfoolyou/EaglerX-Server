@@ -1,7 +1,7 @@
 # Replit-Gitpod eaglercraftX server (1.8.8)
 
 ### Originally made by [ayunami2000](https://github.com/ayunami2000), ported to Gitpod by [me](https://github.com/catfoolyou)
-<a target="_blank" href="gitpod.io/#https://github.com/catfoolyou/Eagler-Server">
+<a target="_blank" href="gitpod.io/#https://github.com/catfoolyou/EaglerX-Server">
         <img src="https://img.shields.io/badge/Deploy_with-Gitpod-orange" alt="Eagshit Gitpod Development Environment" />
     </a>
 
