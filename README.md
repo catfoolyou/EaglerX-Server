@@ -7,7 +7,7 @@
 
 ## Usage:
 Run it in Gitpod
-1) Go to (https://gitpod.io/#https://github.com/catfoolyou/Eagler-Server)
+1) Go to (https://gitpod.io/#https://github.com/catfoolyou/EaglerX-Server)
 2) In the console run `chmod +x ./main.sh`
 3) Run `main.sh`
 4) Go to the ports section and set them all to public (click the lock icon)
