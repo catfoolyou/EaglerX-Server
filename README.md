@@ -13,7 +13,7 @@ Run it in Gitpod
 4) Then run `main.sh`
 5) Go to the ports section and set them all to public (click the lock icon)
 6) Click the URL from port 8081, and use the wss:// link it gives you
-7) Connect to this url in your client (https://github.com/catfoolyou/EaglerX-Client)
+7) Connect to this url in your client (https://github.com/catfoolyou/EaglercraftX-Client)
 
 ## To run server commands:
 In the "Console" tab in the replit, you can send server commands.
