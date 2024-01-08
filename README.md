@@ -26,4 +26,4 @@ This is because you are using a free service to host a Minecraft server. Of cour
 
 ### Cuberite doesn't allow for Bukkit/Spigot plugins.
 Plugins can be found here:
-[https://plugins.cuberite.org/](Cuberite Plugins)
+[https://plugins.cuberite.org]
