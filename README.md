@@ -6,12 +6,12 @@
     </a>
 
 ## LAN Relays
-This now supports LAN relays af of 1.8.8u21. You still need a webserver to host them because most districts restrict LAN access, but the process is the same.
+This now supports LAN relays af of 1.8.8-u21. You still need a webserver to host them because most districts restrict LAN access, but the process is the same.
 1) Go to (https://gitpod.io/#https://github.com/catfoolyou/EaglerX-Server)
 2) In the console run `chmod +x ./run.sh`
-3) 4) Then run `run.sh`
-5) Go to the ports section and set them all to public (click the lock icon)
-6) Click the URL from port 6699, and use the link it gives you replacing https with wss
+3) Then run `run.sh`
+4) Go to the ports section and set them all to public (click the lock icon)
+5) Click the URL from port 6699, and use the link it gives you replacing https with wss
 
 ## Usage:
 Run it in Gitpod
